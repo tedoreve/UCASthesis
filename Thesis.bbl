@@ -1,0 +1,185 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[{{Abdo} {\bibetal}(2009){Abdo}, {Ackermann}, {Ajello}, {Baldini},
+  {Ballet}, {Barbiellini}, {Baring}, {Bastieri}, {Baughman}, {Bechtol},
+  {Bellazzini}, {Berenji}, {Blandford}, {Bloom}, {Bonamente}, {Borgland},
+  {Bouvier}, {Bregeon}, {Brez}, {Brigida}, {Bruel}, {Burnett}, {Buson},
+  {Caliandro}, {Cameron}, {Caraveo}, {Casandjian}, {Cecchi}, {{\c C}elik},
+  {Chekhtman}, {Cheung}, {Chiang}, {Ciprini}, {Claus}, {Cohen-Tanugi},
+  {Cominsky}, {Conrad}, {Cutini}, {Dermer}, {de Angelis}, {de Palma}, {Digel},
+  {Dormody}, {Silva}, {Drell}, {Dubois}, {Dumora}, {Farnier}, {Favuzzi},
+  {Fegan}, {Focke}, {Fortin}, {Frailis}, {Fukazawa}, {Funk}, {Fusco},
+  {Gargano}, {Gasparrini}, {Gehrels}, {Germani}, {Giavitto}, {Giebels},
+  {Giglietto}, {Giordano}, {Glanzman}, {Godfrey}, {Grenier}, {Grondin},
+  {Grove}, {Guillemot}, {Guiriec}, {Hanabata}, {Harding}, {Hayashida}, {Hays},
+  {Hughes}, {Jackson}, {J{\'o}hannesson}, {Johnson}, {Johnson}, {Johnson},
+  {Kamae}, {Katagiri}, {Kataoka}, {Katsuta}, {Kawai}, {Kerr}, {Kn{\"o}dlseder},
+  {Kocian}, {Kuss}, {Lande}, {Latronico}, {Lemoine-Goumard}, {Longo},
+  {Loparco}, {Lott}, {Lovellette}, {Lubrano}, {Makeev}, {Mazziotta}, {McEnery},
+  {Meurer}, {Michelson}, {Mitthumsiri}, {Mizuno}, {Moiseev}, {Monte},
+  {Monzani}, {Morselli}, {Moskalenko}, {Murgia}, {Nakamori}, {Nolan}, {Norris},
+  {Nuss}, {Ohsugi}, {Okumura}, {Omodei}, {Orlando}, {Ormes}, {Paneque},
+  {Parent}, {Pelassa}, {Pepe}, {Pesce-Rollins}, {Piron}, {Porter}, {Rain{\`o}},
+  {Rando}, {Razzano}, {Reimer}, {Reimer}, {Reposeur}, {Ritz}, {Rodriguez},
+  {Romani}, {Roth}, {Ryde}, {Sadrozinski}, {Sanchez}, {Sander}, {Saz
+  Parkinson}, {Scargle}, {Schalk}, {Sgr{\`o}}, {Siskind}, {Smith}, {Smith},
+  {Spandre}, {Spinelli}, {Strickman}, {Suson}, {Tajima}, {Takahashi},
+  {Takahashi}, {Tanaka}, {Thayer}, {Thayer}, {Thompson}, {Tibaldo}, {Tibolla},
+  {Torres}, {Tosti}, {Tramacere}, {Uchiyama}, {Usher}, {Vasileiou}, {Venter},
+  {Vilchez}, {Vitale}, {Waite}, {Wang}, {Winer}, {Wood}, {Yamazaki}, {Ylinen},
+  and {Ziegler}}]{Abdo2009}
+{Abdo}~A~A, {Ackermann}~M, {Ajello}~M, et~al.
+\newblock {Fermi LAT Discovery of Extended Gamma-Ray Emission in the Direction
+  of Supernova Remnant W51C}\allowbreak[J/OL].
+\newblock \apjl, 2009, 706:\penalty0 L1-L6.
+\newblock DOI: \doi{10.1088/0004-637X/706/1/L1}.
+
+\bibitem[{{Aleksi{\'c}} {\bibetal}(2012){Aleksi{\'c}}, {Alvarez}, {Antonelli},
+  {Antoranz}, {Asensio}, {Backes}, {Barres de Almeida}, {Barrio}, {Bastieri},
+  {Becerra Gonz{\'a}lez}, {Bednarek}, {Berger}, {Bernardini}, {Biland},
+  {Blanch}, {Bock}, {Boller}, {Bonnoli}, {Borla Tridon}, {Bretz},
+  {Ca{\~n}ellas}, {Carmona}, {Carosi}, {Colin}, {Colombo}, {Contreras},
+  {Cortina}, {Cossio}, {Covino}, {Da Vela}, {Dazzi}, {De Angelis}, {De Caneva},
+  {De Cea del Pozo}, {De Lotto}, {Delgado Mendez}, {Diago Ortega}, {Doert},
+  {Dom{\'{\i}}nguez}, {Dominis Prester}, {Dorner}, {Doro}, {Eisenacher},
+  {Elsaesser}, {Ferenc}, {Fonseca}, {Font}, {Fruck}, {Garc{\'{\i}}a L{\'o}pez},
+  {Garczarczyk}, {Garrido}, {Giavitto}, {Godinovi{\'c}}, {Gonz{\'a}lez
+  Mu{\~n}oz}, {Gozzini}, {Hadasch}, {H{\"a}fner}, {Herrero}, {Hildebrand},
+  {Hose}, {Hrupec}, {Huber}, {Jankowski}, {Jogler}, {Kadenius}, {Kellermann},
+  {Klepser}, {Kr{\"a}henb{\"u}hl}, {Krause}, {La Barbera}, {Lelas}, {Leonardo},
+  {Lewandowska}, {Lindfors}, {Lombardi}, {L{\'o}pez}, {L{\'o}pez-Coto},
+  {L{\'o}pez-Oramas}, {Lorenz}, {Makariev}, {Maneva}, {Mankuzhiyil},
+  {Mannheim}, {Maraschi}, {Mariotti}, {Mart{\'{\i}}nez}, {Mazin}, {Meucci},
+  {Miranda}, {Mirzoyan}, {Mold{\'o}n}, {Moralejo}, {Munar-Adrover},
+  {Niedzwiecki}, {Nieto}, {Nilsson}, {Nowak}, {Orito}, {Paiano}, {Paneque},
+  {Paoletti}, {Pardo}, {Paredes}, {Partini}, {Perez-Torres}, {Persic}, {Pilia},
+  {Pochon}, {Prada}, {Prada Moroni}, {Prandini}, {Puerto Gimenez}, {Puljak},
+  {Reichardt}, {Reinthal}, {Rhode}, {Rib{\'o}}, {Rico}, {R{\"u}gamer},
+  {Saggion}, {Saito}, {Saito}, {Salvati}, {Satalecka}, {Scalzotto}, {Scapin},
+  {Schultz}, {Schweizer}, {Shore}, {Sillanp{\"a}{\"a}}, {Sitarek}, {Snidaric},
+  {Sobczynska}, {Spanier}, {Spiro}, {Stamatescu}, {Stamerra}, {Steinke},
+  {Storz}, {Strah}, {Sun}, {Suri{\'c}}, {Takalo}, {Takami}, {Tavecchio},
+  {Temnikov}, {Terzi{\'c}}, {Tescaro}, {Teshima}, {Tibolla}, {Torres},
+  {Treves}, {Uellenbeck}, {Vogler}, {Wagner}, {Weitzel}, {Zabalza}, {Zandanel},
+  and {Zanin}}]{Aleksic2012}
+{Aleksi{\'c}}~J, {Alvarez}~E~A, {Antonelli}~L~A, et~al.
+\newblock {Morphological and spectral properties of the W51 region measured
+  with the MAGIC telescopes}\allowbreak[J/OL].
+\newblock \aap, 2012, 541:\penalty0 A13.
+\newblock DOI: \doi{10.1051/0004-6361/201218846}.
+
+\bibitem[{{Brogan} {\bibetal}(2013){Brogan}, {Goss}, {Hunter}, {Richards},
+  {Chandler}, {Lazendic}, {Koo}, {Hoffman}, and {Claussen}}]{Brogan2013}
+{Brogan}~C~L, {Goss}~W~M, {Hunter}~T~R, et~al.
+\newblock {OH (1720 MHz) Masers: A Multiwavelength Study of the Interaction
+  between the W51C Supernova Remnant and the W51B Star Forming
+  Region}\allowbreak[J/OL].
+\newblock \apj, 2013, 771:\penalty0 91.
+\newblock DOI: \doi{10.1088/0004-637X/771/2/91}.
+
+\bibitem[{{Copetti} {\biband} {Schmidt}(1991){Copetti} and
+  {Schmidt}}]{Copetti1991}
+{Copetti}~M~V~F, {Schmidt}~A~A.
+\newblock {Aperture synthesis observations of W 51 at 151
+  MHz}\allowbreak[J/OL].
+\newblock \mnras, 1991, 250:\penalty0 127-132.
+\newblock DOI: \doi{10.1093/mnras/250.1.127}.
+
+\bibitem[{{Duncan} {\bibetal}(1999){Duncan}, {Reich}, {Reich}, and
+  {F{\"u}rst}}]{1999A&A...350..447D}
+{Duncan}~A~R, {Reich}~P, {Reich}~W, et~al.
+\newblock {Polarimetric structure in the first Galactic quadrant from the 2.695
+  GHz Effelsberg survey}\allowbreak[J].
+\newblock \aap, 1999, 350:\penalty0 447-456.
+
+\bibitem[{{Genzel} {\bibetal}(1981){Genzel}, {Downes}, {Schneps}, {Reid},
+  {Moran}, {Kogan}, {Kostenko}, {Matveenko}, and {Ronnang}}]{Genzel1981}
+{Genzel}~R, {Downes}~D, {Schneps}~M~H, et~al.
+\newblock {Proper motions and distances of H2O maser sources. II - W51
+  MAIN}\allowbreak[J/OL].
+\newblock \apj, 1981, 247:\penalty0 1039-1051.
+\newblock DOI: \doi{10.1086/159113}.
+
+\bibitem[{{Ginsburg} {\bibetal}(2015){Ginsburg}, {Bally}, {Battersby},
+  {Youngblood}, {Darling}, {Rosolowsky}, {Arce}, and {Lebr{\'o}n
+  Santos}}]{Ginsburg2015}
+{Ginsburg}~A, {Bally}~J, {Battersby}~C, et~al.
+\newblock {The dense gas mass fraction in the W51 cloud and its
+  protoclusters}\allowbreak[J/OL].
+\newblock \aap, 2015, 573:\penalty0 A106.
+\newblock DOI: \doi{10.1051/0004-6361/201424979}.
+
+\bibitem[{{Hewitt} {\bibetal}(2008){Hewitt}, {Yusef-Zadeh}, and
+  {Wardle}}]{Hewitt2008}
+{Hewitt}~J~W, {Yusef-Zadeh}~F, {Wardle}~M.
+\newblock {A Survey of Hydroxyl toward Supernova Remnants: Evidence for
+  Extended 1720 MHz Maser Emission}\allowbreak[J/OL].
+\newblock \apj, 2008, 683:\penalty0 189-206.
+\newblock DOI: \doi{10.1086/588652}.
+
+\bibitem[{{Kang} {\bibetal}(2010){Kang}, {Bieging}, {Kulesa}, {Lee}, {Choi},
+  and {Peters}}]{Kang2010}
+{Kang}~M, {Bieging}~J~H, {Kulesa}~C~A, et~al.
+\newblock {A CO Line and Infrared Continuum Study of the Active Star-forming
+  Complex W51}\allowbreak[J/OL].
+\newblock \apjs, 2010, 190:\penalty0 58-76.
+\newblock DOI: \doi{10.1088/0067-0049/190/1/58}.
+
+\bibitem[{{Koo} {\bibetal}(1995){Koo}, {Kim}, and {Seward}}]{Koo1995}
+{Koo}~B~C, {Kim}~K~T, {Seward}~F~D.
+\newblock {ROSAT Observations of the Supernova Remnant W51C}\allowbreak[J/OL].
+\newblock \apj, 1995, 447:\penalty0 211.
+\newblock DOI: \doi{10.1086/175867}.
+
+\bibitem[{{Parsons} {\bibetal}(2012){Parsons}, {Thompson}, {Clark}, and
+  {Chrysostomou}}]{Parsons2012}
+{Parsons}~H, {Thompson}~M~A, {Clark}~J~S, et~al.
+\newblock {Molecular clumps in the W51 giant molecular cloud}\allowbreak[J/OL].
+\newblock \mnras, 2012, 424:\penalty0 1658-1671.
+\newblock DOI: \doi{10.1111/j.1365-2966.2012.21106.x}.
+
+\bibitem[{{Sato} {\bibetal}(2010){Sato}, {Reid}, {Brunthaler}, and
+  {Menten}}]{Sato2010}
+{Sato}~M, {Reid}~M~J, {Brunthaler}~A, et~al.
+\newblock {Trigonometric Parallax of W51 Main/South}\allowbreak[J/OL].
+\newblock \apj, 2010, 720:\penalty0 1055-1065.
+\newblock DOI: \doi{10.1088/0004-637X/720/2/1055}.
+
+\bibitem[{{Schneps} {\bibetal}(1981){Schneps}, {Lane}, {Downes}, {Moran},
+  {Genzel}, and {Reid}}]{Schneps1981}
+{Schneps}~M~H, {Lane}~A~P, {Downes}~D, et~al.
+\newblock {Proper motions and distances of H2O maser sources. III -
+  W51NORTH}\allowbreak[J/OL].
+\newblock \apj, 1981, 249:\penalty0 124-133.
+\newblock DOI: \doi{10.1086/159267}.
+
+\bibitem[{{Subrahmanyan} {\biband} {Goss}(1995){Subrahmanyan} and
+  {Goss}}]{Subrahmanyan1995}
+{Subrahmanyan}~R, {Goss}~W~M.
+\newblock {330-MHz radio continuum imaging of the W51
+  complex}\allowbreak[J/OL].
+\newblock \mnras, 1995, 275:\penalty0 755-763.
+\newblock DOI: \doi{10.1093/mnras/275.3.755}.
+
+\bibitem[{{Tian} {\biband} {Leahy}(2013){Tian} and {Leahy}}]{Tian2013}
+{Tian}~W~W, {Leahy}~D~A.
+\newblock {High-velocity H I is not Associated with the TeV Supernova Remnant
+  W51C}\allowbreak[J/OL].
+\newblock \apjl, 2013, 769:\penalty0 L17.
+\newblock DOI: \doi{10.1088/2041-8205/769/1/L17}.
+
+\bibitem[{{Xu} {\bibetal}(2009){Xu}, {Reid}, {Menten}, {Brunthaler}, {Zheng},
+  and {Moscadelli}}]{Xu2009}
+{Xu}~Y, {Reid}~M~J, {Menten}~K~M, et~al.
+\newblock {Trigonometric Parallaxes of Massive Star-Forming Regions: III.
+  G59.7+0.1 and W 51 IRS2}\allowbreak[J/OL].
+\newblock \apj, 2009, 693:\penalty0 413-418.
+\newblock DOI: \doi{10.1088/0004-637X/693/1/413}.
+
+\end{thebibliography}
