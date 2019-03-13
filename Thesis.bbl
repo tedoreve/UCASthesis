@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -74,6 +74,18 @@
 \newblock \aap, 2012, 541:\penalty0 A13.
 \newblock DOI: \doi{10.1051/0004-6361/201218846}.
 
+\bibitem[{{Beuther} {\bibetal}(2016){Beuther}, {Bihr}, {Rugel}, {Johnston},
+  {Wang}, {Walter}, {Brunthaler}, {Walsh}, {Ott}, {Stil}, {Henning},
+  {Schierhuber}, {Kainulainen}, {Heyer}, {Goldsmith}, {Anderson}, {Longmore},
+  {Klessen}, {Glover}, {Urquhart}, {Plume}, {Ragan}, {Schneider},
+  {McClure-Griffiths}, {Menten}, {Smith}, {Roy}, {Shanahan}, {Nguyen-Luong},
+  and {Bigiel}}]{Beuther2016}
+{Beuther}~H, {Bihr}~S, {Rugel}~M, et~al.
+\newblock {The HI/OH/Recombination line survey of the inner Milky Way (THOR).
+  Survey overview and data release 1}\allowbreak[J/OL].
+\newblock \aap, 2016, 595:\penalty0 A32.
+\newblock DOI: \doi{10.1051/0004-6361/201629143}.
+
 \bibitem[{{Brogan} {\bibetal}(2013){Brogan}, {Goss}, {Hunter}, {Richards},
   {Chandler}, {Lazendic}, {Koo}, {Hoffman}, and {Claussen}}]{Brogan2013}
 {Brogan}~C~L, {Goss}~W~M, {Hunter}~T~R, et~al.
@@ -115,6 +127,15 @@
 \newblock \aap, 2015, 573:\penalty0 A106.
 \newblock DOI: \doi{10.1051/0004-6361/201424979}.
 
+\bibitem[{{Haverkorn}(2015)}]{Haverkorn2015}
+{Haverkorn}~M.
+\newblock {Magnetic Fields in the Milky Way}\allowbreak[C/OL]//\allowbreak
+{Lazarian}~A, {de Gouveia Dal Pino}~E~M, {Melioli}~C.
+\newblock Astrophysics and Space Science Library: volume 407\quad Magnetic
+  Fields in Diffuse Media.
+\newblock 2015: 483.
+\newblock DOI: \doi{10.1007/978-3-662-44625-6_17}.
+
 \bibitem[{{Hewitt} {\bibetal}(2008){Hewitt}, {Yusef-Zadeh}, and
   {Wardle}}]{Hewitt2008}
 {Hewitt}~J~W, {Yusef-Zadeh}~F, {Wardle}~M.
@@ -122,6 +143,13 @@
   Extended 1720 MHz Maser Emission}\allowbreak[J/OL].
 \newblock \apj, 2008, 683:\penalty0 189-206.
 \newblock DOI: \doi{10.1086/588652}.
+
+\bibitem[{{Junkes} {\bibetal}(1987){Junkes}, {Fuerst}, and
+  {Reich}}]{1987A&AS...69..451J}
+{Junkes}~N, {Fuerst}~E, {Reich}~W.
+\newblock {A survey of linear polarization along the Galactic plane - The area
+  L = 4.9 to 76 deg, B = -1.5 to 1.5 deg}\allowbreak[J].
+\newblock \aaps, 1987, 69:\penalty0 451-464.
 
 \bibitem[{{Kang} {\bibetal}(2010){Kang}, {Bieging}, {Kulesa}, {Lee}, {Choi},
   and {Peters}}]{Kang2010}
@@ -137,12 +165,43 @@
 \newblock \apj, 1995, 447:\penalty0 211.
 \newblock DOI: \doi{10.1086/175867}.
 
+\bibitem[{{Leahy} {\biband} {Williams}(2017){Leahy} and
+  {Williams}}]{Leahy2017a}
+{Leahy}~D~A, {Williams}~J~E.
+\newblock {A Python Calculator for Supernova Remnant
+  Evolution}\allowbreak[J/OL].
+\newblock \aj, 2017, 153:\penalty0 239.
+\newblock DOI: \doi{10.3847/1538-3881/aa6af6}.
+
+\bibitem[{{Orlando} {\bibetal}(2007){Orlando}, {Bocchino}, {Reale}, {Peres},
+  and {Petruk}}]{Orlando2007}
+{Orlando}~S, {Bocchino}~F, {Reale}~F, et~al.
+\newblock {On the origin of asymmetries in bilateral supernova
+  remnants}\allowbreak[J/OL].
+\newblock \aap, 2007, 470:\penalty0 927-939.
+\newblock DOI: \doi{10.1051/0004-6361:20066045}.
+
 \bibitem[{{Parsons} {\bibetal}(2012){Parsons}, {Thompson}, {Clark}, and
   {Chrysostomou}}]{Parsons2012}
 {Parsons}~H, {Thompson}~M~A, {Clark}~J~S, et~al.
 \newblock {Molecular clumps in the W51 giant molecular cloud}\allowbreak[J/OL].
 \newblock \mnras, 2012, 424:\penalty0 1658-1671.
 \newblock DOI: \doi{10.1111/j.1365-2966.2012.21106.x}.
+
+\bibitem[{{Poznanski}(2013)}]{Poznanski2013}
+{Poznanski}~D.
+\newblock {An emerging coherent picture of red supergiant supernova
+  explosions}\allowbreak[J/OL].
+\newblock \mnras, 2013, 436:\penalty0 3224-3230.
+\newblock DOI: \doi{10.1093/mnras/stt1800}.
+
+\bibitem[{{Sasaki} {\bibetal}(2014){Sasaki}, {Heinitz}, {Warth}, and
+  {P{\"u}hlhofer}}]{Sasaki2014}
+{Sasaki}~M, {Heinitz}~C, {Warth}~G, et~al.
+\newblock {XMM-Newton observation of the Galactic supernova remnant W51C
+  (G49.1-0.1)}\allowbreak[J/OL].
+\newblock \aap, 2014, 563:\penalty0 A9.
+\newblock DOI: \doi{10.1051/0004-6361/201323145}.
 
 \bibitem[{{Sato} {\bibetal}(2010){Sato}, {Reid}, {Brunthaler}, and
   {Menten}}]{Sato2010}
@@ -159,6 +218,27 @@
 \newblock \apj, 1981, 249:\penalty0 124-133.
 \newblock DOI: \doi{10.1086/159267}.
 
+\bibitem[{{Sedov}(1959)}]{1959sdmm.book.....S}
+{Sedov}~L~I.
+\newblock {Similarity and Dimensional Methods in Mechanics}\allowbreak[M].
+\newblock New York: Academic Press, 1959.
+
+\bibitem[{{Shaver} {\biband} {Goss}(1970){Shaver} and
+  {Goss}}]{1970AuJPA..14..133S}
+{Shaver}~P~A, {Goss}~W~M.
+\newblock {Galactic Radio Sources III: Spectra and Physical
+  Characteristics}\allowbreak[J].
+\newblock Australian Journal of Physics Astrophysical Supplement, 1970,
+  14:\penalty0 133.
+
+\bibitem[{{Stil} {\bibetal}(2006){Stil}, {Taylor}, {Dickey}, {Kavars},
+  {Martin}, {Rothwell}, {Boothroyd}, {Lockman}, and
+  {McClure-Griffiths}}]{Stil2006}
+{Stil}~J~M, {Taylor}~A~R, {Dickey}~J~M, et~al.
+\newblock {The VLA Galactic Plane Survey}\allowbreak[J/OL].
+\newblock \aj, 2006, 132:\penalty0 1158-1176.
+\newblock DOI: \doi{10.1086/505940}.
+
 \bibitem[{{Subrahmanyan} {\biband} {Goss}(1995){Subrahmanyan} and
   {Goss}}]{Subrahmanyan1995}
 {Subrahmanyan}~R, {Goss}~W~M.
@@ -166,6 +246,14 @@
   complex}\allowbreak[J/OL].
 \newblock \mnras, 1995, 275:\penalty0 755-763.
 \newblock DOI: \doi{10.1093/mnras/275.3.755}.
+
+\bibitem[{{Sukhbold} {\bibetal}(2016){Sukhbold}, {Ertl}, {Woosley}, {Brown},
+  and {Janka}}]{Sukhbold2016}
+{Sukhbold}~T, {Ertl}~T, {Woosley}~S~E, et~al.
+\newblock {Core-collapse Supernovae from 9 to 120 Solar Masses Based on
+  Neutrino-powered Explosions}\allowbreak[J/OL].
+\newblock \apj, 2016, 821:\penalty0 38.
+\newblock DOI: \doi{10.3847/0004-637X/821/1/38}.
 
 \bibitem[{{Tian} {\biband} {Leahy}(2013){Tian} and {Leahy}}]{Tian2013}
 {Tian}~W~W, {Leahy}~D~A.
