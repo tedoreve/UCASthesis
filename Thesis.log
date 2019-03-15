@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  13 MAR 2019 23:23
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  15 MAR 2019 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1726,7 +1726,11 @@ Package: artracom 2014/10/01 v0.1 LaTeX macros package
 Package: xeCJK-listings 2017/05/15 v3.4.8 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count270
 \l__xeCJK_listings_flag_int=\count271
-) (./Thesis.aux)
+) (./Thesis.aux
+
+LaTeX Warning: Label `fig:mag' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 67.
@@ -1906,8 +1910,7 @@ LaTeX Font Info:    Try loading font information for U+ntxsym on input line 35.
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 35.
-
-(d:/software/texlive/2017/texmf-dist/tex/latex/newtx/untxsyc.fd
+ (d:/software/texlive/2017/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 35.
@@ -2046,10 +2049,10 @@ File: Img/rho18000_density021_E13xz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13xz.eps>
 File: Img/rho18000_density021_E13yz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13yz.eps> [6]
-./Tex/Chap_Guide.tex:213: Undefined control sequence.
+./Tex/Chap_Guide.tex:215: Undefined control sequence.
 <recently read> \tablerefs 
                            
-l.213   \tablerefs
+l.215   \tablerefs
                   {(1)\citealt{Sasaki2014}; (2)\citealt{Sukhbold2016}; (3)\c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2057,9 +2060,32 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7] [8])) [9] [10
-
-] (./Tex/Appendix.tex
+[7] [8]
+File: Img/t18000_density021_E13_s0.eps Graphic file (type eps)
+ <Img/t18000_density021_E13_s0.eps>
+File: Img/t18000_density021_E13_s4.eps Graphic file (type eps)
+ <Img/t18000_density021_E13_s4.eps>
+File: Img/change.eps Graphic file (type eps)
+ <Img/change.eps>
+File: Img/t18000_density021_E2.eps Graphic file (type eps)
+ <Img/t18000_density021_E2.eps>
+File: Img/t18000_density021_E3.eps Graphic file (type eps)
+ <Img/t18000_density021_E3.eps>
+File: Img/t18000_density013_E13.eps Graphic file (type eps)
+ <Img/t18000_density013_E13.eps>
+File: Img/t18000_density03_E13.eps Graphic file (type eps)
+ <Img/t18000_density03_E13.eps>
+Invalid UTF-8 byte or sequence at line 279 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 279 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 279 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 279 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 279 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 279 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 279 replaced by U+FFFD.
+File: Img/mag0.eps Graphic file (type eps)
+ <Img/mag0.eps>
+File: Img/modi_mag.eps Graphic file (type eps)
+ <Img/modi_mag.eps> [9] [10] [11])) [12] (./Tex/Appendix.tex
 附录 A
 LaTeX Font Info:    Try loading font information for OT1+entextrm on input line 19.
 LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
@@ -2067,9 +2093,10 @@ LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
 LaTeX Font Warning: Font shape `OT1/entextrm/b/n' undefined
 (Font)              using `OT1/cmr/m/n' instead on input line 19.
 
-) [11
+) [13
 
-] [12] (./Thesis.bbl
+
+] [14] (./Thesis.bbl
 ./Thesis.bbl:137: Missing $ inserted.
 <inserted text> 
                 $
@@ -2089,15 +2116,15 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[13
+[15
 
 
 
-]) (./Tex/Backmatter.tex [14] [15
+]) (./Tex/Backmatter.tex [16] [17
 
-] [16
+] [18
 
-] [17] [18
+] [19] [20
 
 ])
 
@@ -2124,14 +2151,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 33227 strings out of 493005
- 625521 string characters out of 6134176
- 672125 words of memory out of 5000000
- 36717 multiletter control sequences out of 15000+600000
+ 33244 strings out of 493005
+ 625911 string characters out of 6134176
+ 672475 words of memory out of 5000000
+ 36727 multiletter control sequences out of 15000+600000
  43288 words of font info for 169 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,13n,94p,10532b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (38 pages).
+Output written on Thesis.pdf (40 pages).

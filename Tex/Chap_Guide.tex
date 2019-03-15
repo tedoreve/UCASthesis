@@ -137,6 +137,7 @@ $\alpha$是正数，也就是说低密度的区域比高密度的区域更多更
 而银河系介质中平均磁场强度为4 $\mu$G到14 $\mu$G\citep{Haverkorn2015}，我们模拟的尺度
 为$75 \times \sqrt{2}$ pc。
 所以，我们假设模拟中心磁场强度为9 $\mu$G，而磁场梯度为0.1 $\mu$G pc$^{-1}$。
+磁场梯度如果再大，最小磁场或者最大磁场就会超过比较合理的范围。
 
 我们模拟了大小为$1^\circ \times 1^\circ$的区域，对于4.3 pc的距离实际尺度75 pc $\times$
 75 pc。
@@ -178,7 +179,7 @@ $\nu$取1.4GHz，$\rho$和$B_{\perp}$是模拟过程中的主要变量，$\beta$
 
 其FWHM定义为$2\sqrt{2ln2} \sigma$。
 对于VGPS，其$\sigma$为0.42\am，我们模拟的分辨率是0.24\am pixel$^{-1}$，所以用于平滑
-的$\sigma$为0.42\am/0.24\am pixel$^{-1}$=1.75 pixel，作为简化，我们取$\sigma=2$
+的$\sigma$为0.42\am/0.24\am pixel$^{-1}$=1.75 pixel，作为简化，我们取$\sigma$=2
 pixel。
 
 这个工作中我们模拟了SNR W51C演化18000年的结果，主要使用的参数都列在表~\ref{table:parameters}
@@ -186,52 +187,103 @@ pixel。
 当然，我们在模拟中也尝试过不同的参数，比如设置爆发能量为2.0和3.0 $\times$ 10$^{51}$ erg,
 设置平均密度为0.13 cm$^{-3}$和0.3 cm$^{-3}$，设置谱指数为1.0和3.0。
 
-\begin{table}
-  \caption{Summary of Simulation Parameters on W51C}
+\begin{table*}
+  \caption{用于W51C模拟的参数}
   \label{table:parameters}
   \centering
   \begin{tabular}{l l l}
       \hline\hline
-      Parameters                      & Value           & References               \\
+      参数                         & 值           & 参考文献               \\
       \hline
-      Ejecta Mass                     & 11 M$_{\odot}$ & 1, 2\\
-      Initial Explosion Energy        & 1.3$\times$ 10$^{51}$ ergs & 3, 4\\
-      Initial Radius                  & 4 pc            &\\
-      Initial Time                    & 850 years       & 5\\
+      抛射质量                      & 11 M$_{\odot}$ & 1, 2\\
+      初始爆发动能                  & 1.3$\times$ 10$^{51}$ ergs & 3, 4\\
+      模拟初始半径                  & 4 pc            &\\
+      模拟起始时间                  & 850 years       & 5\\
       \hline
-      Mean Density                    & 0.21\ cm$^{-3}$ & 4, 5\\
-      Density Index ($\alpha$)          & 2.4             & 6\\
-      Magnetic Field Gradient         & 0.1 $\mu$G pc$^{-1}$    &\\
-      Central Magnetic Intensity      & 9 $\mu$G        &\\
-      Mean Atomic Weight              & 1.3             &\\
-      Adiabatic Coefficient           & 5/3             &\\
-      Temperature                     & 100 K           &\\
+      平均密度                      & 0.21\ cm$^{-3}$ & 4, 5\\
+      密度分布指数 ($\alpha$)       & 2.4             & 6\\
+      磁场梯度                      & 0.1 $\mu$G pc$^{-1}$    &\\
+      中心磁场强度                  & 9 $\mu$G        &\\
+      平均原子质量                  & 1.3             &\\
+      绝热系数                      & 5/3             &\\
+      温度                         & 100 K           &\\
       \hline
-      Synchrotron Index ($\beta$)       & 0.25            & 7\\
-      Distance                        & 4.3 kpc         & 8\\
+      同步辐射谱指数 ($\beta$)       & 0.25            & 7\\
+      距离                          & 4.3 kpc         & 8\\
       \hline
   \end{tabular}\\
   \tablerefs{(1)\citealt{Sasaki2014}; (2)\citealt{Sukhbold2016}; (3)\citealt{Poznanski2013}; (4)\citealt{Koo1995};
   (5)\citealt{Leahy2017a}; (6)\citealt{Parsons2012}; (7)\citealt{1970AuJPA..14..133S}; (8)\citealt{Tian2013}}
-\end{table}
+\end{table*}
 
 
 
 
 \section{模拟结果}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.472\textwidth]{t18000_density021_E13_s0.eps}
+    \includegraphics[width=0.472\textwidth]{t18000_density021_E13_s4.eps}
+    \caption{SNR W51C演化18000年后的相对射电流量密度。右侧图像是$\sigma$=2的高斯平滑结果。
+    这里设定距离为4.3 kpc，所以1 pc对应着0.8\am。}
+\label{fig:flux}
+\end{figure*}
+
 主要的模拟结果在图~\ref{fig:simulation}中，我们能看到两侧激波区和相互作用区域有明显的
 磁场放大。
 在y-z平面中，左上角和右下角壳层的磁场强度大于他们的周围区域，右下角的磁场大于左上角的。
 遗迹内部的密度和磁场强度都变得很低，外部壳层很致密，并有很强的磁场。
 此外，遗迹内部有一层磁场密度比外壳层低，但是明显比周围要高一些的薄薄的壳层。
 
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.472\textwidth]{change.eps}
+    \caption{这是图~\ref{fig:flux}的右图中左上到右下的流量切线图。 }
+\label{fig:change}
+\end{figure*}
+
 图~\ref{fig:flux}是从密度图转化而来的相对射电流量密度图，用的谱指数是2.4。
 我们也测试过谱指数为1.0和3.0的模拟。
 谱指数为1.0时，射电图像呈现更过随机成分，但是别的特征与使用2.4时相似。
 谱指数为3.0时，射电图像与使用2.4时并无太大差别。
 因此，我们只在这里展示使用谱指数为2.4的图像。
+左侧是直接转化的图像，右侧是使用$\sigma$=2高斯平滑后的图像。
+可见左上角的壳层弱了很多，但明显还是有一定辐射。
+图~\ref{fig:change}是图~\ref{fig:flux}中右图沿着左上到右下的流量密度变化，这显示出
+左上角辐射流量密度大约是右下角的一半，而其实我们期待它应该更少。
+遗迹区域中心流量是最低的，此外相互作用区也有明显的辐射。
+图~\ref{fig:moreflux}展示了不同参数下的模拟结果。
 
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.472\textwidth]{t18000_density021_E2.eps}
+    \includegraphics[width=0.472\textwidth]{t18000_density021_E3.eps}\newline
+    \includegraphics[width=0.472\textwidth]{t18000_density013_E13.eps}
+    \includegraphics[width=0.472\textwidth]{t18000_density03_E13.eps}
+    \caption{这是$\sigma$=2时不同参数下的相对射电流量密度图。 顶部两幅图为将初始爆发动能改为
+    2.0和3.0 $\times$ 10$^{51}$ ergs的结果, 下面两幅图为将平均介质密度改为
+    0.13 cm$^{-3}$ and 0.3 cm$^{-3}$的结果。}
+\label{fig:moreflux}
+\end{figure*}
 
+图~\ref{fig:mag}是W51C实际观测到的磁场结构。
+我们能看到其中有四个区域有很强的偏振：东北(NE)、中部(M)、西北(NW)、南部(S)。
+这四个区域的磁场方向相近，只有东北的方向有点小混乱，同时东北区的偏振是最强的。
+去除仪器偏振之后，西北区域的偏振基本不见了，而其它三个区域的偏振仍然存在，这三个区域东北
+、中部、南部分别对应实际的三个源W51A、G49.2-0.35、W51C。
+此外去除仪器偏振后，东北区的偏振变得规则了，这可能意味着我们已经去除了足够的仪器偏振。
+
+\begin{figure*}
+   \centering
+   \includegraphics[width=0.472\textwidth]{mag0.eps}
+   \includegraphics[width=0.472\textwidth]{modi_mag.eps}
+   \caption{左图中彩色背景是来自VPGS的1.4 GHz连续谱图像。黑色的箭头代表没有扣仪器偏振的
+   在2695 MHz的磁场方向，箭头长度代表偏振强度(mK)，其中最大的强度是1581 mK。
+   下图中，彩色背景是扣除仪器偏振后的2695 MHz的偏振度，白色箭头代表磁场方向，箭头长度代表
+   偏振度，其中最大的偏振度是$2\%$。}
+\label{fig:mag}
+\end{figure*}
 
 \section{羟基谱线分析}
 \section{讨论}
