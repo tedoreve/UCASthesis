@@ -1,4 +1,4 @@
-PWD D:/Documents/Github/ucasthesis-1
+PWD D:/Documents/Github/ucasthesis
 INPUT d:/software/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt
 INPUT ./Thesis.tex
 OUTPUT Thesis.log
@@ -390,10 +390,6 @@ INPUT Img/t18000_density013_E13.eps
 INPUT Img/t18000_density013_E13.eps
 INPUT Img/t18000_density03_E13.eps
 INPUT Img/t18000_density03_E13.eps
-INPUT Img/mag0.eps
-INPUT Img/mag0.eps
-INPUT Img/modi_mag.eps
-INPUT Img/modi_mag.eps
 INPUT Tex/Appendix.tex
 INPUT Tex/Appendix.tex
 INPUT d:/software/texlive/2017/texmf-dist/fonts/tfm/public/newtx/ntxbmi.tfm

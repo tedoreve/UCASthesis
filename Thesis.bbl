@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{28}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -85,6 +85,15 @@
   Survey overview and data release 1}\allowbreak[J/OL].
 \newblock \aap, 2016, 595:\penalty0 A32.
 \newblock DOI: \doi{10.1051/0004-6361/201629143}.
+
+\bibitem[{{Brogan}(2005)}]{2005ASPC..340..334B}
+{Brogan}~C~L.
+\newblock {OH (1720 MHz) Masers Associated with Supernova
+  Remnants}\allowbreak[C]//\allowbreak
+{Romney}~J, {Reid}~M.
+\newblock Astronomical Society of the Pacific Conference Series: volume
+  340\quad Future Directions in High Resolution Astronomy.
+\newblock 2005: 334.
 
 \bibitem[{{Brogan} {\bibetal}(2013){Brogan}, {Goss}, {Hunter}, {Richards},
   {Chandler}, {Lazendic}, {Koo}, {Hoffman}, and {Claussen}}]{Brogan2013}
