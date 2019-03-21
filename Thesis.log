@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  16 MAR 2019 13:49
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  21 MAR 2019 11:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2008,7 +2008,7 @@ Overfull \hbox (34.0691pt too wide) in paragraph at lines 18--29
 
 LaTeX Warning: Reference `sec:qa' on page 2 undefined on input line 37.
 
-) (./Tex/Chap_Guide.tex [2]
+) (./Tex/Chap_W51C.tex [2]
 第2章
 [3
 
@@ -2024,7 +2024,7 @@ File: Img/mag0.eps Graphic file (type eps)
  <Img/mag0.eps>
 File: Img/modi_mag.eps Graphic file (type eps)
  <Img/modi_mag.eps>
-./Tex/Chap_Guide.tex:98: Undefined control sequence.
+./Tex/Chap_W51C.tex:98: Undefined control sequence.
 l.98 ...�于这个大约角直径有37\am的遗迹
                                                   ，其真实直径是46 pc。
 The control sequence at the end of the top line
@@ -2046,10 +2046,10 @@ File: Img/rho18000_density021_E13xz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13xz.eps>
 File: Img/rho18000_density021_E13yz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13yz.eps> [6]
-./Tex/Chap_Guide.tex:215: Undefined control sequence.
+./Tex/Chap_W51C.tex:218: Undefined control sequence.
 <recently read> \tablerefs 
                            
-l.215   \tablerefs
+l.218   \tablerefs
                   {(1)\citealt{Sasaki2014}; (2)\citealt{Sukhbold2016}; (3)\c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2057,11 +2057,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7] [8]
+[7]
 File: Img/t18000_density021_E13_s0.eps Graphic file (type eps)
  <Img/t18000_density021_E13_s0.eps>
 File: Img/t18000_density021_E13_s4.eps Graphic file (type eps)
- <Img/t18000_density021_E13_s4.eps>
+ <Img/t18000_density021_E13_s4.eps> [8]
 File: Img/change.eps Graphic file (type eps)
  <Img/change.eps>
 File: Img/t18000_density021_E2.eps Graphic file (type eps)
@@ -2071,15 +2071,140 @@ File: Img/t18000_density021_E3.eps Graphic file (type eps)
 File: Img/t18000_density013_E13.eps Graphic file (type eps)
  <Img/t18000_density013_E13.eps>
 File: Img/t18000_density03_E13.eps Graphic file (type eps)
- <Img/t18000_density03_E13.eps>
+ <Img/t18000_density03_E13.eps> [9] [10]
+File: Img/s_1720.eps Graphic file (type eps)
+ <Img/s_1720.eps>
+File: Img/s_1665.eps Graphic file (type eps)
+ <Img/s_1665.eps>
+File: Img/s_1612.eps Graphic file (type eps)
+ <Img/s_1612.eps>
+./Tex/Chap_W51C.tex:310: Undefined control sequence.
+<argument> ...��色方格区域中中-58.5\kms到 
+                                                  135 \kms的平均谱线 �...
+l.310 ...��区域的谱线强度是除了20的。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Reference `fig:OH' on page 9 undefined on input line 284.
+./Tex/Chap_W51C.tex:310: Undefined control sequence.
+<argument> ...58.5\kms到 135 \kms的平均谱线 
+                                                  。第一幅图中，区�...
+l.310 ...��区域的谱线强度是除了20的。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[9] [10] [11]
+./Tex/Chap_W51C.tex:310: Undefined control sequence.
+<argument> ...��色方格区域中中-58.5\kms到 
+                                                  135 \kms的平均谱线 �...
+l.310 ...��区域的谱线强度是除了20的。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Reference `fig:spectra' on page 12 undefined on input line 297.
+./Tex/Chap_W51C.tex:310: Undefined control sequence.
+<argument> ...58.5\kms到 135 \kms的平均谱线 
+                                                  。第一幅图中，区�...
+l.310 ...��区域的谱线强度是除了20的。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-)) [12] (./Tex/Appendix.tex
+./Tex/Chap_W51C.tex:310: Undefined control sequence.
+<argument> ...��色方格区域中中-58.5\kms到 
+                                                  135 \kms的平均谱线 �...
+l.310 ...��区域的谱线强度是除了20的。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_W51C.tex:310: Undefined control sequence.
+<argument> ...58.5\kms到 135 \kms的平均谱线 
+                                                  。第一幅图中，区�...
+l.310 ...��区域的谱线强度是除了20的。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_W51C.tex:317: Undefined control sequence.
+l.317 ...��峰值有大约2 $\sim$ 3 \kms的偏离
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: Img/contour.eps Graphic file (type eps)
+<Img/contour.eps>
+File: Img/spectra.eps Graphic file (type eps)
+ <Img/spectra.eps>
+./Tex/Chap_W51C.tex:328: Undefined control sequence.
+<argument> ...0 MHz谱线在70.5 \kms的通道图 
+                                                  ， 彩色等高线对应�...
+l.328 ...�三个是不同频率处的吸收谱。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_W51C.tex:328: Undefined control sequence.
+<argument> ...0 MHz谱线在70.5 \kms的通道图 
+                                                  ， 彩色等高线对应�...
+l.328 ...�三个是不同频率处的吸收谱。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_W51C.tex:328: Undefined control sequence.
+<argument> ...0 MHz谱线在70.5 \kms的通道图 
+                                                  ， 彩色等高线对应�...
+l.328 ...�三个是不同频率处的吸收谱。}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[11] [12]
+File: Img/continuum.eps Graphic file (type eps)
+ <Img/continuum.eps>
+File: Img/t18000_density021_E13.eps Graphic file (type eps)
+ <Img/t18000_density021_E13.eps> [13] [14] [15]
+
+Package natbib Warning: Citation `Wardle2012' on page 16 undefined on input line 457.
+
+) (./Tex/Chap_SW.tex [16] [17] [18
+
+]
+第3章
+)) [19] [20
+
+] (./Tex/Appendix.tex
 附录 A
 LaTeX Font Info:    Try loading font information for OT1+entextrm on input line 19.
 LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
@@ -2087,22 +2212,21 @@ LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
 LaTeX Font Warning: Font shape `OT1/entextrm/b/n' undefined
 (Font)              using `OT1/cmr/m/n' instead on input line 19.
 
-) [13
+) [21
 
-
-] [14] (./Thesis.bbl
-./Thesis.bbl:146: Missing $ inserted.
+] [22] (./Thesis.bbl
+./Thesis.bbl:153: Missing $ inserted.
 <inserted text> 
                 $
-l.146 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
+l.153 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
                                                   .
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Thesis.bbl:146: Missing $ inserted.
+./Thesis.bbl:153: Missing $ inserted.
 <inserted text> 
                 $
-l.146 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
+l.153 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
                                                   .
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2110,17 +2234,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[15
+[23
 
 
 
-]) (./Tex/Backmatter.tex [16] [17
+] [24]) (./Tex/Backmatter.tex [25] [26
 
-] [18
+] [27] [28
 
-] [19] [20
+] [29] [30
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 
 Package caption Warning: Unused \captionsetup[bi-first] on input line 62.
 See the caption package documentation for explanation.
@@ -2147,12 +2274,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 33249 strings out of 493005
- 626013 string characters out of 6134176
- 672466 words of memory out of 5000000
- 36732 multiletter control sequences out of 15000+600000
+ 33305 strings out of 493005
+ 626833 string characters out of 6134176
+ 673819 words of memory out of 5000000
+ 36778 multiletter control sequences out of 15000+600000
  43288 words of font info for 169 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,13n,94p,10532b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (40 pages).
+Output written on Thesis.pdf (50 pages).
