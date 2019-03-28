@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  21 MAR 2019 11:05
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  28 MAR 2019 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1726,7 +1726,11 @@ Package: artracom 2014/10/01 v0.1 LaTeX macros package
 Package: xeCJK-listings 2017/05/15 v3.4.8 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count270
 \l__xeCJK_listings_flag_int=\count271
-) (./Thesis.aux)
+) (./Thesis.aux
+
+LaTeX Warning: Label `table:parameters' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 67.
@@ -1906,8 +1910,7 @@ LaTeX Font Info:    Try loading font information for U+ntxsym on input line 35.
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 35.
-
-(d:/software/texlive/2017/texmf-dist/tex/latex/newtx/untxsyc.fd
+ (d:/software/texlive/2017/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 35.
@@ -1953,17 +1956,22 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
  [7] [8
 
-] (./Thesis.lof)
+] (./Thesis.lof [9]
+
+LaTeX Font Warning: Font shape `TU/SimHei(0)/m/it' undefined
+(Font)              using `TU/SimHei(0)/m/n' instead on input line 16.
+
+)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [9] [10
-
-] (./Thesis.lot)
+ [10] (./Thesis.lot)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
- (./Tex/Prematter.tex [11] [12
+ (./Tex/Prematter.tex [11
+
+] [12
 
 ]) [13] [14
 
@@ -2013,19 +2021,19 @@ LaTeX Warning: Reference `sec:qa' on page 2 undefined on input line 37.
 [3
 
 ]
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 63 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
 File: Img/mag0.eps Graphic file (type eps)
  <Img/mag0.eps>
 File: Img/modi_mag.eps Graphic file (type eps)
  <Img/modi_mag.eps>
-./Tex/Chap_W51C.tex:98: Undefined control sequence.
-l.98 ...�于这个大约角直径有37\am的遗迹
+./Tex/Chap_W51C.tex:99: Undefined control sequence.
+l.99 ...�于这个大约角直径有37\am的遗迹
                                                   ，其真实直径是46 pc。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2046,10 +2054,10 @@ File: Img/rho18000_density021_E13xz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13xz.eps>
 File: Img/rho18000_density021_E13yz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13yz.eps> [6]
-./Tex/Chap_W51C.tex:218: Undefined control sequence.
+./Tex/Chap_W51C.tex:219: Undefined control sequence.
 <recently read> \tablerefs 
                            
-l.218   \tablerefs
+l.219   \tablerefs
                   {(1)\citealt{Sasaki2014}; (2)\citealt{Sukhbold2016}; (3)\c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2078,10 +2086,10 @@ File: Img/s_1665.eps Graphic file (type eps)
  <Img/s_1665.eps>
 File: Img/s_1612.eps Graphic file (type eps)
  <Img/s_1612.eps>
-./Tex/Chap_W51C.tex:310: Undefined control sequence.
+./Tex/Chap_W51C.tex:311: Undefined control sequence.
 <argument> ...��色方格区域中中-58.5\kms到 
                                                   135 \kms的平均谱线 �...
-l.310 ...��区域的谱线强度是除了20的。}
+l.311 ...��区域的谱线强度是除了20的。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2089,10 +2097,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Tex/Chap_W51C.tex:310: Undefined control sequence.
+./Tex/Chap_W51C.tex:311: Undefined control sequence.
 <argument> ...58.5\kms到 135 \kms的平均谱线 
                                                   。第一幅图中，区�...
-l.310 ...��区域的谱线强度是除了20的。}
+l.311 ...��区域的谱线强度是除了20的。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2100,10 +2108,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Tex/Chap_W51C.tex:310: Undefined control sequence.
+./Tex/Chap_W51C.tex:311: Undefined control sequence.
 <argument> ...��色方格区域中中-58.5\kms到 
                                                   135 \kms的平均谱线 �...
-l.310 ...��区域的谱线强度是除了20的。}
+l.311 ...��区域的谱线强度是除了20的。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2111,10 +2119,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Tex/Chap_W51C.tex:310: Undefined control sequence.
+./Tex/Chap_W51C.tex:311: Undefined control sequence.
 <argument> ...58.5\kms到 135 \kms的平均谱线 
                                                   。第一幅图中，区�...
-l.310 ...��区域的谱线强度是除了20的。}
+l.311 ...��区域的谱线强度是除了20的。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2122,10 +2130,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Tex/Chap_W51C.tex:310: Undefined control sequence.
+./Tex/Chap_W51C.tex:311: Undefined control sequence.
 <argument> ...��色方格区域中中-58.5\kms到 
                                                   135 \kms的平均谱线 �...
-l.310 ...��区域的谱线强度是除了20的。}
+l.311 ...��区域的谱线强度是除了20的。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2133,10 +2141,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Tex/Chap_W51C.tex:310: Undefined control sequence.
+./Tex/Chap_W51C.tex:311: Undefined control sequence.
 <argument> ...58.5\kms到 135 \kms的平均谱线 
                                                   。第一幅图中，区�...
-l.310 ...��区域的谱线强度是除了20的。}
+l.311 ...��区域的谱线强度是除了20的。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2144,8 +2152,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Tex/Chap_W51C.tex:317: Undefined control sequence.
-l.317 ...��峰值有大约2 $\sim$ 3 \kms的偏离
+./Tex/Chap_W51C.tex:318: Undefined control sequence.
+l.318 ...��峰值有大约2 $\sim$ 3 \kms的偏离
                                                   。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2157,10 +2165,10 @@ File: Img/contour.eps Graphic file (type eps)
 <Img/contour.eps>
 File: Img/spectra.eps Graphic file (type eps)
  <Img/spectra.eps>
-./Tex/Chap_W51C.tex:328: Undefined control sequence.
+./Tex/Chap_W51C.tex:329: Undefined control sequence.
 <argument> ...0 MHz谱线在70.5 \kms的通道图 
                                                   ， 彩色等高线对应�...
-l.328 ...�三个是不同频率处的吸收谱。}
+l.329 ...�三个是不同频率处的吸收谱。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2168,10 +2176,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Tex/Chap_W51C.tex:328: Undefined control sequence.
+./Tex/Chap_W51C.tex:329: Undefined control sequence.
 <argument> ...0 MHz谱线在70.5 \kms的通道图 
                                                   ， 彩色等高线对应�...
-l.328 ...�三个是不同频率处的吸收谱。}
+l.329 ...�三个是不同频率处的吸收谱。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2179,10 +2187,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Tex/Chap_W51C.tex:328: Undefined control sequence.
+./Tex/Chap_W51C.tex:329: Undefined control sequence.
 <argument> ...0 MHz谱线在70.5 \kms的通道图 
                                                   ， 彩色等高线对应�...
-l.328 ...�三个是不同频率处的吸收谱。}
+l.329 ...�三个是不同频率处的吸收谱。}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2196,13 +2204,355 @@ File: Img/continuum.eps Graphic file (type eps)
 File: Img/t18000_density021_E13.eps Graphic file (type eps)
  <Img/t18000_density021_E13.eps> [13] [14] [15]
 
-Package natbib Warning: Citation `Wardle2012' on page 16 undefined on input line 457.
+Package natbib Warning: Citation `Wardle2012' on page 16 undefined on input line 458.
 
 ) (./Tex/Chap_SW.tex [16] [17] [18
 
 ]
 第3章
-)) [19] [20
+[19]
+./Tex/Chap_SW.tex:94: Undefined control sequence.
+<recently read> \tablerefs 
+                           
+l.94   \tablerefs
+                 {(1)\citealt{Meyer2014}; (2)\citealt{Meyer2015}; (3)\citeal...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[20] [21]
+./Tex/Chap_SW.tex:113: Undefined control sequence.
+l.113 ...�为40 \kms产生的星风是可以达到
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[22]
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
+File: Img/G21.eps Graphic file (type eps)
+ <Img/G21.eps>
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
+File: Img/G120.eps Graphic file (type eps)
+ <Img/G120.eps>
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
+File: Img/G43.eps Graphic file (type eps)
+ <Img/G43.eps> [23]
+Overfull \hbox (92.60152pt too wide) in paragraph at lines 211--241
+ [][] 
+ []
+
+File: Img/rho_t0_density1_E1_xyp.eps Graphic file (type eps)
+<Img/rho_t0_density1_E1_xyp.eps>
+File: Img/rho_t0_density1_E1_xzp.eps Graphic file (type eps)
+ <Img/rho_t0_density1_E1_xzp.eps>
+File: Img/rho_t0_density1_E1_yzp.eps Graphic file (type eps)
+ <Img/rho_t0_density1_E1_yzp.eps>
+File: Img/rho_t6_density1_E1_xyp.eps Graphic file (type eps)
+ <Img/rho_t6_density1_E1_xyp.eps>
+File: Img/rho_t6_density1_E1_xzp.eps Graphic file (type eps)
+ <Img/rho_t6_density1_E1_xzp.eps>
+File: Img/rho_t6_density1_E1_yzp.eps Graphic file (type eps)
+ <Img/rho_t6_density1_E1_yzp.eps>
+File: Img/t6_xyp.eps Graphic file (type eps)
+ <Img/t6_xyp.eps>
+File: Img/t6_xzp.eps Graphic file (type eps)
+ <Img/t6_xzp.eps>
+File: Img/t6_yzp.eps Graphic file (type eps)
+ <Img/t6_yzp.eps>
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 265 replaced by U+FFFD.
+File: Img/G332.eps Graphic file (type eps)
+ <Img/G332.eps>
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+File: Img/G116.eps Graphic file (type eps)
+ <Img/G116.eps>
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 267 replaced by U+FFFD.
+File: Img/G12.eps Graphic file (type eps)
+ <Img/G12.eps>
+File: Img/t6_xzp_45deg.eps Graphic file (type eps)
+ <Img/t6_xzp_45deg.eps>
+Invalid UTF-8 byte or sequence at line 291 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 291 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 291 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 291 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 291 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 291 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 291 replaced by U+FFFD.
+File: Img/G116.eps Graphic file (type eps)
+ <Img/G116.eps>
+./Tex/Chap_SW.tex:293: Undefined control sequence.
+<argument> ...norespaces 沿着z轴旋转$45\degr 
+                                                  $后的模拟射电图像�...
+l.293     \citep{West2016,Tian2006}。}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:293: Undefined control sequence.
+<argument> 沿着z轴旋转$45\degr 
+                                    $后的模拟射电图像和G116.9+0.2�...
+l.293     \citep{West2016,Tian2006}。}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:293: Undefined control sequence.
+<argument> 沿着z轴旋转$45\degr 
+                                    $后的模拟射电图像和G116.9+0.2�...
+l.293     \citep{West2016,Tian2006}。}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
+File: Img/3D.eps Graphic file (type eps)
+<Img/3D.eps>
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> ...��x-z平面沿着z轴旋转$50\degr 
+                                                  $后模拟的三维图。�...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> ...拟的三维图。如果转$45\degr 
+                                                  $, 中间两条 垂直的�...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> ...很差，所以我们转了$50\degr 
+                                                  $。彩色的背景是相�...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> 从x-z平面沿着z轴旋转$50\degr 
+                                                $后模拟的三维图。如...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> ...拟的三维图。如果转$45\degr 
+                                                  $, 中间两条 垂直的�...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> ...很差，所以我们转了$50\degr 
+                                                  $。彩色的背景是相�...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> 从x-z平面沿着z轴旋转$50\degr 
+                                                $后模拟的三维图。如...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> ...拟的三维图。如果转$45\degr 
+                                                  $, 中间两条 垂直的�...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:302: Undefined control sequence.
+<argument> ...很差，所以我们转了$50\degr 
+                                                  $。彩色的背景是相�...
+l.302 ...�章的线上版本中是动态图。）}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: Img/T.eps Graphic file (type eps)
+<Img/T.eps>
+File: Img/xx.eps Graphic file (type eps)
+ <Img/xx.eps>
+
+LaTeX Font Warning: Font shape `TU/SimSun(1)/bx/it' undefined
+(Font)              using `TU/SimSun(1)/bx/n' instead on input line 312.
+
+./Tex/Chap_SW.tex:326: Undefined control sequence.
+l.326 ....2为例，如果沿着z轴转动$45\degr
+                                                  $看图~\ref{fig:per}的�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Tex/Chap_SW.tex:330: Undefined control sequence.
+l.330 可是，沿着z轴转动$45\degr
+                                       $后，磁场方向就变得与观测...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[24] [25] [26] [27] [28]
+File: Img/rho_t0_density1_E1_xypc.eps Graphic file (type eps)
+ <Img/rho_t0_density1_E1_xypc.eps>
+File: Img/rho_t0_density1_E1_xzpc.eps Graphic file (type eps)
+ <Img/rho_t0_density1_E1_xzpc.eps>
+File: Img/rho_t0_density1_E1_yzpc.eps Graphic file (type eps)
+ <Img/rho_t0_density1_E1_yzpc.eps>
+File: Img/rho_t6_density1_E1_xypc.eps Graphic file (type eps)
+ <Img/rho_t6_density1_E1_xypc.eps>
+File: Img/rho_t6_density1_E1_xzpc.eps Graphic file (type eps)
+ <Img/rho_t6_density1_E1_xzpc.eps>
+File: Img/rho_t6_density1_E1_yzpc.eps Graphic file (type eps)
+ <Img/rho_t6_density1_E1_yzpc.eps>
+File: Img/t6_xypc.eps Graphic file (type eps)
+ <Img/t6_xypc.eps>
+File: Img/t6_xzpc.eps Graphic file (type eps)
+ <Img/t6_xzpc.eps>
+File: Img/t6_yzpc.eps Graphic file (type eps)
+ <Img/t6_yzpc.eps> [29] [30]
+File: Img/rho_t0_density1_E1_yz.eps Graphic file (type eps)
+ <Img/rho_t0_density1_E1_yz.eps>
+File: Img/rho_t6_density1_E1_yz.eps Graphic file (type eps)
+ <Img/rho_t6_density1_E1_yz.eps>
+File: Img/t6_yz.eps Graphic file (type eps)
+ <Img/t6_yz.eps>
+File: Img/t4_yz.eps Graphic file (type eps)
+ <Img/t4_yz.eps>
+File: Img/t6_yz.eps Graphic file (type eps)
+ <Img/t6_yz.eps>
+File: Img/t12_yz.eps Graphic file (type eps)
+ <Img/t12_yz.eps>
+Invalid UTF-8 byte or sequence at line 426 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 426 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 426 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 426 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 426 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 426 replaced by U+FFFD.
+File: Img/G53.eps Graphic file (type eps)
+ <Img/G53.eps>
+Invalid UTF-8 byte or sequence at line 427 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 427 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 427 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 427 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 427 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 427 replaced by U+FFFD.
+File: Img/G29.eps Graphic file (type eps)
+ <Img/G29.eps>
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+File: Img/G28.eps Graphic file (type eps)
+ <Img/G28.eps> [31] [32]
+./Tex/Chap_SW.tex:477: Undefined control sequence.
+l.477 ...�件，模拟了一个以40 \kms运动的
+                                                  40 M$_{\odot}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)) [33] [34
 
 ] (./Tex/Appendix.tex
 附录 A
@@ -2212,21 +2562,81 @@ LaTeX Font Info:    No file OT1entextrm.fd. on input line 19.
 LaTeX Font Warning: Font shape `OT1/entextrm/b/n' undefined
 (Font)              using `OT1/cmr/m/n' instead on input line 19.
 
-) [21
+) [35
 
-] [22] (./Thesis.bbl
-./Thesis.bbl:153: Missing $ inserted.
+] [36] (./Thesis.bbl
+./Thesis.bbl:163: Missing $ inserted.
 <inserted text> 
                 $
-l.153 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
+l.163 ...ock {The Galactic Plane region near {\ell
+                                                  } = 93{\deg}. II. A stella...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Thesis.bbl:163: Extra }, or forgotten $.
+l.163 ...ck {The Galactic Plane region near {\ell}
+                                                   = 93{\deg}. II. A stellar...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Thesis.bbl:164: Extra }, or forgotten $.
+l.164   bubble surrounding SNR 3C 434.1}
+                                        \allowbreak[J/OL].
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Thesis.bbl:167: Missing $ inserted.
+<inserted text> 
+                $
+l.167 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Thesis.bbl:167: Missing } inserted.
+<inserted text> 
+                }
+l.167 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
+[]\TU/entextrm/m/n/10.53937 Foster T, Routledge D, Kothes R.  The Galactic Plane region near $\OML/ntxmi/m/it/10.53937 ` \OT1/cmr/m/n/10.53937 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
+[][][]\OML/ntxmi/m/it/10.53937 :II:AstellarwindbubblesurroundingSNR[]C[][][]:[]\OT1/cmr/m/n/10.53937 [\OML/ntxmi/m/it/10.53937 J\OT1/cmr/m/n/10.53937 /\OML/ntxmi/m/it/10.53937 OL\OT1/cmr/m/n/10.53937 ]\OML/ntxmi/m/it/10.53937 : A[]A; [][][][]; [][][] \OT1/cmr/m/n/10.53937 :
+ []
+
+[37
+
+
+
+]
+./Thesis.bbl:221: Missing $ inserted.
+<inserted text> 
+                $
+l.221 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
                                                   .
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Thesis.bbl:153: Missing $ inserted.
+./Thesis.bbl:221: Missing $ inserted.
 <inserted text> 
                 $
-l.153 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
+l.221 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
                                                   .
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2234,26 +2644,44 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[23
+[38] [39]
+./Thesis.bbl:501: Undefined control sequence.
+l.501 \newblock \cjaa
+                     , 2006, 6:\penalty0 543-550.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+[40]
+./Thesis.bbl:644: Missing } inserted.
+<inserted text> 
+                }
+l.644 \end{thebibliography}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+) (./Tex/Backmatter.tex [41] [42
 
-] [24]) (./Tex/Backmatter.tex [25] [26
+] [43] [44
 
-] [27] [28
-
-] [29] [30
+] [45] [46
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
 
-Package caption Warning: Unused \captionsetup[bi-first] on input line 62.
+Package caption Warning: Unused \captionsetup[bi-first] on input line 63.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[bi-second] on input line 62.
+Package caption Warning: Unused \captionsetup[bi-second] on input line 63.
 See the caption package documentation for explanation.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
@@ -2272,14 +2700,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 33305 strings out of 493005
- 626833 string characters out of 6134176
- 673819 words of memory out of 5000000
- 36778 multiletter control sequences out of 15000+600000
- 43288 words of font info for 169 fonts, out of 8000000 for 9000
+ 33624 strings out of 493005
+ 637727 string characters out of 6134176
+ 682037 words of memory out of 5000000
+ 37059 multiletter control sequences out of 15000+600000
+ 43304 words of font info for 171 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,13n,94p,10532b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,13n,94p,10532b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (50 pages).
+Output written on Thesis.pdf (66 pages).

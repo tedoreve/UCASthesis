@@ -9,6 +9,14 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces 左侧的图中，彩色背景是G49.2-0.35区域的1720 MHz谱线在70.5 ， 彩色等高线对应的是THOR的1440 MHz连续谱，右边的红色圆圈是我们提取脉泽发射线的区域， 左边的红色圆圈是我们提取吸收谱的区域。右侧图是这两个区域的谱线，最上面一个是1720 MHz OH脉泽发射线的谱，下面的三个是不同频率处的吸收谱。\relax }}{12}{figure.caption.17}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces 左图显示了W51复合区的1420 MHz连续谱图。右图是图\nobreakspace {}\ref {fig:flux}右图，只是 改变了颜色风格。取距离为4.3 kpc，两者有相同的大小。\relax }}{14}{figure.caption.18}
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 典型的多层、环形、不规则遗迹: G21.6-0.8，G120.1+1.4和G43.3-0.2。 \relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 垂直事例的模拟图像以及对应的真实射电图像。 顶部三幅图是从不同方向看去的星风 模拟结果。第二行是以顶部的星风模拟结果为初始条件的超新星遗迹模拟结果。第三行是从第二行 的模拟结果转化而来的相对射电密度图像。最后一行是与模拟的射电形态相似的实际观测到的遗迹 G332.0+0.2，G116.9+0.2和G12.2+0.3\citep {West2016}。这三个遗迹分别分类为双边对称、 单边大弧度和单边小弧度遗迹。上面两行的彩色背景是单位为log(cm$^{-3}$)的密度分布，箭头 的长度和方向分别代表磁场强度和方向。\relax }}{26}{figure.caption.22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 沿着z轴旋转$45$后的模拟射电图像和G116.9+0.2的真实观测到的射电图像 \citep {West2016,Tian2006}。\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 从x-z平面沿着z轴旋转$50$后模拟的三维图。如果转$45$, 中间两条 垂直的线就重合了，透视效果很差，所以我们转了$50$。彩色的背景是相对射电流量密度， 箭头代表磁场，越黄的颜色数值越大。（这个图在发表文章的线上版本中是动态图。）\relax }}{27}{figure.caption.24}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {左图:}x-z平面的相对温度分布。\textit {右图:} ASCA (Advanced Satellite for Cosmology and Astrophysics)望远镜观测到的G116.9+0.2的X图像G116.9+0.2，外加CGPS (Canadian Galactic Plane Survey)巡天的射电图像等高线\citep {Pannuti2010}。\relax }}{28}{figure.caption.25}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 考虑热传导的模拟结果。这些结果对应了图\nobreakspace {}\ref {fig:per}的上面三列，唯一的不同 就是考虑了热传导。\relax }}{30}{figure.caption.26}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 平行事例的模拟结果。 左图是y-z平面的星风模拟结果加上遗迹爆发区域，也就是 遗迹模拟的初始条件。中图是y-z平面的遗迹模拟结果。右图是从中图转化来的射电流量密度图。\relax }}{31}{figure.caption.27}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 上面三幅图是不同年龄的相对射电流量密度图。下面三幅图是实际观测到的与上图 类似的实际观测到的八字形遗迹：G53.6-2.2、G29.7-0.3、G28.6-0.1\citep {West2016}。\relax }}{31}{figure.caption.28}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{36}
+\begin{thebibliography}{75}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -74,6 +74,15 @@
 \newblock \aap, 2012, 541:\penalty0 A13.
 \newblock DOI: \doi{10.1051/0004-6361/201218846}.
 
+\bibitem[{{Bamba} {\bibetal}(2001){Bamba}, {Ueno}, {Koyama}, and
+  {Yamauchi}}]{Bamba2001}
+{Bamba}~A, {Ueno}~M, {Koyama}~K, et~al.
+\newblock {A Diffuse X-Ray Source, AX J1843.8-0352: Association with the Radio
+  Complex G28.6-0.1 and Identification of a New Supernova
+  Remnant}\allowbreak[J/OL].
+\newblock \pasj, 2001, 53:\penalty0 L21-L24.
+\newblock DOI: \doi{10.1093/pasj/53.4.L21}.
+
 \bibitem[{{Beuther} {\bibetal}(2016){Beuther}, {Bihr}, {Rugel}, {Johnston},
   {Wang}, {Walter}, {Brunthaler}, {Walsh}, {Ott}, {Stil}, {Henning},
   {Schierhuber}, {Kainulainen}, {Heyer}, {Goldsmith}, {Anderson}, {Longmore},
@@ -85,6 +94,14 @@
   Survey overview and data release 1}\allowbreak[J/OL].
 \newblock \aap, 2016, 595:\penalty0 A32.
 \newblock DOI: \doi{10.1051/0004-6361/201629143}.
+
+\bibitem[{{Broersen} {\biband} {Vink}(2015){Broersen} and
+  {Vink}}]{Broersen2015}
+{Broersen}~S, {Vink}~J.
+\newblock {A Chandra X-ray study of the mixed-morphology supernova remnant 3C
+  400.2}\allowbreak[J/OL].
+\newblock \mnras, 2015, 446:\penalty0 3885-3894.
+\newblock DOI: \doi{10.1093/mnras/stu2119}.
 
 \bibitem[{{Brogan}(2005)}]{2005ASPC..340..334B}
 {Brogan}~C~L.
@@ -104,6 +121,13 @@
 \newblock \apj, 2013, 771:\penalty0 91.
 \newblock DOI: \doi{10.1088/0004-637X/771/2/91}.
 
+\bibitem[{{Chen} {\bibetal}(1995){Chen}, {Liu}, and {Wang}}]{Chen1995}
+{Chen}~Y, {Liu}~N, {Wang}~Z~R.
+\newblock {Similarity Solution for a Supernova Remnant Evolving in an
+  Inhomogeneous Stellar Wind}\allowbreak[J/OL].
+\newblock \apj, 1995, 446:\penalty0 755.
+\newblock DOI: \doi{10.1086/175832}.
+
 \bibitem[{{Copetti} {\biband} {Schmidt}(1991){Copetti} and
   {Schmidt}}]{Copetti1991}
 {Copetti}~M~V~F, {Schmidt}~A~A.
@@ -111,6 +135,13 @@
   MHz}\allowbreak[J/OL].
 \newblock \mnras, 1991, 250:\penalty0 127-132.
 \newblock DOI: \doi{10.1093/mnras/250.1.127}.
+
+\bibitem[{{Craig} {\bibetal}(1997){Craig}, {Hailey}, and
+  {Pisarski}}]{Craig1997}
+{Craig}~W~W, {Hailey}~C~J, {Pisarski}~R~L.
+\newblock {ROSAT Observations of the Supernova Remnant CTB 1}\allowbreak[J/OL].
+\newblock \apj, 1997, 488:\penalty0 307-316.
+\newblock DOI: \doi{10.1086/304666}.
 
 \bibitem[{{Duncan} {\bibetal}(1999){Duncan}, {Reich}, {Reich}, and
   {F{\"u}rst}}]{1999A&A...350..447D}
@@ -125,6 +156,29 @@
   supernova remnants}\allowbreak[J/OL].
 \newblock \mnras, 2012, 424:\penalty0 2811-2820.
 \newblock DOI: \doi{10.1111/j.1365-2966.2012.21405.x}.
+
+\bibitem[{{Foster} {\bibetal}(2004){Foster}, {Routledge}, and
+  {Kothes}}]{Foster2004}
+{Foster}~T, {Routledge}~D, {Kothes}~R.
+\newblock {The Galactic Plane region near {\ell} = 93{\deg}. II. A stellar wind
+  bubble surrounding SNR 3C 434.1}\allowbreak[J/OL].
+\newblock \aap, 2004, 417:\penalty0 79-91.
+\newblock DOI: \doi{10.1051/0004-6361:20034253}.
+
+\bibitem[{{Frail} {\bibetal}(1994){Frail}, {Goss}, and {Whiteoak}}]{Frail1994a}
+{Frail}~D~A, {Goss}~W~M, {Whiteoak}~J~B~Z.
+\newblock {The radio lifetime of supernova remnants and the distribution of
+  pulsar velocities at birth}\allowbreak[J/OL].
+\newblock \apj, 1994, 437:\penalty0 781-793.
+\newblock DOI: \doi{10.1086/175038}.
+
+\bibitem[{{Gaensler} {\bibetal}(1999){Gaensler}, {Brazier}, {Manchester},
+  {Johnston}, and {Green}}]{Gaensler1999}
+{Gaensler}~B~M, {Brazier}~K~T~S, {Manchester}~R~N, et~al.
+\newblock {SNR G320.4-01.2 and PSR B1509-58: new radio observations of a
+  complex interacting system}\allowbreak[J/OL].
+\newblock \mnras, 1999, 305:\penalty0 724-736.
+\newblock DOI: \doi{10.1046/j.1365-8711.1999.02500.x}.
 
 \bibitem[{{Genzel} {\bibetal}(1981){Genzel}, {Downes}, {Schneps}, {Reid},
   {Moran}, {Kogan}, {Kostenko}, {Matveenko}, and {Ronnang}}]{Genzel1981}
@@ -142,6 +196,20 @@
   protoclusters}\allowbreak[J/OL].
 \newblock \aap, 2015, 573:\penalty0 A106.
 \newblock DOI: \doi{10.1051/0004-6361/201424979}.
+
+\bibitem[{{Green}(2014)}]{2014BASI...42...47G}
+{Green}~D~A.
+\newblock {A catalogue of 294 Galactic supernova remnants}\allowbreak[J].
+\newblock Bulletin of the Astronomical Society of India, 2014, 42:\penalty0
+  47-58.
+
+\bibitem[{{Gvaramadze} {\bibetal}(2014){Gvaramadze}, {Menten}, {Kniazev},
+  {Langer}, {Mackey}, {Kraus}, {Meyer}, and {Kami{\'n}ski}}]{Gvaramadze2014}
+{Gvaramadze}~V~V, {Menten}~K~M, {Kniazev}~A~Y, et~al.
+\newblock {IRC -10414: a bow-shock-producing red supergiant
+  star}\allowbreak[J/OL].
+\newblock \mnras, 2014, 437:\penalty0 843-856.
+\newblock DOI: \doi{10.1093/mnras/stt1943}.
 
 \bibitem[{{Haverkorn}(2015)}]{Haverkorn2015}
 {Haverkorn}~M.
@@ -195,6 +263,13 @@
 \newblock \apj, 1995, 447:\penalty0 211.
 \newblock DOI: \doi{10.1086/175867}.
 
+\bibitem[{{Leahy} {\biband} {Tian}(2008){Leahy} and {Tian}}]{Leahy2008}
+{Leahy}~D~A, {Tian}~W~W.
+\newblock {The distance of the SNR Kes 75 and PWN PSR J1846-0258
+  system}\allowbreak[J/OL].
+\newblock \aap, 2008, 480:\penalty0 L25-L28.
+\newblock DOI: \doi{10.1051/0004-6361:20079149}.
+
 \bibitem[{{Leahy} {\biband} {Williams}(2017){Leahy} and
   {Williams}}]{Leahy2017a}
 {Leahy}~D~A, {Williams}~J~E.
@@ -202,6 +277,39 @@
   Evolution}\allowbreak[J/OL].
 \newblock \aj, 2017, 153:\penalty0 239.
 \newblock DOI: \doi{10.3847/1538-3881/aa6af6}.
+
+\bibitem[{{Lee} {\bibetal}(2010){Lee}, {Park}, {Hughes}, {Slane}, {Gaensler},
+  {Ghavamian}, and {Burrows}}]{Lee2010}
+{Lee}~J~J, {Park}~S, {Hughes}~J~P, et~al.
+\newblock {The Outer Shock of the Oxygen-Rich Supernova Remnant G292.0+1.8:
+  Evidence for the Interaction with the Stellar Winds from Its Massive
+  Progenitor}\allowbreak[J/OL].
+\newblock \apj, 2010, 711:\penalty0 861-869.
+\newblock DOI: \doi{10.1088/0004-637X/711/2/861}.
+
+\bibitem[{{Long} {\bibetal}(1991){Long}, {Blair}, {Matsui}, and
+  {White}}]{Long1991}
+{Long}~K~S, {Blair}~W~P, {Matsui}~Y, et~al.
+\newblock {W28 and 3C 400.2 - Two shell-like radio supernova remnants with
+  centrally peaked X-ray morphologies}\allowbreak[J/OL].
+\newblock \apj, 1991, 373:\penalty0 567-578.
+\newblock DOI: \doi{10.1086/170076}.
+
+\bibitem[{{Meyer} {\bibetal}(2014{\natexlab{a}}){Meyer}, {Gvaramadze},
+  {Langer}, {Mackey}, {Boumis}, and {Mohamed}}]{Meyer2014a}
+{Meyer}~D~M~A, {Gvaramadze}~V~V, {Langer}~N, et~al.
+\newblock {On the stability of bow shocks generated by red supergiants: the
+  case of IRC -10414}\allowbreak[J/OL].
+\newblock \mnras, 2014, 439:\penalty0 L41-L45.
+\newblock DOI: \doi{10.1093/mnrasl/slt176}.
+
+\bibitem[{{Meyer} {\bibetal}(2014{\natexlab{b}}){Meyer}, {Mackey}, {Langer},
+  {Gvaramadze}, {Mignone}, {Izzard}, and {Kaper}}]{Meyer2014}
+{Meyer}~D~M~A, {Mackey}~J, {Langer}~N, et~al.
+\newblock {Models of the circumstellar medium of evolving, massive runaway
+  stars moving through the Galactic plane}\allowbreak[J/OL].
+\newblock \mnras, 2014, 444:\penalty0 2754-2775.
+\newblock DOI: \doi{10.1093/mnras/stu1629}.
 
 \bibitem[{{Meyer} {\bibetal}(2015){Meyer}, {Langer}, {Mackey}, {Vel{\'a}zquez},
   and {Gusdorf}}]{Meyer2015}
@@ -211,11 +319,43 @@
 \newblock \mnras, 2015, 450:\penalty0 3080-3100.
 \newblock DOI: \doi{10.1093/mnras/stv898}.
 
+\bibitem[{{Meyer} {\bibetal}(2017){Meyer}, {Mignone}, {Kuiper}, {Raga}, and
+  {Kley}}]{Meyer2017}
+{Meyer}~D~M~A, {Mignone}~A, {Kuiper}~R, et~al.
+\newblock {Bow shock nebulae of hot massive stars in a magnetized
+  medium}\allowbreak[J/OL].
+\newblock \mnras, 2017, 464:\penalty0 3229-3248.
+\newblock DOI: \doi{10.1093/mnras/stw2537}.
+
 \bibitem[{{Moon} {\biband} {Koo}(1994){Moon} and {Koo}}]{1994JKAS...27...81M}
 {Moon}~D~S, {Koo}~B~C.
 \newblock {Thermal and Non-Thermal Radio Continuum Sources in the W51
   Complex}\allowbreak[J].
 \newblock \jkas, 1994, 27:\penalty0 81-102.
+
+\bibitem[{{M{\"u}ller} {\bibetal}(2016){M{\"u}ller}, {Heger}, {Liptai}, and
+  {Cameron}}]{Mueller2016a}
+{M{\"u}ller}~B, {Heger}~A, {Liptai}~D, et~al.
+\newblock {A simple approach to the supernova progenitor-explosion
+  connection}\allowbreak[J/OL].
+\newblock \mnras, 2016, 460:\penalty0 742-764.
+\newblock DOI: \doi{10.1093/mnras/stw1083}.
+
+\bibitem[{{Nakanishi} {\biband} {Sofue}(2006){Nakanishi} and
+  {Sofue}}]{Nakanishi2006}
+{Nakanishi}~H, {Sofue}~Y.
+\newblock {Three-Dimensional Distribution of the ISM in the Milky Way Galaxy:
+  II. The Molecular Gas Disk}\allowbreak[J/OL].
+\newblock \pasj, 2006, 58:\penalty0 847-860.
+\newblock DOI: \doi{10.1093/pasj/58.5.847}.
+
+\bibitem[{{Nakanishi} {\biband} {Sofue}(2016){Nakanishi} and
+  {Sofue}}]{Nakanishi2016}
+{Nakanishi}~H, {Sofue}~Y.
+\newblock {Three-dimensional distribution of the ISM in the Milky Way galaxy.
+  III. The total neutral gas disk}\allowbreak[J/OL].
+\newblock \pasj, 2016, 68:\penalty0 5.
+\newblock DOI: \doi{10.1093/pasj/psv108}.
 
 \bibitem[{{Orlando} {\bibetal}(2007){Orlando}, {Bocchino}, {Reale}, {Peres},
   and {Petruk}}]{Orlando2007}
@@ -225,12 +365,36 @@
 \newblock \aap, 2007, 470:\penalty0 927-939.
 \newblock DOI: \doi{10.1051/0004-6361:20066045}.
 
+\bibitem[{{Orlando} {\bibetal}(2017){Orlando}, {Drake}, and
+  {Miceli}}]{Orlando2017}
+{Orlando}~S, {Drake}~J~J, {Miceli}~M.
+\newblock {Origin of asymmetries in X-ray emission lines from the blast wave of
+  the 2014 outburst of nova V745 Sco}\allowbreak[J/OL].
+\newblock \mnras, 2017, 464:\penalty0 5003-5017.
+\newblock DOI: \doi{10.1093/mnras/stw2718}.
+
+\bibitem[{{Pannuti} {\bibetal}(2010){Pannuti}, {Rho}, {Borkowski}, and
+  {Cameron}}]{Pannuti2010}
+{Pannuti}~T~G, {Rho}~J, {Borkowski}~K~J, et~al.
+\newblock {Mixed-morphology Supernova Remnants in X-rays: Isothermal Plasma in
+  HB21 and Probable Oxygen-rich Ejecta in CTB 1}\allowbreak[J/OL].
+\newblock \aj, 2010, 140:\penalty0 1787-1805.
+\newblock DOI: \doi{10.1088/0004-6256/140/6/1787}.
+
 \bibitem[{{Parsons} {\bibetal}(2012){Parsons}, {Thompson}, {Clark}, and
   {Chrysostomou}}]{Parsons2012}
 {Parsons}~H, {Thompson}~M~A, {Clark}~J~S, et~al.
 \newblock {Molecular clumps in the W51 giant molecular cloud}\allowbreak[J/OL].
 \newblock \mnras, 2012, 424:\penalty0 1658-1671.
 \newblock DOI: \doi{10.1111/j.1365-2966.2012.21106.x}.
+
+\bibitem[{{Petruk} {\bibetal}(2009){Petruk}, {Beshley}, {Bocchino}, and
+  {Orlando}}]{Petruk2009a}
+{Petruk}~O, {Beshley}~V, {Bocchino}~F, et~al.
+\newblock {Some properties of synchrotron radio and inverse-Compton gamma-ray
+  images of supernova remnants}\allowbreak[J/OL].
+\newblock \mnras, 2009, 395:\penalty0 1467-1475.
+\newblock DOI: \doi{10.1111/j.1365-2966.2009.14563.x}.
 
 \bibitem[{{Poznanski}(2013)}]{Poznanski2013}
 {Poznanski}~D.
@@ -253,6 +417,14 @@
 \newblock {Trigonometric Parallax of W51 Main/South}\allowbreak[J/OL].
 \newblock \apj, 2010, 720:\penalty0 1055-1065.
 \newblock DOI: \doi{10.1088/0004-637X/720/2/1055}.
+
+\bibitem[{{Schneiter} {\bibetal}(2006){Schneiter}, {de La Fuente}, and
+  {Vel{\'a}zquez}}]{Schneiter2006}
+{Schneiter}~E~M, {de La Fuente}~E, {Vel{\'a}zquez}~P~F.
+\newblock {Simulated X-ray emission from a single-explosion model for a
+  supernova remnant 3C 400.2}\allowbreak[J/OL].
+\newblock \mnras, 2006, 371:\penalty0 369-374.
+\newblock DOI: \doi{10.1111/j.1365-2966.2006.10652.x}.
 
 \bibitem[{{Schneps} {\bibetal}(1981){Schneps}, {Lane}, {Downes}, {Moran},
   {Genzel}, and {Reid}}]{Schneps1981}
@@ -283,6 +455,14 @@
 \newblock \aj, 2006, 132:\penalty0 1158-1176.
 \newblock DOI: \doi{10.1086/505940}.
 
+\bibitem[{{Su} {\bibetal}(2009){Su}, {Chen}, {Yang}, {Koo}, {Zhou}, {Jeong},
+  and {Zhang}}]{Su2009}
+{Su}~Y, {Chen}~Y, {Yang}~J, et~al.
+\newblock {Discovery of Molecular Shells Associated with Supernova Remnants.
+  II. Kesteven 75}\allowbreak[J/OL].
+\newblock \apj, 2009, 694:\penalty0 376-386.
+\newblock DOI: \doi{10.1088/0004-637X/694/1/376}.
+
 \bibitem[{{Subrahmanyan} {\biband} {Goss}(1995){Subrahmanyan} and
   {Goss}}]{Subrahmanyan1995}
 {Subrahmanyan}~R, {Goss}~W~M.
@@ -299,6 +479,28 @@
 \newblock \apj, 2016, 821:\penalty0 38.
 \newblock DOI: \doi{10.3847/0004-637X/821/1/38}.
 
+\bibitem[{{Sun} {\bibetal}(2011){Sun}, {Reich}, {Reich}, {Xiao}, {Gao}, and
+  {Han}}]{Sun2011}
+{Sun}~X~H, {Reich}~P, {Reich}~W, et~al.
+\newblock {A Sino-German {$\lambda$}6 cm polarization survey of the Galactic
+  plane. VII. Small supernova remnants}\allowbreak[J/OL].
+\newblock \aap, 2011, 536:\penalty0 A83.
+\newblock DOI: \doi{10.1051/0004-6361/201117693}.
+
+\bibitem[{{Tammann} {\bibetal}(1994){Tammann}, {Loeffler}, and
+  {Schroeder}}]{Tammann1994}
+{Tammann}~G~A, {Loeffler}~W, {Schroeder}~A.
+\newblock {The Galactic supernova rate}\allowbreak[J/OL].
+\newblock \apjs, 1994, 92:\penalty0 487-493.
+\newblock DOI: \doi{10.1086/192002}.
+
+\bibitem[{{Tian} {\biband} {Leahy}(2006){Tian} and {Leahy}}]{Tian2006}
+{Tian}~W~W, {Leahy}~D.
+\newblock {Radio Spectra of Three Supernova Remnants: G114.3+0.3, G116.5+1.1
+  and G116.9+0.2}\allowbreak[J/OL].
+\newblock \cjaa, 2006, 6:\penalty0 543-550.
+\newblock DOI: \doi{10.1088/1009-9271/6/5/05}.
+
 \bibitem[{{Tian} {\biband} {Leahy}(2013){Tian} and {Leahy}}]{Tian2013}
 {Tian}~W~W, {Leahy}~D~A.
 \newblock {High-velocity H I is not Associated with the TeV Supernova Remnant
@@ -306,12 +508,91 @@
 \newblock \apjl, 2013, 769:\penalty0 L17.
 \newblock DOI: \doi{10.1088/2041-8205/769/1/L17}.
 
+\bibitem[{{Toledo-Roy} {\bibetal}(2014{\natexlab{a}}){Toledo-Roy}, {Esquivel},
+  {Vel{\'a}zquez}, and {Reynoso}}]{Toledo-Roy2014}
+{Toledo-Roy}~J~C, {Esquivel}~A, {Vel{\'a}zquez}~P~F, et~al.
+\newblock {A 3D numerical model for Kepler's supernova
+  remnant}\allowbreak[J/OL].
+\newblock \mnras, 2014, 442:\penalty0 229-238.
+\newblock DOI: \doi{10.1093/mnras/stu880}.
+
+\bibitem[{{Toledo-Roy} {\bibetal}(2014{\natexlab{b}}){Toledo-Roy},
+  {Vel{\'a}zquez}, {Esquivel}, and {Giacani}}]{Toledo-Roy2014a}
+{Toledo-Roy}~J~C, {Vel{\'a}zquez}~P~F, {Esquivel}~A, et~al.
+\newblock {A blowout numerical model for the supernova remnant
+  G352.7-0.1}\allowbreak[J/OL].
+\newblock \mnras, 2014, 437:\penalty0 898-905.
+\newblock DOI: \doi{10.1093/mnras/stt1955}.
+
+\bibitem[{{Truelove} {\biband} {McKee}(1999){Truelove} and
+  {McKee}}]{Truelove1999}
+{Truelove}~J~K, {McKee}~C~F.
+\newblock {Evolution of Nonradiative Supernova Remnants}\allowbreak[J/OL].
+\newblock \apjs, 1999, 120:\penalty0 299-326.
+\newblock DOI: \doi{10.1086/313176}.
+
+\bibitem[{{van Marle} {\bibetal}(2010){van Marle}, {Smith}, {Owocki}, and {van
+  Veelen}}]{vanMarle2010}
+{van Marle}~A~J, {Smith}~N, {Owocki}~S~P, et~al.
+\newblock {Numerical models of collisions between core-collapse supernovae and
+  circumstellar shells}\allowbreak[J/OL].
+\newblock \mnras, 2010, 407:\penalty0 2305-2327.
+\newblock DOI: \doi{10.1111/j.1365-2966.2010.16851.x}.
+
+\bibitem[{{van Marle} {\bibetal}(2012){van Marle}, {Meliani}, and
+  {Marcowith}}]{vanMarle2012}
+{van Marle}~A~J, {Meliani}~Z, {Marcowith}~A.
+\newblock {A hydrodynamical model of the circumstellar bubble created by two
+  massive stars}\allowbreak[J/OL].
+\newblock \aap, 2012, 541:\penalty0 L8.
+\newblock DOI: \doi{10.1051/0004-6361/201219180}.
+
+\bibitem[{{van Marle} {\bibetal}(2014{\natexlab{a}}){van Marle}, {Cox}, and
+  {Decin}}]{vanMarle2014}
+{van Marle}~A~J, {Cox}~N~L~J, {Decin}~L.
+\newblock {Eyes in the sky. Interactions between asymptotic giant branch star
+  winds and the interstellar magnetic field}\allowbreak[J/OL].
+\newblock \aap, 2014, 570:\penalty0 A131.
+\newblock DOI: \doi{10.1051/0004-6361/201424452}.
+
+\bibitem[{{van Marle} {\bibetal}(2014{\natexlab{b}}){van Marle}, {Decin}, and
+  {Meliani}}]{vanMarle2014a}
+{van Marle}~A~J, {Decin}~L, {Meliani}~Z.
+\newblock {Can the magnetic field in the Orion arm inhibit the growth of
+  instabilities in the bow shock of Betelgeuse?}\allowbreak[J/OL].
+\newblock \aap, 2014, 561:\penalty0 A152.
+\newblock DOI: \doi{10.1051/0004-6361/201321968}.
+
+\bibitem[{{van Marle} {\bibetal}(2015){van Marle}, {Meliani}, and
+  {Marcowith}}]{vanMarle2015}
+{van Marle}~A~J, {Meliani}~Z, {Marcowith}~A.
+\newblock {Shape and evolution of wind-blown bubbles of massive stars: on the
+  effect of the interstellar magnetic field}\allowbreak[J/OL].
+\newblock \aap, 2015, 584:\penalty0 A49.
+\newblock DOI: \doi{10.1051/0004-6361/201425230}.
+
 \bibitem[{{Velusamy} {\biband} {Kundu}(1974){Velusamy} and
   {Kundu}}]{1974A&A....32..375V}
 {Velusamy}~T, {Kundu}~M~R.
 \newblock {Observations of intensity and linear polarization in supernova
   remnants at 11 cm wavelength.}\allowbreak[J].
 \newblock \aap, 1974, 32:\penalty0 375-390.
+
+\bibitem[{{Vigh} {\bibetal}(2011){Vigh}, {Vel{\'a}zquez}, {G{\'o}mez},
+  {Reynoso}, {Esquivel}, and {Matias Schneiter}}]{Vigh2011}
+{Vigh}~C~D, {Vel{\'a}zquez}~P~F, {G{\'o}mez}~D~O, et~al.
+\newblock {Asymmetries in the Expansion and Emission from Young Supernova
+  Remnants}\allowbreak[J/OL].
+\newblock \apj, 2011, 727:\penalty0 32.
+\newblock DOI: \doi{10.1088/0004-637X/727/1/32}.
+
+\bibitem[{{West} {\bibetal}(2016){West}, {Safi-Harb}, {Jaffe}, {Kothes},
+  {Landecker}, and {Foster}}]{West2016}
+{West}~J~L, {Safi-Harb}~S, {Jaffe}~T, et~al.
+\newblock {The connection between supernova remnants and the Galactic magnetic
+  field: A global radio study of the axisymmetric sample}\allowbreak[J/OL].
+\newblock \aap, 2016, 587:\penalty0 A148.
+\newblock DOI: \doi{10.1051/0004-6361/201527001}.
 
 \bibitem[{{Xu} {\biband} {Han}(2014){Xu} and {Han}}]{Xu2014}
 {Xu}~J, {Han}~J~L.
@@ -328,6 +609,15 @@
 \newblock \apj, 2009, 693:\penalty0 413-418.
 \newblock DOI: \doi{10.1088/0004-637X/693/1/413}.
 
+\bibitem[{{Yar-Uyaniker} {\bibetal}(2004){Yar-Uyaniker}, {Uyaniker}, and
+  {Kothes}}]{Yar-Uyaniker2004}
+{Yar-Uyaniker}~A, {Uyaniker}~B, {Kothes}~R.
+\newblock {Distance of Three Supernova Remnants from H I Line Observations in a
+  Complex Region: G114.3+0.3, G116.5+1.1, and CTB 1
+  (G116.9+0.2)}\allowbreak[J/OL].
+\newblock \apj, 2004, 616:\penalty0 247-256.
+\newblock DOI: \doi{10.1086/424794}.
+
 \bibitem[{{Zhang} {\bibetal}(2017){Zhang}, {Tian}, {Leahy}, {Zhu}, {Cui}, and
   {Shan}}]{Zhang2017}
 {Zhang}~M~F, {Tian}~W~W, {Leahy}~D~A, et~al.
@@ -335,5 +625,20 @@
   W51C}\allowbreak[J/OL].
 \newblock \apj, 2017, 849:\penalty0 147.
 \newblock DOI: \doi{10.3847/1538-4357/aa901d}.
+
+\bibitem[{{Zhang} {\bibetal}(2018){Zhang}, {Tian}, and {Wu}}]{Zhang2018}
+{Zhang}~M~F, {Tian}~W~W, {Wu}~D.
+\newblock {How Does the Stellar Wind Influence the Radio Morphology of a
+  Supernova Remnant?}\allowbreak[J/OL].
+\newblock \apj, 2018, 867:\penalty0 61.
+\newblock DOI: \doi{10.3847/1538-4357/aae090}.
+
+\bibitem[{{Zhang} {\bibetal}(1996){Zhang}, {Wang}, and {Chen}}]{Zhang1996}
+{Zhang}~Q~C, {Wang}~Z, {Chen}~Y.
+\newblock {A Self-similar Solution for the Magnetic Field Distribution of
+  Supernova Remnants Evolving in Stellar Wind Bubbles and Their Corresponding
+  Radio Morphologies}\allowbreak[J/OL].
+\newblock \apj, 1996, 466:\penalty0 808.
+\newblock DOI: \doi{10.1086/177555}.
 
 \end{thebibliography}

@@ -6,45 +6,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
 Warning--I didn't find a database entry for "Wardle2012"
-You've used 36 entries,
+You've used 75 entries,
             4429 wiz_defined-function locations,
-            1198 strings with 20827 characters,
-and the built_in function-call counts, 480556 in all, are:
-= -- 5879
-> -- 58164
-< -- 73863
-+ -- 20270
-- -- 1139
-* -- 4063
-:= -- 67341
-add.period$ -- 139
-call.type$ -- 36
-change.case$ -- 693
-chr.to.int$ -- 18302
-cite$ -- 72
-duplicate$ -- 846
-empty$ -- 3515
-format.name$ -- 1867
-if$ -- 122533
-int.to.chr$ -- 1
+            1468 strings with 29014 characters,
+and the built_in function-call counts, 746795 in all, are:
+= -- 10984
+> -- 87943
+< -- 112201
++ -- 30765
+- -- 1605
+* -- 7163
+:= -- 104736
+add.period$ -- 294
+call.type$ -- 75
+change.case$ -- 1069
+chr.to.int$ -- 27788
+cite$ -- 150
+duplicate$ -- 1742
+empty$ -- 7563
+format.name$ -- 2752
+if$ -- 190765
+int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 222
-num.names$ -- 171
-pop$ -- 24537
+newline$ -- 455
+num.names$ -- 360
+pop$ -- 37343
 preamble$ -- 1
-purify$ -- 563
+purify$ -- 791
 quote$ -- 0
-skip$ -- 52165
+skip$ -- 80552
 stack$ -- 0
-substring$ -- 21276
-swap$ -- 76
-text.length$ -- 711
+substring$ -- 34392
+swap$ -- 170
+text.length$ -- 1093
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 600
+type$ -- 1263
 warning$ -- 0
-while$ -- 904
+while$ -- 1508
 width$ -- 0
-write$ -- 606
+write$ -- 1267
 (There was 1 warning)

@@ -14,13 +14,17 @@
 \contentsline {section}{\numberline {2.6}总结}{16}{section.2.6}
 \contentsline {chapter}{\numberline {第3章\hspace {.3em}}关于超新星遗迹的前身星星风如何影响其射电形态}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}研究历史及意义}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}模拟模型}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}结果和讨论}{19}{section.3.3}
-\contentsline {section}{\numberline {3.4}总结}{19}{section.3.4}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{21}{appendix.A}
-\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{21}{section.A.1}
-\contentsline {section}{\numberline {A.2}测试公式编号}{21}{section.A.2}
-\contentsline {section}{\numberline {A.3}测试生僻字}{21}{section.A.3}
-\contentsline {chapter}{参考文献}{23}{section*.19}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{27}{appendix*.21}
-\contentsline {chapter}{致谢}{29}{appendix*.28}
+\contentsline {section}{\numberline {3.2}模拟模型}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}星风模型}{20}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}超新星遗迹模型}{23}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}结果和讨论}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}垂直事例}{24}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}平行事例}{32}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}总结}{33}{section.3.4}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{35}{appendix.A}
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{35}{section.A.1}
+\contentsline {section}{\numberline {A.2}测试公式编号}{35}{section.A.2}
+\contentsline {section}{\numberline {A.3}测试生僻字}{35}{section.A.3}
+\contentsline {chapter}{参考文献}{37}{section*.29}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{43}{appendix*.31}
+\contentsline {chapter}{致谢}{45}{appendix*.38}
