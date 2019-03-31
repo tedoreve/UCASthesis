@@ -1,4 +1,4 @@
-\begin{thebibliography}{75}
+\begin{thebibliography}{78}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -156,6 +156,13 @@
   supernova remnants}\allowbreak[J/OL].
 \newblock \mnras, 2012, 424:\penalty0 2811-2820.
 \newblock DOI: \doi{10.1111/j.1365-2966.2012.21405.x}.
+
+\bibitem[{{Ferland} {\bibetal}(2017){Ferland}, {Chatzikos}, {Guzm{\'a}n},
+  {Lykins}, {van Hoof}, {Williams}, {Abel}, {Badnell}, {Keenan}, {Porter}, and
+  {Stancil}}]{2017RMxAA..53..385F}
+{Ferland}~G~J, {Chatzikos}~M, {Guzm{\'a}n}~F, et~al.
+\newblock {The 2017 Release Cloudy}\allowbreak[J].
+\newblock \rmxaa, 2017, 53:\penalty0 385-438.
 
 \bibitem[{{Foster} {\bibetal}(2004){Foster}, {Routledge}, and
   {Kothes}}]{Foster2004}
@@ -326,6 +333,22 @@
   medium}\allowbreak[J/OL].
 \newblock \mnras, 2017, 464:\penalty0 3229-3248.
 \newblock DOI: \doi{10.1093/mnras/stw2537}.
+
+\bibitem[{{Mignone} {\bibetal}(2007){Mignone}, {Bodo}, {Massaglia}, {Matsakos},
+  {Tesileanu}, {Zanni}, and {Ferrari}}]{Mignone2007}
+{Mignone}~A, {Bodo}~G, {Massaglia}~S, et~al.
+\newblock {PLUTO: A Numerical Code for Computational
+  Astrophysics}\allowbreak[J/OL].
+\newblock \apjs, 2007, 170:\penalty0 228-242.
+\newblock DOI: \doi{10.1086/513316}.
+
+\bibitem[{{Mignone} {\bibetal}(2012){Mignone}, {Zanni}, {Tzeferacos}, {van
+  Straalen}, {Colella}, and {Bodo}}]{Mignone2012}
+{Mignone}~A, {Zanni}~C, {Tzeferacos}~P, et~al.
+\newblock {The PLUTO Code for Adaptive Mesh Computations in Astrophysical Fluid
+  Dynamics}\allowbreak[J/OL].
+\newblock \apjs, 2012, 198:\penalty0 7.
+\newblock DOI: \doi{10.1088/0067-0049/198/1/7}.
 
 \bibitem[{{Moon} {\biband} {Koo}(1994){Moon} and {Koo}}]{1994JKAS...27...81M}
 {Moon}~D~S, {Koo}~B~C.
