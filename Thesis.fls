@@ -214,6 +214,8 @@ INPUT d:/software/texlive/2017/texmf-dist/tex/generic/oberdiek/stringenc.sty
 INPUT d:/software/texlive/2017/texmf-dist/tex/generic/oberdiek/stringenc.sty
 INPUT d:/software/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT d:/software/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT d:/software/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT d:/software/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT Style/artracom.sty
 INPUT Style/artracom.sty
 INPUT d:/software/texlive/2017/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty

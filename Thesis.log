@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  31 MAR 2019 21:13
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  3 APR 2019 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1716,6 +1716,8 @@ Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
 Package hyperref Info: Option `pdffitwindow' set `false' on input line 460.
 Package hyperref Info: Option `colorlinks' set `true' on input line 460.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 460.
+) (d:/software/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (./Style/artracom.sty
 
 LaTeX Warning: You have requested package `Style/artracom',
@@ -1733,54 +1735,54 @@ LaTeX Warning: Label `table:parameters' multiply defined.
 )
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 67.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 67.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 84.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 84.
  (d:/software/texlive/2017/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 67.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 67.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 84.
  (d:/software/texlive/2017/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 67.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 67.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 84.
  (d:/software/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 67.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 67.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 84.
  (d:/software/texlive/2017/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 67.
-LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 67.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 84.
  (d:/software/texlive/2017/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 67.
+LaTeX Info: Redefining \selectfont on input line 84.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1788,56 +1790,56 @@ LaTeX Info: Redefining \selectfont on input line 67.
 .................................................
 \symlegacymaths=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 67.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 67.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 67.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 67.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 67.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 67.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 67.
-LaTeX Font Info:    Redeclaring math accent \check on input line 67.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 67.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 67.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 67.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 67.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 84.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 84.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 84.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 84.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 84.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 84.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 84.
+LaTeX Font Info:    Redeclaring math accent \check on input line 84.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 84.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 84.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 84.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 84.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 67.
+(Font)              `operators' in the math version `normal' on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/ntxtlf/m/n --> TU/entextrm/m/n on input line 67.
+(Font)                  OT1/ntxtlf/m/n --> TU/entextrm/m/n on input line 84.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 67.
+(Font)              `operators' in the math version `bold' on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ntxtlf/b/n --> TU/entextrm/m/n on input line 67.
+(Font)                  OT1/ntxtlf/b/n --> TU/entextrm/m/n on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/entextrm/m/n --> TU/entextrm/m/n on input line 67.
+(Font)                  TU/entextrm/m/n --> TU/entextrm/m/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/entextrm/m/it --> TU/entextrm/m/it on input line 67.
+(Font)                  OT1/entextrm/m/it --> TU/entextrm/m/it on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/entextrm/b/n --> TU/entextrm/bx/n on input line 67.
+(Font)                  OT1/entextrm/b/n --> TU/entextrm/bx/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  TU/entextsf/m/n --> TU/entextsf/m/n on input line 67.
+(Font)                  TU/entextsf/m/n --> TU/entextsf/m/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 67.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/entextrm/m/n --> TU/entextrm/bx/n on input line 67.
+(Font)                  TU/entextrm/m/n --> TU/entextrm/bx/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/entextrm/b/it --> TU/entextrm/bx/it on input line 67.
+(Font)                  OT1/entextrm/b/it --> TU/entextrm/bx/it on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/entextsf/b/n --> TU/entextsf/bx/n on input line 67.
+(Font)                  TU/entextsf/b/n --> TU/entextsf/bx/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/b/n --> TU/lmtt/bx/n on input line 67.
+(Font)                  TU/lmtt/b/n --> TU/lmtt/bx/n on input line 84.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1845,7 +1847,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count272
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring ON on input line 67.
+Package hyperref Info: Link coloring ON on input line 84.
  (d:/software/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (d:/software/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1853,9 +1855,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count273
 )
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
  (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
@@ -1973,9 +1975,7 @@ LaTeX Font Warning: Font shape `TU/SimHei(0)/m/it' undefined
 
 ] [12
 
-]) [13] [14
-
-] (./Tex/Mainmatter.tex (./Tex/Chap_Intro.tex
+] [13]) [14] (./Tex/Mainmatter.tex (./Tex/Chap_Intro.tex
 第1章
 \g__fontspec_family_FangSong_int=\count275
 .................................................
@@ -2012,6 +2012,7 @@ Overfull \hbox (34.0691pt too wide) in paragraph at lines 18--29
 
 [1
 
+
 ]
 
 LaTeX Warning: Reference `sec:qa' on page 2 undefined on input line 37.
@@ -2040,29 +2041,26 @@ Overfull \hbox (26.32144pt too wide) in paragraph at lines 148--150
 []\TU/entextsf/m/n/12.045 ENTROPY_SWITCH \TU/SimSun(1)/m/n/12.045 选 项，|  可 选 \TU/entextsf/m/n/12.045 NO\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 SELECTIVE\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 ALWAYS\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 CHOMBO_REGRID\TU/SimSun(1)/m/n/12.045 。|
  []
 
-[6]
-./Tex/Chap_PLUTO.tex:182: Missing $ inserted.
-<inserted text> 
-                $
-l.182 $t_0 = L_0/v_0 = 1 pc/10000 \kms
-                                       = 3.09\times10^9 s = 98 年$。
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[6] [7] [8]
+Overfull \hbox (20.11568pt too wide) in paragraph at lines 265--267
+[]\TU/entextsf/m/n/12.045 BackgroundField()\TU/SimSun(1)/m/n/12.045 ：|  用 来 设 置 背 景 静 态 磁 场。|  如 果 开 启 \TU/entextsf/m/n/12.045 BACKGROUND_FIELD
+ []
 
-./Tex/Chap_PLUTO.tex:182: Missing $ inserted.
-<inserted text> 
-                $
-l.182 ... = L_0/v_0 = 1 pc/10000 \kms = 3.09\times
-                                                  10^9 s = 98 年$。
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[9] [10]
+Overfull \hbox (12.55809pt too wide) in paragraph at lines 325--329
+[]\TU/SimSun(1)/m/n/12.045 标 量 场 的 描 述 函 数 为 \TU/entextsf/m/n/12.045 BodyForcePotential()\TU/SimSun(1)/m/n/12.045 ，|  矢 量 场 的 描 述 函 数 为 \TU/entextsf/m/n/12.045 BodyForceVec-
+ []
 
-Missing character: There is no 年 in font Times New Roman/OT:script=latn;language=DFLT;mapping=tex-text;!
-[7]) (./Tex/Chap_W51C.tex [8] [9] [10
+[11]
+Overfull \hbox (92.02002pt too wide) in paragraph at lines 362--366
+[]\TU/entextsf/m/n/12.045 [Parameters] \TU/SimSun(1)/m/n/12.045 模 块，|  自 定 义 参 数 设 置。| 这 一 模 块 就 是 在 \TU/entextsf/m/n/12.045 definition.h \TU/SimSun(1)/m/n/12.045 的 \TU/entextsf/m/n/12.045 USER_DEF_PARAMETERS
+ []
+
+) (./Tex/Chap_W51C.tex [12]
+第3章
+[13
 
 ]
-第3章
-[11]
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
@@ -2083,7 +2081,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[12] [13]
+[14] [15]
 File: Img/rho850_density021_E13xy.eps Graphic file (type eps)
  <Img/rho850_density021_E13xy.eps>
 File: Img/rho850_density021_E13xz.eps Graphic file (type eps)
@@ -2095,7 +2093,7 @@ File: Img/rho18000_density021_E13xy.eps Graphic file (type eps)
 File: Img/rho18000_density021_E13xz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13xz.eps>
 File: Img/rho18000_density021_E13yz.eps Graphic file (type eps)
- <Img/rho18000_density021_E13yz.eps> [14]
+ <Img/rho18000_density021_E13yz.eps> [16]
 ./Tex/Chap_W51C.tex:219: Undefined control sequence.
 <recently read> \tablerefs 
                            
@@ -2107,11 +2105,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[15]
+[17]
 File: Img/t18000_density021_E13_s0.eps Graphic file (type eps)
  <Img/t18000_density021_E13_s0.eps>
 File: Img/t18000_density021_E13_s4.eps Graphic file (type eps)
- <Img/t18000_density021_E13_s4.eps> [16]
+ <Img/t18000_density021_E13_s4.eps> [18]
 File: Img/change.eps Graphic file (type eps)
  <Img/change.eps>
 File: Img/t18000_density021_E2.eps Graphic file (type eps)
@@ -2121,7 +2119,7 @@ File: Img/t18000_density021_E3.eps Graphic file (type eps)
 File: Img/t18000_density013_E13.eps Graphic file (type eps)
  <Img/t18000_density013_E13.eps>
 File: Img/t18000_density03_E13.eps Graphic file (type eps)
- <Img/t18000_density03_E13.eps> [17] [18]
+ <Img/t18000_density03_E13.eps> [19] [20]
 File: Img/s_1720.eps Graphic file (type eps)
  <Img/s_1720.eps>
 File: Img/s_1665.eps Graphic file (type eps)
@@ -2240,19 +2238,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[19] [20]
+[21] [22]
 File: Img/continuum.eps Graphic file (type eps)
  <Img/continuum.eps>
 File: Img/t18000_density021_E13.eps Graphic file (type eps)
- <Img/t18000_density021_E13.eps> [21] [22] [23]
+ <Img/t18000_density021_E13.eps> [23] [24] [25]
 
-Package natbib Warning: Citation `Wardle2012' on page 24 undefined on input line 458.
+Package natbib Warning: Citation `Wardle2012' on page 26 undefined on input line 458.
 
-) (./Tex/Chap_SW.tex [24] [25] [26
+) (./Tex/Chap_SW.tex [26] [27] [28
 
 ]
 第4章
-[27]
+[29]
 ./Tex/Chap_SW.tex:94: Undefined control sequence.
 <recently read> \tablerefs 
                            
@@ -2264,7 +2262,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[28] [29]
+[30] [31]
 ./Tex/Chap_SW.tex:113: Undefined control sequence.
 l.113 ...�为40 \kms产生的星风是可以达到
                                                   
@@ -2274,7 +2272,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[30]
+[32]
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
@@ -2302,7 +2300,7 @@ Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 File: Img/G43.eps Graphic file (type eps)
- <Img/G43.eps> [31]
+ <Img/G43.eps> [33]
 Overfull \hbox (92.60152pt too wide) in paragraph at lines 211--241
  [][] 
  []
@@ -2529,7 +2527,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[32] [33] [34] [35] [36]
+[34] [35] [36] [37] [38]
 File: Img/rho_t0_density1_E1_xypc.eps Graphic file (type eps)
  <Img/rho_t0_density1_E1_xypc.eps>
 File: Img/rho_t0_density1_E1_xzpc.eps Graphic file (type eps)
@@ -2547,7 +2545,7 @@ File: Img/t6_xypc.eps Graphic file (type eps)
 File: Img/t6_xzpc.eps Graphic file (type eps)
  <Img/t6_xzpc.eps>
 File: Img/t6_yzpc.eps Graphic file (type eps)
- <Img/t6_yzpc.eps> [37] [38]
+ <Img/t6_yzpc.eps> [39] [40]
 File: Img/rho_t0_density1_E1_yz.eps Graphic file (type eps)
  <Img/rho_t0_density1_E1_yz.eps>
 File: Img/rho_t6_density1_E1_yz.eps Graphic file (type eps)
@@ -2584,7 +2582,7 @@ Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 File: Img/G28.eps Graphic file (type eps)
- <Img/G28.eps> [39] [40]
+ <Img/G28.eps> [41] [42]
 ./Tex/Chap_SW.tex:477: Undefined control sequence.
 l.477 ...�件，模拟了一个以40 \kms运动的
                                                   40 M$_{\odot}$
@@ -2594,43 +2592,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)) [41] [42
+)) [43] [44
 
 ] (./Tex/Appendix.tex
 附录 A
+[45
 
-Overfull \hbox (65.97446pt too wide) in paragraph at lines 11--12
-[]\TU/entextsf/m/n/12.045 #========================== \TU/SimSun(1)/m/n/12.045 单 位 计 算 \TU/entextsf/m/n/12.045 ================================= 
+] [46] [47] [48]
+Overfull \hbox (58.18788pt too wide) in paragraph at lines 174--176
+[][][][] 
  []
 
-
-Overfull \hbox (56.01634pt too wide) in paragraph at lines 19--20
-[]\TU/entextsf/m/n/12.045 UNIT_B = (UNIT_VELOCITY*np.sqrt(4*np.pi*UNIT_DENSITY)).to(un.g**0.5*un.cm**-
- []
-
-
-Overfull \hbox (116.3345pt too wide) in paragraph at lines 23--25
-[]\TU/entextsf/m/n/12.045 UNIT_P = UNIT_DENSITY*UNIT_VELOCITY**2 UNIT_M = UNIT_DENSITY*UNIT_LENGTH**3 
- []
-
-
-Overfull \hbox (58.2699pt too wide) in paragraph at lines 34--35
-[]\TU/entextsf/m/n/12.045 #===================== \TU/SimSun(1)/m/n/12.045 输 入 需 要 转 换 的 参 量 \TU/entextsf/m/n/12.045 ============================ 
- []
-
-
-Overfull \hbox (52.38855pt too wide) in paragraph at lines 58--59
-[]\TU/entextsf/m/n/12.045 #============================ \TU/SimSun(1)/m/n/12.045 开 始 转 换 \TU/entextsf/m/n/12.045 ============================= 
- []
-
-[43
-
-]
-Overfull \hbox (72.76741pt too wide) in paragraph at lines 80--81
-[]\TU/entextsf/m/n/12.045 #=========================== \TU/SimSun(1)/m/n/12.045 输 出 结 果 \TU/entextsf/m/n/12.045 ================================= 
- []
-
-) [44] (./Thesis.bbl
+[49]) [50] (./Thesis.bbl
 ./Thesis.bbl:165: Undefined control sequence.
 l.165 \newblock \rmxaa
                       , 2017, 53:\penalty0 385-438.
@@ -2687,7 +2660,7 @@ my insertion and my current dilemma will both disappear.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 169--174
-[]\TU/entextrm/m/n/10.53937 Foster T, Routledge D, Kothes R.  The Galactic Plane region near $\OML/ntxmi/m/it/10.53937 ` \OT1/cmr/m/n/10.53937 =
+[]\TU/entextsf/m/n/10.53937 Foster T, Routledge D, Kothes R.  The Galactic Plane region near $\OML/ntxmi/m/it/10.53937 ` \OT1/cmr/m/n/10.53937 =
  []
 
 
@@ -2695,7 +2668,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--174
 [][][]\OML/ntxmi/m/it/10.53937 :II:AstellarwindbubblesurroundingSNR[]C[][][]:[]\OT1/cmr/m/n/10.53937 [\OML/ntxmi/m/it/10.53937 J\OT1/cmr/m/n/10.53937 /\OML/ntxmi/m/it/10.53937 OL\OT1/cmr/m/n/10.53937 ]\OML/ntxmi/m/it/10.53937 : A[]A; [][][][]; [][][] \OT1/cmr/m/n/10.53937 :
  []
 
-[45
+[51
 
 
 
@@ -2719,7 +2692,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[46] [47]
+[52] [53]
 ./Thesis.bbl:524: Undefined control sequence.
 l.524 \newblock \cjaa
                      , 2006, 6:\penalty0 543-550.
@@ -2729,7 +2702,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[48]
+[54]
 ./Thesis.bbl:667: Missing } inserted.
 <inserted text> 
                 }
@@ -2741,11 +2714,11 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-) (./Tex/Backmatter.tex [49] [50
+) (./Tex/Backmatter.tex [55] [56
 
-] [51] [52
+] [57] [58
 
-] [53] [54
+] [59] [60
 
 ])
 
@@ -2759,11 +2732,11 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[bi-second] on input line 63.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
 (./Thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 101.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 118.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 118.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2780,12 +2753,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33519 strings out of 493005
- 632516 string characters out of 6134176
- 682524 words of memory out of 5000000
- 36968 multiletter control sequences out of 15000+600000
- 33777 words of font info for 146 fonts, out of 8000000 for 9000
+ 33827 strings out of 493005
+ 636402 string characters out of 6134176
+ 784566 words of memory out of 5000000
+ 37270 multiletter control sequences out of 15000+600000
+ 33793 words of font info for 148 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,12n,94p,10532b,692s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,94p,10532b,1960s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (74 pages).
+Output written on Thesis.pdf (80 pages).

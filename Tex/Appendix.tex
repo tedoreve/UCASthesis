@@ -1,102 +1,191 @@
 \chapter{工具型代码}
 \label{Code}
+
 \section{单位制计算}
 \label{Codeu}
+
+
+\begin{lstlisting}
 from astropy import units as un
-
 from astropy import constants as con
-
 import numpy as np
 
-\#==========================单位计算=================================
+#====================单位计算====================
 
-UNIT\_DENSITY = 1*con.m\_p/un.cm**3
+UNIT_DENSITY = 1*con.m_p/un.cm**3
+UNIT_LENGTH  = 1*un.pc
+UNIT_VELOCITY= 1e4*un.km/un.s
+UNIT_B = (UNIT_VELOCITY*np.sqrt(4*np.pi*UNIT_DENSITY)).to(un.g**0.5*un.cm**-0.5*un.s**-1).value*un.G
+UNIT_t = UNIT_LENGTH/UNIT_VELOCITY
+UNIT_P = UNIT_DENSITY*UNIT_VELOCITY**2
+UNIT_M = UNIT_DENSITY*UNIT_LENGTH**3
+UNIT_E = UNIT_M*UNIT_VELOCITY**2
+#UNIT_B = ((UNIT_E/UNIT_LENGTH**3)**0.5).value*un.G
+UNIT_NU= UNIT_P*UNIT_t
+UNIT_G = (UNIT_VELOCITY/UNIT_LENGTH)**2/UNIT_DENSITY
 
-UNIT\_LENGTH  = 1*un.pc
+#===============输入需要转换的参量================
 
-UNIT\_VELOCITY= 1e4*un.km/un.s
-
-UNIT\_B = (UNIT\_VELOCITY*np.sqrt(4*np.pi*UNIT\_DENSITY)).to(un.g**0.5*un.cm**-0.5*un.s**-1).value*un.G
-
-UNIT\_t = UNIT\_LENGTH/UNIT\_VELOCITY
-
-UNIT\_P = UNIT\_DENSITY*UNIT\_VELOCITY**2
-UNIT\_M = UNIT\_DENSITY*UNIT\_LENGTH**3
-
-UNIT\_E = UNIT\_M*UNIT\_VELOCITY**2
-
-\#UNIT\_B = ((UNIT\_E/UNIT\_LENGTH**3)**0.5).value*un.G
-
-UNIT\_NU= UNIT\_P*UNIT\_t
-
-UNIT\_G = (UNIT\_VELOCITY/UNIT\_LENGTH)**2/UNIT\_DENSITY
-
-\#=====================输入需要转换的参量============================
-
-n   = 0.21*con.m\_p/un.cm**3
-
+n   = 0.21*con.m_p/un.cm**3
 l   = 4*un.pc
-
 v   = 490*un.km/un.s
-
 B   = 9*un.uG
-
 t   = 1000*un.yr
-
 P   = 1*un.Ba
-
-E\_th= 0.96*un.erg
-
+E_th= 0.96*un.erg
 E   = 2.0e51*un.erg
-
-M   = 15.9*con.M\_sun
-
+M   = 15.9*con.M_sun
 nu  = 2*un.uPa*un.s
-
 G   = 1*con.G
 
-\#============================开始转换=============================
+#=================开始转换========================
 
-n   /= UNIT\_DENSITY
+n   /= UNIT_DENSITY
+l   /= UNIT_LENGTH
+v   /= UNIT_VELOCITY
+B   /= UNIT_B
+t   /= UNIT_t
+P   /= UNIT_P
+E   /= UNIT_E
+M   /= UNIT_M
+nu  /= UNIT_NU
+G   /= UNIT_G
 
-l   /= UNIT\_LENGTH
+#================输出结果=========================
 
-v   /= UNIT\_VELOCITY
-
-B   /= UNIT\_B
-
-t   /= UNIT\_t
-
-P   /= UNIT\_P
-
-E   /= UNIT\_E
-
-M   /= UNIT\_M
-
-nu  /= UNIT\_NU
-
-G   /= UNIT\_G
-
-\#===========================输出结果=================================
-
-print('n = ', n.to('').value,
-
-      'l = ', l.to('').value,
-
-      'v = ', v.to('').value,
-
-      'B = ', B.to('').value,
-
-      't = ', t.to('').value,
-
-      'P = ', P.to('').value,
-
-      'E = ', E.to('').value,
-
-      'M = ', M.to('').value,
-
-      'nu = ', nu.to('').value,
-
-      'G = ', G.to('').value,
-
+print('n = ', n.to('').value, '\n'
+      'l = ', l.to('').value, '\n'
+      'v = ', v.to('').value, '\n'
+      'B = ', B.to('').value, '\n'
+      't = ', t.to('').value, '\n'
+      'P = ', P.to('').value, '\n'
+      'E = ', E.to('').value, '\n'
+      'M = ', M.to('').value, '\n'
+      'nu = ', nu.to('').value, '\n'
+      'G = ', G.to('').value, '\n'
       )
+
+\end{lstlisting}
+
+
+\section{构造初始背景}
+\label{Codeb}
+
+\begin{lstlisting}
+
+import numpy as np
+import time as ti
+from astropy.io import fits
+
+#=====================加入星风==================
+
+def stellar_wind(wdir,number):
+    import pyPLUTO as pp
+    pp.nlast_info(w_dir=wdir)
+    D = pp.pload(number,w_dir=wdir)
+    print(D.rho.shape)
+
+    rho = D.rho
+    bx1 = D.bx1
+    bx2 = D.bx2
+    bx3 = D.bx3
+    vx1 = D.vx1
+    vx2 = D.vx2
+    vx3 = D.vx3
+
+    rho = np.transpose(rho)
+    bx1 = np.transpose(bx1)
+    bx2 = np.transpose(bx2)
+    bx3 = np.transpose(bx3)
+    vx1 = np.transpose(vx1)
+    vx2 = np.transpose(vx2)
+    vx3 = np.transpose(vx3)
+
+    return rho,bx1,bx2,bx3,vx1,vx2,vx3
+
+#==================加入磁场====================
+
+def toff(f):
+    def wrapper(*args):
+        start = ti.time()
+        f(*args)
+        end   = ti.time()
+        print(end-start)
+    return wrapper
+
+def f(i,j,k):
+    return i*2+j*2
+
+#@toff
+def magnetism(width):
+    x = np.fromfunction(f,(width,width,width))/500000
+    x = np.rot90(x,k=1)
+    x = np.transpose(x)
+    x = np.reshape(x,width**3,1)
+    x = x + 0.001
+    return x*0, x, x
+
+#=================组合背景=====================
+
+def combine(components,infilename,outfilename,width,index,rho_constant,sw,clump,mag):
+    if 'sw' in components:
+        wdir,number = sw
+        rho,bx1,bx2,bx3,vx1,vx2,vx3    = stellar_wind(wdir,number)
+
+        rho       = np.reshape(rho,(1,width**3))
+        bx1       = np.reshape(bx1,(1,width**3))
+        bx2       = np.reshape(bx2,(1,width**3))
+        bx3       = np.reshape(bx3,(1,width**3))
+        vx1       = np.reshape(vx1,(1,width**3))
+        vx2       = np.reshape(vx2,(1,width**3))
+        vx3       = np.reshape(vx3,(1,width**3))
+
+        total     = np.concatenate((rho,bx1,bx2,bx3,vx1,vx2,vx3))
+
+    total     = total.astype(float)
+    total.tofile(outfilename)
+
+    return total
+
+#==================网格定义========================
+
+def grid(outfilename,ra,width):
+    b=np.linspace(-ra,ra,width+1)
+    c=np.linspace(1,width,width)
+    f=open(outfilename,'w')
+    f.write('# GEOMETRY:   CARTESIANn')
+    f.write(str(len(b)-1)+'n')
+
+    for i in range(len(c)):
+        f.write(str(int(c[i]))+'  '+str(b[i])+'  '+str(b[i+1])+'n')
+    f.write(str(len(b)-1)+'n')
+    for i in range(len(c)):
+        f.write(str(int(c[i]))+'  '+str(b[i])+'  '+str(b[i+1])+'n')
+    f.write(str(len(b)-1)+'n')
+    for i in range(len(c)):
+        f.write(str(int(c[i]))+'  '+str(b[i])+'  '+str(b[i+1])+'n')
+
+#    f.write('1n')
+#    f.write('1 0.0 1.0')
+    f.close()
+
+    return '空间构造完成！！！'
+
+#========================================================================
+
+if __name__=='__main__':
+
+    print('开始构建背景！！！')
+    width = 128
+    index = 1.0
+    u     = 1.3
+    rho_constant = 0.21*u
+#    sw    = ['/public/home/zmf/results/SW128_perpendicular_conduction/',10]    #wdir,number,r
+    sw    = ['../SW1/',8]
+    clump = [200,10,1.0,50.0]             #number,r,index,e
+    mag   = 3.2                           #widthi,widthj
+    total = combine(['sw'],'W51C.fits','rho0.dbl',width,index,rho_constant,sw,clump,mag)
+    grid('grid0.out',30,width)
+    print(ti.asctime())
+
+  \end{lstlisting}
