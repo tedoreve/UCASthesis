@@ -10,35 +10,44 @@
 \contentsline {subsubsection}{\numberline {2.2.1.1}基本选项}{4}{subsubsection.2.2.1.1}
 \contentsline {subsubsection}{\numberline {2.2.1.2}物理依赖选项}{6}{subsubsection.2.2.1.2}
 \contentsline {subsubsection}{\numberline {2.2.1.3}自定义参数和常数}{7}{subsubsection.2.2.1.3}
-\contentsline {subsubsection}{\numberline {2.2.1.4}其它经常使用的选项}{7}{subsubsection.2.2.1.4}
+\contentsline {subsubsection}{\numberline {2.2.1.4}其它经常使用的选项}{8}{subsubsection.2.2.1.4}
 \contentsline {subsubsection}{\numberline {2.2.1.5}makefile文件的设置}{9}{subsubsection.2.2.1.5}
 \contentsline {subsection}{\numberline {2.2.2}init.c的编写}{9}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Init()的编写}{9}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Init()的编写}{10}{subsubsection.2.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2.2}UserDefBoundary()的编写}{10}{subsubsection.2.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.2.3}引力部分的编写}{11}{subsubsection.2.2.2.3}
 \contentsline {subsection}{\numberline {2.2.3}pluto.ini的编写}{11}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}PLUTO进阶使用}{12}{section.2.3}
-\contentsline {chapter}{\numberline {第3章\hspace {.3em}}对超新星遗迹W51C的磁流体模拟及观测分析}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}研究历史及意义}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}数据处理}{13}{section.3.2}
-\contentsline {section}{\numberline {3.3}模拟模型}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}观测分析及模拟结果}{18}{section.3.4}
-\contentsline {section}{\numberline {3.5}讨论}{23}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}新的东北部的壳层}{23}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}相互作用区域}{24}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}总结}{26}{section.3.6}
-\contentsline {chapter}{\numberline {第4章\hspace {.3em}}关于超新星遗迹的前身星星风如何影响其射电形态}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}研究历史及意义}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}模拟模型}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}星风模型}{30}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}超新星遗迹模型}{33}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}结果和讨论}{34}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}垂直事例}{34}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}平行事例}{42}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}总结}{43}{section.4.4}
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}工具型代码}{45}{appendix.A}
-\contentsline {section}{\numberline {A.1}单位制计算}{45}{section.A.1}
-\contentsline {section}{\numberline {A.2}构造初始背景}{46}{section.A.2}
-\contentsline {chapter}{参考文献}{51}{section*.29}
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{57}{appendix*.31}
-\contentsline {chapter}{致谢}{59}{appendix*.38}
+\contentsline {subsection}{\numberline {2.3.1}并行计算与自适应网格}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}数据可视化}{13}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}对超新星遗迹W51C的磁流体模拟及观测分析}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}研究历史及意义}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}数据处理}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}模拟模型}{17}{section.3.3}
+\contentsline {section}{\numberline {3.4}观测分析及模拟结果}{20}{section.3.4}
+\contentsline {section}{\numberline {3.5}讨论}{25}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}新的东北部的壳层}{25}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}相互作用区域}{26}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}总结}{28}{section.3.6}
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}关于超新星遗迹的前身星星风如何影响其射电形态}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}研究历史及意义}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}模拟模型}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}星风模型}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}超新星遗迹模型}{35}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}结果和讨论}{36}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}垂直事例}{36}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}平行事例}{44}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}总结}{45}{section.4.4}
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}基本代码}{47}{appendix.A}
+\contentsline {section}{\numberline {A.1}definition.h}{47}{section.A.1}
+\contentsline {section}{\numberline {A.2}init.c}{48}{section.A.2}
+\contentsline {section}{\numberline {A.3}pluto.ini}{54}{section.A.3}
+\contentsline {chapter}{\numberline {附录 B\hspace {.3em}}工具型代码}{57}{appendix.B}
+\contentsline {section}{\numberline {B.1}单位制计算}{57}{section.B.1}
+\contentsline {section}{\numberline {B.2}构造初始背景}{58}{section.B.2}
+\contentsline {chapter}{\numberline {附录 C\hspace {.3em}}进阶代码}{63}{appendix.C}
+\contentsline {section}{\numberline {C.1}Mayavi使用}{63}{section.C.1}
+\contentsline {section}{\numberline {C.2}并行画图}{65}{section.C.2}
+\contentsline {chapter}{参考文献}{67}{section*.29}
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{73}{appendix*.31}
+\contentsline {chapter}{致谢}{75}{appendix*.38}

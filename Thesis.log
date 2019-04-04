@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  3 APR 2019 23:00
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  4 APR 2019 18:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2021,46 +2021,46 @@ LaTeX Warning: Reference `sec:qa' on page 2 undefined on input line 37.
 第2章
 [3
 
-]
-Overfull \hbox (42.91272pt too wide) in paragraph at lines 85--88
+] [4]
+Overfull \hbox (42.91272pt too wide) in paragraph at lines 87--90
 []\TU/entextsf/m/n/12.045 GEOMETRY \TU/SimSun(1)/m/n/12.045 选 项，|  设 置 使 用 的 坐 标 系，|  可 选 \TU/entextsf/m/n/12.045 CARTESIAN |\TU/SimSun(1)/m/n/12.045 （笛 卡 尔） 、| \TU/entextsf/m/n/12.045 CYLINDRAICAL
  []
 
-[4]
-Overfull \hbox (15.14691pt too wide) in paragraph at lines 110--114
+
+Overfull \hbox (15.14691pt too wide) in paragraph at lines 112--116
 []\TU/entextsf/m/n/12.045 RECONSTRUCTION \TU/SimSun(1)/m/n/12.045 选 项，|  可 选 \TU/entextsf/m/n/12.045 FLAT\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 LINEAR\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 WENO3\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 LimO3\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 PARABOLIC\TU/SimSun(1)/m/n/12.045 ，|
  []
 
 
-Overfull \hbox (23.6513pt too wide) in paragraph at lines 115--122
+Overfull \hbox (23.6513pt too wide) in paragraph at lines 117--124
 []\TU/entextsf/m/n/12.045 TIME_STEPPING \TU/SimSun(1)/m/n/12.045 选 项，|  可 选 \TU/entextsf/m/n/12.045 EULER\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 RK2\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 RK3\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 CHARACTERISTIC_TRACING\TU/SimSun(1)/m/n/12.045 、|
  []
 
 [5]
-Overfull \hbox (26.32144pt too wide) in paragraph at lines 148--150
+Overfull \hbox (26.32144pt too wide) in paragraph at lines 150--152
 []\TU/entextsf/m/n/12.045 ENTROPY_SWITCH \TU/SimSun(1)/m/n/12.045 选 项，|  可 选 \TU/entextsf/m/n/12.045 NO\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 SELECTIVE\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 ALWAYS\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 CHOMBO_REGRID\TU/SimSun(1)/m/n/12.045 。|
  []
 
 [6] [7] [8]
-Overfull \hbox (20.11568pt too wide) in paragraph at lines 265--267
+Overfull \hbox (20.11568pt too wide) in paragraph at lines 267--269
 []\TU/entextsf/m/n/12.045 BackgroundField()\TU/SimSun(1)/m/n/12.045 ：|  用 来 设 置 背 景 静 态 磁 场。|  如 果 开 启 \TU/entextsf/m/n/12.045 BACKGROUND_FIELD
  []
 
 [9] [10]
-Overfull \hbox (12.55809pt too wide) in paragraph at lines 325--329
+Overfull \hbox (12.55809pt too wide) in paragraph at lines 328--332
 []\TU/SimSun(1)/m/n/12.045 标 量 场 的 描 述 函 数 为 \TU/entextsf/m/n/12.045 BodyForcePotential()\TU/SimSun(1)/m/n/12.045 ，|  矢 量 场 的 描 述 函 数 为 \TU/entextsf/m/n/12.045 BodyForceVec-
  []
 
 [11]
-Overfull \hbox (92.02002pt too wide) in paragraph at lines 362--366
+Overfull \hbox (92.02002pt too wide) in paragraph at lines 365--369
 []\TU/entextsf/m/n/12.045 [Parameters] \TU/SimSun(1)/m/n/12.045 模 块，|  自 定 义 参 数 设 置。| 这 一 模 块 就 是 在 \TU/entextsf/m/n/12.045 definition.h \TU/SimSun(1)/m/n/12.045 的 \TU/entextsf/m/n/12.045 USER_DEF_PARAMETERS
  []
 
-) (./Tex/Chap_W51C.tex [12]
-第3章
-[13
+[12]) (./Tex/Chap_W51C.tex [13] [14
 
 ]
+第3章
+[15]
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
@@ -2081,7 +2081,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[14] [15]
+[16] [17]
 File: Img/rho850_density021_E13xy.eps Graphic file (type eps)
  <Img/rho850_density021_E13xy.eps>
 File: Img/rho850_density021_E13xz.eps Graphic file (type eps)
@@ -2093,7 +2093,7 @@ File: Img/rho18000_density021_E13xy.eps Graphic file (type eps)
 File: Img/rho18000_density021_E13xz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13xz.eps>
 File: Img/rho18000_density021_E13yz.eps Graphic file (type eps)
- <Img/rho18000_density021_E13yz.eps> [16]
+ <Img/rho18000_density021_E13yz.eps> [18]
 ./Tex/Chap_W51C.tex:219: Undefined control sequence.
 <recently read> \tablerefs 
                            
@@ -2105,11 +2105,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[17]
+[19]
 File: Img/t18000_density021_E13_s0.eps Graphic file (type eps)
  <Img/t18000_density021_E13_s0.eps>
 File: Img/t18000_density021_E13_s4.eps Graphic file (type eps)
- <Img/t18000_density021_E13_s4.eps> [18]
+ <Img/t18000_density021_E13_s4.eps> [20]
 File: Img/change.eps Graphic file (type eps)
  <Img/change.eps>
 File: Img/t18000_density021_E2.eps Graphic file (type eps)
@@ -2119,7 +2119,7 @@ File: Img/t18000_density021_E3.eps Graphic file (type eps)
 File: Img/t18000_density013_E13.eps Graphic file (type eps)
  <Img/t18000_density013_E13.eps>
 File: Img/t18000_density03_E13.eps Graphic file (type eps)
- <Img/t18000_density03_E13.eps> [19] [20]
+ <Img/t18000_density03_E13.eps> [21] [22]
 File: Img/s_1720.eps Graphic file (type eps)
  <Img/s_1720.eps>
 File: Img/s_1665.eps Graphic file (type eps)
@@ -2238,19 +2238,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[21] [22]
+[23] [24]
 File: Img/continuum.eps Graphic file (type eps)
  <Img/continuum.eps>
 File: Img/t18000_density021_E13.eps Graphic file (type eps)
- <Img/t18000_density021_E13.eps> [23] [24] [25]
+ <Img/t18000_density021_E13.eps> [25] [26] [27]
 
-Package natbib Warning: Citation `Wardle2012' on page 26 undefined on input line 458.
+Package natbib Warning: Citation `Wardle2012' on page 28 undefined on input line 458.
 
-) (./Tex/Chap_SW.tex [26] [27] [28
+) (./Tex/Chap_SW.tex [28] [29] [30
 
 ]
 第4章
-[29]
+[31]
 ./Tex/Chap_SW.tex:94: Undefined control sequence.
 <recently read> \tablerefs 
                            
@@ -2262,7 +2262,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[30] [31]
+[32] [33]
 ./Tex/Chap_SW.tex:113: Undefined control sequence.
 l.113 ...�为40 \kms产生的星风是可以达到
                                                   
@@ -2272,7 +2272,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[32]
+[34]
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
@@ -2300,8 +2300,8 @@ Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 File: Img/G43.eps Graphic file (type eps)
- <Img/G43.eps> [33]
-Overfull \hbox (92.60152pt too wide) in paragraph at lines 211--241
+ <Img/G43.eps> [35]
+Overfull \hbox (25.02487pt too wide) in paragraph at lines 211--241
  [][] 
  []
 
@@ -2527,7 +2527,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[34] [35] [36] [37] [38]
+[36] [37] [38] [39] [40]
 File: Img/rho_t0_density1_E1_xypc.eps Graphic file (type eps)
  <Img/rho_t0_density1_E1_xypc.eps>
 File: Img/rho_t0_density1_E1_xzpc.eps Graphic file (type eps)
@@ -2545,7 +2545,7 @@ File: Img/t6_xypc.eps Graphic file (type eps)
 File: Img/t6_xzpc.eps Graphic file (type eps)
  <Img/t6_xzpc.eps>
 File: Img/t6_yzpc.eps Graphic file (type eps)
- <Img/t6_yzpc.eps> [39] [40]
+ <Img/t6_yzpc.eps> [41] [42]
 File: Img/rho_t0_density1_E1_yz.eps Graphic file (type eps)
  <Img/rho_t0_density1_E1_yz.eps>
 File: Img/rho_t6_density1_E1_yz.eps Graphic file (type eps)
@@ -2582,7 +2582,7 @@ Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 File: Img/G28.eps Graphic file (type eps)
- <Img/G28.eps> [41] [42]
+ <Img/G28.eps> [43] [44]
 ./Tex/Chap_SW.tex:477: Undefined control sequence.
 l.477 ...�件，模拟了一个以40 \kms运动的
                                                   40 M$_{\odot}$
@@ -2592,18 +2592,86 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)) [43] [44
+)) [45] [46
 
 ] (./Tex/Appendix.tex
 附录 A
-[45
+[47
 
-] [46] [47] [48]
-Overfull \hbox (58.18788pt too wide) in paragraph at lines 174--176
+] [48]
+Overfull \hbox (39.21683pt too wide) in paragraph at lines 81--82
+[][] 
+ []
+
+
+Overfull \hbox (51.8642pt too wide) in paragraph at lines 87--88
+[][] 
+ []
+
+[49] [50] [51]
+Overfull \hbox (39.21683pt too wide) in paragraph at lines 209--210
+[][] 
+ []
+
+[52]
+Overfull \hbox (51.8642pt too wide) in paragraph at lines 214--215
+[][] 
+ []
+
+
+Overfull \hbox (39.21683pt too wide) in paragraph at lines 218--219
+[][] 
+ []
+
+
+Overfull \hbox (51.8642pt too wide) in paragraph at lines 222--223
+[][] 
+ []
+
+
+Overfull \hbox (39.21683pt too wide) in paragraph at lines 226--227
+[][] 
+ []
+
+
+Overfull \hbox (51.8642pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+[53] [54] [55] [56]
+附录 B
+[57
+
+] [58] [59] [60]
+Overfull \hbox (58.18788pt too wide) in paragraph at lines 517--519
 [][][][] 
  []
 
-[49]) [50] (./Thesis.bbl
+[61] [62]
+附录 C
+[63
+
+] [64]
+Overfull \hbox (96.12999pt too wide) in paragraph at lines 626--627
+[][][][] 
+ []
+
+[65]
+Overfull \hbox (96.12999pt too wide) in paragraph at lines 649--650
+[][][][] 
+ []
+
+
+Overfull \hbox (96.12999pt too wide) in paragraph at lines 653--654
+[][][][] 
+ []
+
+
+Overfull \hbox (96.12999pt too wide) in paragraph at lines 663--664
+[][][][] 
+ []
+
+) [66] (./Thesis.bbl
 ./Thesis.bbl:165: Undefined control sequence.
 l.165 \newblock \rmxaa
                       , 2017, 53:\penalty0 385-438.
@@ -2668,7 +2736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--174
 [][][]\OML/ntxmi/m/it/10.53937 :II:AstellarwindbubblesurroundingSNR[]C[][][]:[]\OT1/cmr/m/n/10.53937 [\OML/ntxmi/m/it/10.53937 J\OT1/cmr/m/n/10.53937 /\OML/ntxmi/m/it/10.53937 OL\OT1/cmr/m/n/10.53937 ]\OML/ntxmi/m/it/10.53937 : A[]A; [][][][]; [][][] \OT1/cmr/m/n/10.53937 :
  []
 
-[51
+[67
 
 
 
@@ -2692,7 +2760,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[52] [53]
+[68] [69]
 ./Thesis.bbl:524: Undefined control sequence.
 l.524 \newblock \cjaa
                      , 2006, 6:\penalty0 543-550.
@@ -2702,7 +2770,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[54]
+[70]
 ./Thesis.bbl:667: Missing } inserted.
 <inserted text> 
                 }
@@ -2714,11 +2782,11 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-) (./Tex/Backmatter.tex [55] [56
+) (./Tex/Backmatter.tex [71] [72
 
-] [57] [58
+] [73] [74
 
-] [59] [60
+] [75] [76
 
 ])
 
@@ -2753,12 +2821,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33827 strings out of 493005
- 636402 string characters out of 6134176
- 784566 words of memory out of 5000000
- 37270 multiletter control sequences out of 15000+600000
+ 34113 strings out of 493005
+ 639720 string characters out of 6134176
+ 812566 words of memory out of 5000000
+ 37556 multiletter control sequences out of 15000+600000
  33793 words of font info for 148 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,94p,10532b,1960s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (80 pages).
+Output written on Thesis.pdf (96 pages).
