@@ -5,46 +5,44 @@ The style file: Biblio/gbt7714-plain.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
-Warning--I didn't find a database entry for "Wardle2012"
-You've used 78 entries,
+You've used 86 entries,
             4429 wiz_defined-function locations,
-            1488 strings with 29776 characters,
-and the built_in function-call counts, 773651 in all, are:
-= -- 11371
-> -- 91128
-< -- 116247
-+ -- 31882
-- -- 1668
-* -- 7422
-:= -- 108501
-add.period$ -- 305
-call.type$ -- 78
-change.case$ -- 1111
-chr.to.int$ -- 28789
-cite$ -- 156
-duplicate$ -- 1811
-empty$ -- 7812
-format.name$ -- 2860
-if$ -- 197625
+            1544 strings with 30861 characters,
+and the built_in function-call counts, 801503 in all, are:
+= -- 12154
+> -- 93901
+< -- 119869
++ -- 32913
+- -- 1723
+* -- 7793
+:= -- 112439
+add.period$ -- 336
+call.type$ -- 86
+change.case$ -- 1160
+chr.to.int$ -- 29694
+cite$ -- 172
+duplicate$ -- 2018
+empty$ -- 8527
+format.name$ -- 2955
+if$ -- 204867
 int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 472
-num.names$ -- 375
-pop$ -- 38694
+newline$ -- 522
+num.names$ -- 416
+pop$ -- 40004
 preamble$ -- 1
-purify$ -- 821
+purify$ -- 847
 quote$ -- 0
-skip$ -- 83427
+skip$ -- 86220
 stack$ -- 0
-substring$ -- 35580
-swap$ -- 179
-text.length$ -- 1135
+substring$ -- 36958
+swap$ -- 186
+text.length$ -- 1197
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1314
+type$ -- 1434
 warning$ -- 0
-while$ -- 1566
+while$ -- 1663
 width$ -- 0
-write$ -- 1316
-(There was 1 warning)
+write$ -- 1443

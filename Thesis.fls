@@ -340,6 +340,8 @@ INPUT Tex/Mainmatter.tex
 INPUT Tex/Mainmatter.tex
 INPUT Tex/Chap_Intro.tex
 INPUT Tex/Chap_Intro.tex
+INPUT Tex/Chap_Theory.tex
+INPUT Tex/Chap_Theory.tex
 INPUT Tex/Chap_PLUTO.tex
 INPUT Tex/Chap_PLUTO.tex
 INPUT Tex/Chap_W51C.tex

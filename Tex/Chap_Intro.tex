@@ -1,45 +1,136 @@
-\chapter{引言}\label{chap:introduction}
+\chapter{引言}
+\label{Intro}
 
-\section{研究背景}
+\section{超新星遗迹介绍}
+\label{SNRintro}
+超新星遗迹(Supernova Remnants, SNR)是超新星爆发后，其抛射物与周围介质相互作用的产物。
+广义的超新星遗迹还包括中心可能残留的致密天体，不过在本文中不予考虑。
+第一个有记录可循的观测到的超新星遗迹是蟹状星云(Crab Nebula)，这个遗迹是1054年一次超新星
+爆发的残骸，虽然超新星爆发本身在当时就被多国天文学家观测到，但是遗迹是过了近700年，才被
+约翰·贝维斯和查尔斯·梅西耶分别独立发现\citep{barrow2011cosmic}。
+第二个被发现的是开普勒超新星遗迹(Kepler's Supernova Remnant)\citep{Baade1943}，这两个
+遗迹是射电观测开始之前，唯二的实际被观测到的遗迹\citep{Minkowski1964}，两次发现相隔
+近200年。射电观测开始之后，我们最开始发现了直至今日仍是研究重点的第谷超新星遗迹(Tycho's
+Supernova Remnant)，这三个遗迹都被认为是I型超新星的残骸。随后观测到的Cas A、Cygnus Loop
+和Vela X则被认为来源于II型超新星。
 
-考虑到许多同学可能缺乏\LaTeX{}使用经验，ucasthesis将\LaTeX{}的复杂性高度封装，开放出简单的接口，以便轻易使用。同时，对用\LaTeX{}撰写论文的一些主要难题，如制图、制表、文献索引等，进行了详细说明，并提供了相应的代码样本，理解了上述问题后，对于初学者而言，使用此模板撰写学位论文将不存在实质性的困难。所以，如果你是初学者，请不要直接放弃，因为同样为初学者的我，十分明白让\LaTeX{}简单易用的重要性，而这正是ucasthesis所追求和体现的。
+\subsection{流体演化模型}
 
-此中国科学院大学学位论文模板ucasthesis基于中科院数学与系统科学研究院吴凌云研究员的CASthesis模板发展而来。当前ucasthesis模板满足最新的中国科学院大学学位论文撰写要求和封面设定。兼顾操作系统：Windows，Linux，MacOS 和\LaTeX{}编译引擎：pdflatex，xelatex，lualatex。支持中文书签、中文渲染、中文粗体显示、拷贝PDF中的文本到其他文本编辑器等特性。此外，对模板的文档结构进行了精心设计，撰写了编译脚本提高模板的易用性和使用效率。
+SNR的演化过程主要受到前身星和周围星际介质(Interstellar Medium, ISM)这两者的影响。
+而其实在爆发之前，其前身星的星风如果很强，星风与ISM相互作用会产生性质不太一样的星周介质
+(Circumstellar Medium, CSM)，早期SNR的演化多少会受到CSM的影响，中晚期的遗迹尺度已经
+超出CSM的范围，其性质主要与ISM有关。
+超新星爆发时，其抛射物速度很高，与周围介质作用时会产生很强的激波，然后在激波面形成很薄
+的壳层。
+一开始激波面温度很高，有高的压强，但是随着速度减少，辐射冷却会导致其温度下降。
+当速度下降到与介质随机运动速度相当，温度也与介质温度相似，我们就无法辨认这个遗迹了。
 
-ucasthesis的目标在于简化学位论文的撰写，利用\LaTeX{}格式与内容分离的特征，模板将格式设计好后，作者可只需关注论文内容。 同时，ucasthesis有着整洁一致的代码结构和扼要的注解，对文档的仔细阅读可为初学者提供一个学习\LaTeX{}的窗口。此外，模板的架构十分注重通用性，事实上，ucasthesis不仅是国科大学位论文模板，同时，通过少量修改即可成为使用\LaTeX{}撰写中英文文章或书籍的通用模板，并为使用者的个性化设定提供了接口。
+SNR在均匀介质中的演化理论在很早的时候就已经发展得比较成熟
+\citep{1959sdmm.book.....S, 1970IAUS...39..229W, Woltjer1972}，直到今天我们也基本
+沿用其中的假设及推导。
+通常，如果我们认为超新星爆发于均匀的相对冷的介质(设CSM与ISM相同且温度为银河系平均介质温度)
+中时，要从SNR中推导超新星爆发的总能量，主要计算其中的热能和动能即可。
+如果再忽略引力、粒子的逃逸和磁场影响，我们就可以构建比较经典的演化模型。
+这个模型中，设抛射物总质量为$M_0$，平均介质密度为$\rho_0$，激波半径为$R$，激波速度$V$，
+单位时间辐射能量损失为$de/dt$，我们将SNR的演化分为四个阶段：
 
-\section{系统要求}\label{sec:system}
+\begin{enumerate}
 
-\href{https://github.com/mohuangrui/ucasthesis}{\texttt{ucasthesis}} 宏包可以在目前主流的 \href{https://en.wikibooks.org/wiki/LaTeX/Introduction}{\LaTeX{}} 编译系统中使用，如\TeX{}Live和MiK\TeX{}。因C\TeX{}套装已停止维护，\textbf{不再建议使用} （请勿混淆C\TeX{}套装与ctex宏包。C\TeX{}套装是集成了许多\LaTeX{}组件的\LaTeX{}编译系统。 \href{https://ctan.org/pkg/ctex?lang=en}{ctex} 宏包如同ucasthesis，是\LaTeX{}命令集，其维护状态活跃，并被主流的\LaTeX{}编译系统默认集成，是几乎所有\LaTeX{}中文文档的核心架构）。推荐的 \href{https://en.wikibooks.org/wiki/LaTeX/Installation}{\LaTeX{}编译系统} 和 \href{https://en.wikibooks.org/wiki/LaTeX/Installation}{\LaTeX{}文本编辑器} 为
-\begin{center}
-    %\footnotesize% fontsize
-    %\setlength{\tabcolsep}{4pt}% column separation
-    %\renewcommand{\arraystretch}{1.5}% row space 
-    \begin{tabular}{lcc}
-        \hline
-        %\multicolumn{num_of_cols_to_merge}{alignment}{contents} \\
-        %\cline{i-j}% partial hline from column i to column j
-        操作系统 & \LaTeX{}编译系统 & \LaTeX{}文本编辑器\\
-        \hline
-        Linux & \href{https://www.tug.org/texlive/acquire-netinstall.html}{\TeX{}Live Full} & \href{http://www.xm1math.net/texmaker/}{Texmaker} 或 Vim （已集成于 Linux 系统）\\
-        MacOS & \href{https://www.tug.org/mactex/}{Mac\TeX{} Full} & \href{http://www.xm1math.net/texmaker/}{Texmaker} 或 Texshop （已集成于 Mac\TeX{} Full）\\
-        Windows & \href{https://www.tug.org/texlive/acquire-netinstall.html}{\TeX{}Live Full} 或 \href{https://miktex.org/download}{MiK\TeX{}} & \href{http://www.xm1math.net/texmaker/}{Texmaker}\\
-        \hline
-    \end{tabular}
-\end{center}
+    \item 自由膨胀相($M_0\gg(4\pi/3)\rho_0R^3$)：这个阶段中扫过的介质对演化的影响非常小，
+    SNR演化主要受到爆发过程影响。
 
-\LaTeX{}编译系统，如\TeX{}Live（Mac\TeX{}为针对MacOS的\TeX{}Live)，用于提供编译环境，\LaTeX{}文本编辑器 (如Texmaker) 用于编辑\TeX{}源文件。请从各软件官网下载安装程序，勿使用不明程序源。\textbf{\LaTeX{}编译系统和\LaTeX{}编辑器分别安装成功后，即完成了\LaTeX{}的系统配置}，无需其他手动干预和配置。若系统原带有旧版的\LaTeX{}编译系统并想安装新版，请\textbf{先卸载干净旧版再安装新版}。
+    \item 绝热膨胀相(Sedov相，$M_0\ll(4\pi/3)\rho_0R^3$且$\int de/dt dt\ll e_0$)：
+    这个阶段中，扫过的介质对演化其主要作用，但是辐射耗散可忽略。
+    \citet{1959sdmm.book.....S}第一次得到了在这种情况下的相似解，因而又名为Sedov相。
+    这里如果绝热指数$\gamma$=5/3，可得
 
-\section{问题反馈}
+    \begin{equation}
+      \begin{aligned}
+        R = 1.17(\dfrac{e_0}{\rho_0})^{1/5}t^{2/5},
+      \end{aligned}
+    \end{equation}
 
-关于\LaTeX{}的知识性问题，请查阅 \href{https://github.com/mohuangrui/ucasthesis/wiki}{ucasthesis知识小站} 和 \href{https://en.wikibooks.org/wiki/LaTeX}{\LaTeX{} Wikibook}。
+    因而可得
 
-关于模板编译和样式设计的问题，请\textbf{先仔细阅读此说明文档，特别是“常见问题”（章节~\ref{sec:qa}）}。若问题仍无法得到解决，请\textbf{先将问题理解清楚并描述清楚，再将问题反馈}至 \href{https://github.com/mohuangrui/ucasthesis/issues}{Github/ucasthesis/issues}。
+    \begin{equation}
+      \begin{aligned}
+        V = \dfrac{dR}{dt} = \dfrac{2}{5}1.17(\dfrac{e_0}{\rho_0}^{1/5}t^{2/5-1}) = \dfrac{2}{5}\dfrac{R}{t}.
+      \end{aligned}
+    \end{equation}
 
-欢迎大家有效地反馈模板不足之处，一起不断改进模板。希望大家向同事积极推广\LaTeX{}，一起更高效地做科研。
+    由此可见$R^3V^2$是一个常数，又因为这个阶段可以看作介质密度是$\rho_0$，是均匀的，
+    所以其动能是守恒的。
+    而我们又认为其总能量只考虑动能和热能而辐射冷却不重要，所以热能也是守恒的。
 
-\section{模板下载}
+    \item 辐射相($\int de/dt dt\gg e_0$)：这个阶段中，辐射耗散不可忽略，但是遗迹壳层
+    速度仍然比周围介质平均运动快一些，或者辐射要强，本身仍然可见。
 
-\begin{center}
-    \href{https://github.com/mohuangrui/ucasthesis}{Github/ucasthesis}: \url{https://github.com/mohuangrui/ucasthesis}
-\end{center}
+    \item 消失相：遗迹壳层速度与周围介质平均运动相当，辐射相当，基本无法却分。
+
+\end{enumerate}
+
+在这里要提醒的是，我们的假设多少都有一些问题。
+首先是均匀介质假设，这几乎是不可能的，尤其是前身星的星风总会对周围介质有一定影响，不要说
+介质本身肯定也不是均匀的。
+更特殊的情况是，SNR周围刚好有致密的分子云(Molecular Cloud, MC)，膨胀的壳层刚好与分子云
+相互作用，这会很大程度上影响SNR的演化\citep{1972PhDT........47S,Zhang2017}，而我们在
+章节~\ref{W51C}中也谈到了这种情况。
+至于介质冷的假设在恒星形成区可能问题很大，尤其是大质量恒星经常形成于活跃的恒星形成区，
+周围介质温度很可能较高，此外，这种区域更有可能有分子云，也不利于上一条均匀假设。
+而不考虑引力虽然在大多数情况下是没问题的，但是对于核坍缩型超新星留下的遗迹演化到年老阶段，
+而中心致密天体又速度很高可能会冲出壳层时，引力会影响周围介质的分布。
+此外，粒子在激波区域会得到加速，较高的速度会导致粒子逃逸，最终我们的能量守恒就不再适用了。
+不过这种情况更多的出现在辐射相和消失相，类似于辐射耗散，在前两相中可以忽略
+\citep{1967IAUS...31..117K}。
+最容易出现问题是磁场微弱假设，没有磁场，我们几乎不可能在射电波段看到SNR，可是我们确在
+流体演化的模型中忽略了磁场，这是一个绕不开的问题。
+通常，星际磁场的确较弱，无法对遗迹的演化产生根本影响，但是在激波壳层与介质相互作用过程中，
+磁场放大是非常明显的，所以近几年的研究工作其实都会考虑磁场的影响。
+更要记得，有一些区域，星际磁场本身就很强。
+
+\subsection{观测特征}
+一开始对蟹状星云和开普勒超新星遗迹的证认都是在光学波段，不仅与历史超新星位置符合，而且还
+观测到了光学的壳层。
+这种光学观测其实有得到很好的延续，尤其是随着光谱仪器的发展，我们能从其谱线得到更多关于
+SNR的信息。
+SNR中比较明显的光谱特征就是很强的禁线辐射，强度接近$H_\alpha$，而普通的行星状星云中
+辐射强度只有$H_\alpha$的10\%。
+
+当然，对SNR的观测主要还是在射电波段。
+超新星遗迹与介质相互作用会加速电子至相对论能量同时放大磁场，而相对论电子在磁场中运动会
+产生同步辐射，在射电波段有很大的流量，我们会在章节~\label{TheoryDSACR}详细解释这个机制。
+因为这个射电辐射机制的特殊性，SNR的能谱(Spectral Energy Distribution, SED)通常都是
+规则的幂律谱。
+而早期的射电观测显示，SNR在1 GHz波段的面亮度($\Sigma$)貌似与遗迹的直径$D$有一个线性关系，
+这个关系其实也与这个辐射机制有关，而且在早期是一个测定SNR距离的重要手段。
+此外，如果周围介质密度、磁场是均匀的，超新星爆发都是球对称的，那么SNR的形状应该都是规则的，
+而我们也根据形状将其分为壳层型、实心型、复合型。
+然而其实很多遗迹的形态非常复杂\citep{West2016}，很多人都有尝试解释这件事\citet{Zhang2018}，
+但是其中还有很多未解的谜题。
+
+SNR的X射线辐射随着空间卫星的观测也有了越来越好的结果，而辐射主要可以分为热辐射和非热辐射两类，
+涉及韧致、同步及逆康普顿三种辐射机制，而其中的谱线辐射更是对我们了解遗迹的元素丰度及
+证认前身星提供了巨大帮助。
+这里的热辐射主要是热等离子体的韧致辐射和谱线辐射，而非热辐射其实不仅来自于同步辐射和逆康普顿
+辐射，也可能来自非热电子的韧致辐射。
+此外，有时遗迹中心会有X射线点源，这是我们了解与其相关遗迹前身星的重要依据之一。
+在X射线波段辐射机制的复杂性也导致了有时需要用多个模型拟合观测结果，与其他波段结合一起研究，
+然后分别讨论每种可能性，但是这种方式也大大丰富了研究内容和深度。
+
+而近几年，对SNR的$\gamma$射线观测逐渐受到大家的重视。
+目前，$\gamma$射线的SED主要还是幂律谱，这应该主要是逆康普顿辐射的产物，有时高能电子的韧致
+辐射也会有所贡献。
+随着其分辨率的提高，我们也能观测到更多$\gamma$射线辐射的细节，比如\citet{Abeysekara2018}
+确实观测到了一个SNR中心致密天体的喷流高能辐射，几乎可以肯定这个致密天体是一个黑洞(Black Hole, BH)，
+这也是银河系中第一个也是目前唯一一个证认的SNR-BH系统。
+
+虽然，目前我们几乎在全波段都有对SNR的观测，但是更多的观测仍然非常重要，尤其是超低频射电
+和中微子观测。
+而目前，对这两种信使的观测还很少，希望将来能有更进一步的发展。
+
+\section{磁流体模拟介绍}
+\label{MHDintro}
+
+
+\section{论文的目标和主要内容}
+\label{Aim}

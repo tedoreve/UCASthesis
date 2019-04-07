@@ -1,4 +1,4 @@
-\begin{thebibliography}{78}
+\begin{thebibliography}{86}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -74,6 +74,12 @@
 \newblock \aap, 2012, 541:\penalty0 A13.
 \newblock DOI: \doi{10.1051/0004-6361/201218846}.
 
+\bibitem[{{Baade}(1943)}]{Baade1943}
+{Baade}~W.
+\newblock {Nova Ophiuchi of 1604 as a Supernova.}\allowbreak[J/OL].
+\newblock \apj, 1943, 97:\penalty0 119.
+\newblock DOI: \doi{10.1086/144505}.
+
 \bibitem[{{Bamba} {\bibetal}(2001){Bamba}, {Ueno}, {Koyama}, and
   {Yamauchi}}]{Bamba2001}
 {Bamba}~A, {Ueno}~M, {Koyama}~K, et~al.
@@ -82,6 +88,11 @@
   Remnant}\allowbreak[J/OL].
 \newblock \pasj, 2001, 53:\penalty0 L21-L24.
 \newblock DOI: \doi{10.1093/pasj/53.4.L21}.
+
+\bibitem[{Barrow(2011)}]{barrow2011cosmic}
+BARROW~J~D.
+\newblock Cosmic imagery: key images in the history of science\allowbreak[M].
+\newblock Random House, 2011.
 
 \bibitem[{{Beuther} {\bibetal}(2016){Beuther}, {Bihr}, {Rugel}, {Johnston},
   {Wang}, {Walter}, {Brunthaler}, {Walsh}, {Ott}, {Stil}, {Henning},
@@ -249,6 +260,16 @@
   L = 4.9 to 76 deg, B = -1.5 to 1.5 deg}\allowbreak[J].
 \newblock \aaps, 1987, 69:\penalty0 451-464.
 
+\bibitem[{{Kahn} {\biband} {Woltjer}(1967){Kahn} and
+  {Woltjer}}]{1967IAUS...31..117K}
+{Kahn}~F~D, {Woltjer}~L.
+\newblock {Supernovae and interstellar gas
+  dynamics.}\allowbreak[C]//\allowbreak
+{van Woerden}~H.
+\newblock IAU Symposium: volume~31\quad Radio Astronomy and the Galactic
+  System.
+\newblock 1967: 117.
+
 \bibitem[{{Kang} {\biband} {Jones}(2006){Kang} and {Jones}}]{Kang2006}
 {Kang}~H, {Jones}~T~W.
 \newblock {Numerical studies of diffusive shock acceleration at spherical
@@ -349,6 +370,12 @@
   Dynamics}\allowbreak[J/OL].
 \newblock \apjs, 2012, 198:\penalty0 7.
 \newblock DOI: \doi{10.1088/0067-0049/198/1/7}.
+
+\bibitem[{{Minkowski}(1964)}]{Minkowski1964}
+{Minkowski}~R.
+\newblock {Supernovae and Supernova Remnants}\allowbreak[J/OL].
+\newblock \araa, 1964, 2:\penalty0 247.
+\newblock DOI: \doi{10.1146/annurev.aa.02.090164.001335}.
 
 \bibitem[{{Moon} {\biband} {Koo}(1994){Moon} and {Koo}}]{1994JKAS...27...81M}
 {Moon}~D~S, {Koo}~B~C.
@@ -461,6 +488,12 @@
 {Sedov}~L~I.
 \newblock {Similarity and Dimensional Methods in Mechanics}\allowbreak[M].
 \newblock New York: Academic Press, 1959.
+
+\bibitem[{{Sgro}(1972)}]{1972PhDT........47S}
+{Sgro}~A~G.
+\newblock {O the Propagation of a Fast Shock Wave Through AN Inhomogeneous
+  Interstellar Gas.}\allowbreak[D].
+\newblock COLUMBIA UNIVERSITY., 1972.
 
 \bibitem[{{Shaver} {\biband} {Goss}(1970){Shaver} and
   {Goss}}]{1970AuJPA..14..133S}
@@ -609,6 +642,15 @@
 \newblock \apj, 2011, 727:\penalty0 32.
 \newblock DOI: \doi{10.1088/0004-637X/727/1/32}.
 
+\bibitem[{{Wardle} {\biband} {McDonnell}(2012){Wardle} and
+  {McDonnell}}]{2012IAUS..287..441W}
+{Wardle}~M, {McDonnell}~K.
+\newblock {OH Masers and Supernova Remnants}\allowbreak[C/OL]//\allowbreak
+{Booth}~R~S, {Vlemmings}~W~H~T, {Humphreys}~E~M~L.
+\newblock IAU Symposium: volume 287\quad Cosmic Masers - from OH to H0.
+\newblock 2012: 441-448.
+\newblock DOI: \doi{10.1017/S1743921312007491}.
+
 \bibitem[{{West} {\bibetal}(2016){West}, {Safi-Harb}, {Jaffe}, {Kothes},
   {Landecker}, and {Foster}}]{West2016}
 {West}~J~L, {Safi-Harb}~S, {Jaffe}~T, et~al.
@@ -616,6 +658,19 @@
   field: A global radio study of the axisymmetric sample}\allowbreak[J/OL].
 \newblock \aap, 2016, 587:\penalty0 A148.
 \newblock DOI: \doi{10.1051/0004-6361/201527001}.
+
+\bibitem[{{Woltjer}(1970)}]{1970IAUS...39..229W}
+{Woltjer}~L.
+\newblock {Supernovae and the Interstellar Medium}\allowbreak[C]//\allowbreak
+{Habing}~H~J.
+\newblock IAU Symposium: volume~39\quad Interstellar Gas Dynamics.
+\newblock 1970: 229.
+
+\bibitem[{{Woltjer}(1972)}]{Woltjer1972}
+{Woltjer}~L.
+\newblock {Supernova Remnants}\allowbreak[J/OL].
+\newblock \araa, 1972, 10:\penalty0 129.
+\newblock DOI: \doi{10.1146/annurev.aa.10.090172.001021}.
 
 \bibitem[{{Xu} {\biband} {Han}(2014){Xu} and {Han}}]{Xu2014}
 {Xu}~J, {Han}~J~L.
