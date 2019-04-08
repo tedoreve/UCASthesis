@@ -1,4 +1,4 @@
-\begin{thebibliography}{86}
+\begin{thebibliography}{103}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -39,6 +39,33 @@
   of Supernova Remnant W51C}\allowbreak[J/OL].
 \newblock \apjl, 2009, 706:\penalty0 L1-L6.
 \newblock DOI: \doi{10.1088/0004-637X/706/1/L1}.
+
+\bibitem[{{Abeysekara} {\bibetal}(2018){Abeysekara}, {Albert}, {Alfaro},
+  {Alvarez}, {{\'A}lvarez}, {Arceo}, {Arteaga-Vel{\'a}zquez}, {Avila Rojas},
+  {Ayala Solares}, {Belmont-Moreno}, {BenZvi}, {Brisbois}, {Caballero-Mora},
+  {Capistr{\'a}n}, {Carrami{\~n}ana}, {Casanova}, {Castillo}, {Cotti},
+  {Cotzomi}, {Couti{\~n}o de Le{\'o}n}, {De Le{\'o}n}, {De la Fuente},
+  {D{\'{\i}}az-V{\'e}lez}, {Dichiara}, {Dingus}, {DuVernois}, {Ellsworth},
+  {Engel}, {Espinoza}, {Fang}, {Fleischhack}, {Fraija}, {Galv{\'a}n-G{\'a}mez},
+  {Garc{\'{\i}}a-Gonz{\'a}lez}, {Garfias}, {Gonz{\'a}lez-Mu{\~n}oz},
+  {Gonz{\'a}lez}, {Goodman}, {Hampel-Arias}, {Harding}, {Hernandez}, {Hinton},
+  {Hona}, {Hueyotl-Zahuantitla}, {Hui}, {H{\"u}ntemeyer}, {Iriarte},
+  {Jardin-Blicq}, {Joshi}, {Kaufmann}, {Kar}, {Kunde}, {Lauer}, {Lee},
+  {Le{\'o}n Vargas}, {Li}, {Linnemann}, {Longinotti}, {Luis-Raya},
+  {L{\'o}pez-Coto}, {Malone}, {Marinelli}, {Martinez}, {Martinez-Castellanos},
+  {Mart{\'{\i}}nez-Castro}, {Matthews}, {Miranda-Romagnoli}, {Moreno},
+  {Mostaf{\'a}}, {Nayerhoda}, {Nellen}, {Newbold}, {Nisa}, {Noriega-Papaqui},
+  {Pretz}, {P{\'e}rez-P{\'e}rez}, {Ren}, {Rho}, {Rivi{\`e}re},
+  {Rosa-Gonz{\'a}lez}, {Rosenberg}, {Ruiz-Velasco}, {Salesa Greus}, {Sandoval},
+  {Schneider}, {Schoorlemmer}, {Seglar Arroyo}, {Sinnis}, {Smith}, {Springer},
+  {Surajbali}, {Taboada}, {Tibolla}, {Tollefson}, {Torres}, {Vianello},
+  {Villase{\~n}or}, {Weisgarber}, {Werner}, {Westerhoff}, {Wood}, {Yapici},
+  {Yodh}, {Zepeda}, {Zhang}, and {Zhou}}]{Abeysekara2018}
+{Abeysekara}~A~U, {Albert}~A, {Alfaro}~R, et~al.
+\newblock {Very-high-energy particle acceleration powered by the jets of the
+  microquasar SS 433}\allowbreak[J/OL].
+\newblock \nat, 2018, 562:\penalty0 82-85.
+\newblock DOI: \doi{10.1038/s41586-018-0565-5}.
 
 \bibitem[{{Aleksi{\'c}} {\bibetal}(2012){Aleksi{\'c}}, {Alvarez}, {Antonelli},
   {Antoranz}, {Asensio}, {Backes}, {Barres de Almeida}, {Barrio}, {Bastieri},
@@ -168,12 +195,27 @@ BARROW~J~D.
 \newblock \mnras, 2012, 424:\penalty0 2811-2820.
 \newblock DOI: \doi{10.1111/j.1365-2966.2012.21405.x}.
 
+\bibitem[{{Fang} {\bibetal}(2014){Fang}, {Yu}, and {Zhang}}]{Fang2014}
+{Fang}~J, {Yu}~H, {Zhang}~L.
+\newblock {Simulated morphologies of non-thermal emission from the supernova
+  remnant RX J0852.0-4622 in a turbulent medium}\allowbreak[J/OL].
+\newblock \mnras, 2014, 445:\penalty0 2484-2491.
+\newblock DOI: \doi{10.1093/mnras/stu1950}.
+
 \bibitem[{{Ferland} {\bibetal}(2017){Ferland}, {Chatzikos}, {Guzm{\'a}n},
   {Lykins}, {van Hoof}, {Williams}, {Abel}, {Badnell}, {Keenan}, {Porter}, and
   {Stancil}}]{2017RMxAA..53..385F}
 {Ferland}~G~J, {Chatzikos}~M, {Guzm{\'a}n}~F, et~al.
 \newblock {The 2017 Release Cloudy}\allowbreak[J].
 \newblock \rmxaa, 2017, 53:\penalty0 385-438.
+
+\bibitem[{{Ferreira} {\biband} {de Jager}(2008){Ferreira} and {de
+  Jager}}]{Ferreira2008}
+{Ferreira}~S~E~S, {de Jager}~O~C.
+\newblock {Supernova remnant evolution in uniform and non-uniform
+  media}\allowbreak[J/OL].
+\newblock \aap, 2008, 478:\penalty0 17-29.
+\newblock DOI: \doi{10.1051/0004-6361:20077824}.
 
 \bibitem[{{Foster} {\bibetal}(2004){Foster}, {Routledge}, and
   {Kothes}}]{Foster2004}
@@ -189,6 +231,14 @@ BARROW~J~D.
   pulsar velocities at birth}\allowbreak[J/OL].
 \newblock \apj, 1994, 437:\penalty0 781-793.
 \newblock DOI: \doi{10.1086/175038}.
+
+\bibitem[{{Fryxell} {\bibetal}(2000){Fryxell}, {Olson}, {Ricker}, {Timmes},
+  {Zingale}, {Lamb}, {MacNeice}, {Rosner}, {Truran}, and {Tufo}}]{Fryxell2000}
+{Fryxell}~B, {Olson}~K, {Ricker}~P, et~al.
+\newblock {FLASH: An Adaptive Mesh Hydrodynamics Code for Modeling
+  Astrophysical Thermonuclear Flashes}\allowbreak[J/OL].
+\newblock \apjs, 2000, 131:\penalty0 273-334.
+\newblock DOI: \doi{10.1086/317361}.
 
 \bibitem[{{Gaensler} {\bibetal}(1999){Gaensler}, {Brazier}, {Manchester},
   {Johnston}, and {Green}}]{Gaensler1999}
@@ -246,12 +296,35 @@ BARROW~J~D.
 \newblock \apj, 2008, 683:\penalty0 189-206.
 \newblock DOI: \doi{10.1086/588652}.
 
-\bibitem[{{Jun} {\biband} {Norman}(1996){Jun} and {Norman}}]{Jun1996}
+\bibitem[{Ji {\bibetal}(2016)Ji, Oh, Ruszkowski, and Markevitch}]{Ji2016}
+JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
+\newblock The efficiency of b-field amplification at shocks by
+  turbulence\allowbreak[J].
+\newblock 2016.
+
+\bibitem[{{Jun} {\biband} {Jones}(1999){Jun} and {Jones}}]{Jun1999}
+{Jun}~B~I, {Jones}~T~W.
+\newblock {Radio Emission from a Young Supernova Remnant Interacting with an
+  Interstellar Cloud: Magnetohydrodynamic Simulation with Relativistic
+  Electrons}\allowbreak[J/OL].
+\newblock \apj, 1999, 511:\penalty0 774-791.
+\newblock DOI: \doi{10.1086/306694}.
+
+\bibitem[{{Jun} {\biband} {Norman}(1996{\natexlab{a}}){Jun} and
+  {Norman}}]{Jun1996}
 {Jun}~B~I, {Norman}~M~L.
 \newblock {On the Origin of Strong Magnetic Fields in Young Supernova
   Remnants}\allowbreak[J/OL].
 \newblock \apj, 1996, 465:\penalty0 800.
 \newblock DOI: \doi{10.1086/177464}.
+
+\bibitem[{{Jun} {\biband} {Norman}(1996{\natexlab{b}}){Jun} and
+  {Norman}}]{Jun1996a}
+{Jun}~B~I, {Norman}~M~L.
+\newblock {On the Origin of Radial Magnetic Fields in Young Supernova
+  Remnants}\allowbreak[J/OL].
+\newblock \apj, 1996, 472:\penalty0 245.
+\newblock DOI: \doi{10.1086/178059}.
 
 \bibitem[{{Junkes} {\bibetal}(1987){Junkes}, {Fuerst}, and
   {Reich}}]{1987A&AS...69..451J}
@@ -415,6 +488,14 @@ BARROW~J~D.
 \newblock \aap, 2007, 470:\penalty0 927-939.
 \newblock DOI: \doi{10.1051/0004-6361:20066045}.
 
+\bibitem[{{Orlando} {\bibetal}(2008){Orlando}, {Bocchino}, {Reale}, {Peres},
+  and {Pagano}}]{Orlando2008}
+{Orlando}~S, {Bocchino}~F, {Reale}~F, et~al.
+\newblock {The Importance of Magnetic-Field-Oriented Thermal Conduction in the
+  Interaction of SNR Shocks with Interstellar Clouds}\allowbreak[J/OL].
+\newblock \apj, 2008, 678:\penalty0 274-286.
+\newblock DOI: \doi{10.1086/529420}.
+
 \bibitem[{{Orlando} {\bibetal}(2017){Orlando}, {Drake}, and
   {Miceli}}]{Orlando2017}
 {Orlando}~S, {Drake}~J~J, {Miceli}~M.
@@ -476,6 +557,14 @@ BARROW~J~D.
 \newblock \mnras, 2006, 371:\penalty0 369-374.
 \newblock DOI: \doi{10.1111/j.1365-2966.2006.10652.x}.
 
+\bibitem[{{Schneiter} {\bibetal}(2015){Schneiter}, {Vel{\'a}zquez}, {Reynoso},
+  {Esquivel}, and {De Colle}}]{Schneiter2015}
+{Schneiter}~E~M, {Vel{\'a}zquez}~P~F, {Reynoso}~E~M, et~al.
+\newblock {3D MHD simulation of polarized emission in SN
+  1006}\allowbreak[J/OL].
+\newblock \mnras, 2015, 449:\penalty0 88-93.
+\newblock DOI: \doi{10.1093/mnras/stv279}.
+
 \bibitem[{{Schneps} {\bibetal}(1981){Schneps}, {Lane}, {Downes}, {Moran},
   {Genzel}, and {Reid}}]{Schneps1981}
 {Schneps}~M~H, {Lane}~A~P, {Downes}~D, et~al.
@@ -503,6 +592,12 @@ BARROW~J~D.
 \newblock Australian Journal of Physics Astrophysical Supplement, 1970,
   14:\penalty0 133.
 
+\bibitem[{{Sofue}(1978)}]{1978MmSAI..49..513S}
+{Sofue}~Y.
+\newblock {Simulation of Old Supernova Remnants by Magnetohydrodynamic Wave
+  Fronts}\allowbreak[J].
+\newblock \memsai, 1978, 49:\penalty0 513.
+
 \bibitem[{{Stil} {\bibetal}(2006){Stil}, {Taylor}, {Dickey}, {Kavars},
   {Martin}, {Rothwell}, {Boothroyd}, {Lockman}, and
   {McClure-Griffiths}}]{Stil2006}
@@ -510,6 +605,33 @@ BARROW~J~D.
 \newblock {The VLA Galactic Plane Survey}\allowbreak[J/OL].
 \newblock \aj, 2006, 132:\penalty0 1158-1176.
 \newblock DOI: \doi{10.1086/505940}.
+
+\bibitem[{{Stone} {\biband} {Norman}(1992{\natexlab{a}}){Stone} and
+  {Norman}}]{Stone1992}
+{Stone}~J~M, {Norman}~M~L.
+\newblock {ZEUS-2D: A radiation magnetohydrodynamics code for astrophysical
+  flows in two space dimensions. I - The hydrodynamic algorithms and
+  tests.}\allowbreak[J/OL].
+\newblock \apjs, 1992, 80:\penalty0 753-790.
+\newblock DOI: \doi{10.1086/191680}.
+
+\bibitem[{{Stone} {\biband} {Norman}(1992{\natexlab{b}}){Stone} and
+  {Norman}}]{Stone1992a}
+{Stone}~J~M, {Norman}~M~L.
+\newblock {ZEUS-2D: A Radiation Magnetohydrodynamics Code for Astrophysical
+  Flows in Two Space Dimensions. II. The Magnetohydrodynamic Algorithms and
+  Tests}\allowbreak[J/OL].
+\newblock \apjs, 1992, 80:\penalty0 791.
+\newblock DOI: \doi{10.1086/191681}.
+
+\bibitem[{{Stone} {\bibetal}(1992){Stone}, {Mihalas}, and
+  {Norman}}]{Stone1992b}
+{Stone}~J~M, {Mihalas}~D, {Norman}~M~L.
+\newblock {ZEUS-2D: A radiation magnetohydrodynamics code for astrophysical
+  flows in two space dimensions. III - The radiation hydrodynamic algorithms
+  and tests}\allowbreak[J/OL].
+\newblock \apjs, 1992, 80:\penalty0 819-845.
+\newblock DOI: \doi{10.1086/191682}.
 
 \bibitem[{{Su} {\bibetal}(2009){Su}, {Chen}, {Yang}, {Koo}, {Zhou}, {Jeong},
   and {Zhang}}]{Su2009}
@@ -627,6 +749,24 @@ BARROW~J~D.
 \newblock \aap, 2015, 584:\penalty0 A49.
 \newblock DOI: \doi{10.1051/0004-6361/201425230}.
 
+\bibitem[{{van Marle} {\bibetal}(2018){van Marle}, {Casse}, and
+  {Marcowith}}]{vanMarle2018}
+{van Marle}~A~J, {Casse}~F, {Marcowith}~A.
+\newblock {On magnetic field amplification and particle acceleration near
+  non-relativistic astrophysical shocks: particles in MHD cells
+  simulations}\allowbreak[J/OL].
+\newblock \mnras, 2018, 473:\penalty0 3394-3409.
+\newblock DOI: \doi{10.1093/mnras/stx2509}.
+
+\bibitem[{{Vel{\'a}zquez} {\bibetal}(2017){Vel{\'a}zquez}, {Schneiter},
+  {Reynoso}, {Esquivel}, {De Colle}, {Toledo-Roy}, {G{\'o}mez}, {Sieyra}, and
+  {Moranchel-Basurto}}]{Velazquez2017}
+{Vel{\'a}zquez}~P~F, {Schneiter}~E~M, {Reynoso}~E~M, et~al.
+\newblock {A 3D MHD simulation of SN 1006: a polarized emission study for the
+  turbulent case}\allowbreak[J/OL].
+\newblock \mnras, 2017, 466:\penalty0 4851-4857.
+\newblock DOI: \doi{10.1093/mnras/stx064}.
+
 \bibitem[{{Velusamy} {\biband} {Kundu}(1974){Velusamy} and
   {Kundu}}]{1974A&A....32..375V}
 {Velusamy}~T, {Kundu}~M~R.
@@ -659,6 +799,14 @@ BARROW~J~D.
 \newblock \aap, 2016, 587:\penalty0 A148.
 \newblock DOI: \doi{10.1051/0004-6361/201527001}.
 
+\bibitem[{{White} {\bibetal}(2016){White}, {Stone}, and {Gammie}}]{White2016}
+{White}~C~J, {Stone}~J~M, {Gammie}~C~F.
+\newblock {An Extension of the Athena++ Code Framework for GRMHD Based on
+  Advanced Riemann Solvers and Staggered-mesh Constrained
+  Transport}\allowbreak[J/OL].
+\newblock \apjs, 2016, 225:\penalty0 22.
+\newblock DOI: \doi{10.3847/0067-0049/225/2/22}.
+
 \bibitem[{{Woltjer}(1970)}]{1970IAUS...39..229W}
 {Woltjer}~L.
 \newblock {Supernovae and the Interstellar Medium}\allowbreak[C]//\allowbreak
@@ -686,6 +834,13 @@ BARROW~J~D.
   G59.7+0.1 and W 51 IRS2}\allowbreak[J/OL].
 \newblock \apj, 2009, 693:\penalty0 413-418.
 \newblock DOI: \doi{10.1088/0004-637X/693/1/413}.
+
+\bibitem[{{Yang} {\bibetal}(2015){Yang}, {Liu}, {Fang}, and {Li}}]{Yang2015}
+{Yang}~C, {Liu}~S, {Fang}~J, et~al.
+\newblock {The structure of TeV-bright shell-type supernova
+  remnants}\allowbreak[J/OL].
+\newblock \aap, 2015, 573:\penalty0 A37.
+\newblock DOI: \doi{10.1051/0004-6361/201424667}.
 
 \bibitem[{{Yar-Uyaniker} {\bibetal}(2004){Yar-Uyaniker}, {Uyaniker}, and
   {Kothes}}]{Yar-Uyaniker2004}

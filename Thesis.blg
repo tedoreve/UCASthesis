@@ -5,44 +5,46 @@ The style file: Biblio/gbt7714-plain.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
-You've used 86 entries,
+Warning--empty journal in Ji2016
+You've used 103 entries,
             4429 wiz_defined-function locations,
-            1544 strings with 30861 characters,
-and the built_in function-call counts, 801503 in all, are:
-= -- 12154
-> -- 93901
-< -- 119869
-+ -- 32913
-- -- 1723
-* -- 7793
-:= -- 112439
-add.period$ -- 336
-call.type$ -- 86
-change.case$ -- 1160
-chr.to.int$ -- 29694
-cite$ -- 172
-duplicate$ -- 2018
-empty$ -- 8527
-format.name$ -- 2955
-if$ -- 204867
-int.to.chr$ -- 4
+            1658 strings with 36624 characters,
+and the built_in function-call counts, 1000977 in all, are:
+= -- 14568
+> -- 117934
+< -- 150635
++ -- 41272
+- -- 2123
+* -- 9417
+:= -- 140189
+add.period$ -- 402
+call.type$ -- 103
+change.case$ -- 1421
+chr.to.int$ -- 37317
+cite$ -- 207
+duplicate$ -- 2408
+empty$ -- 10085
+format.name$ -- 3636
+if$ -- 255908
+int.to.chr$ -- 6
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 522
-num.names$ -- 416
-pop$ -- 40004
+newline$ -- 622
+num.names$ -- 496
+pop$ -- 50434
 preamble$ -- 1
-purify$ -- 847
+purify$ -- 1047
 quote$ -- 0
-skip$ -- 86220
+skip$ -- 107734
 stack$ -- 0
-substring$ -- 36958
-swap$ -- 186
-text.length$ -- 1197
+substring$ -- 45853
+swap$ -- 224
+text.length$ -- 1463
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1434
-warning$ -- 0
-while$ -- 1663
+type$ -- 1723
+warning$ -- 1
+while$ -- 2022
 width$ -- 0
-write$ -- 1443
+write$ -- 1725
+(There was 1 warning)
