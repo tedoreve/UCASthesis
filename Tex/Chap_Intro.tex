@@ -10,20 +10,20 @@
 约翰·贝维斯和查尔斯·梅西耶分别独立发现\citep{barrow2011cosmic}。
 第二个被发现的是开普勒超新星遗迹(Kepler's Supernova Remnant)\citep{Baade1943}，这两个
 遗迹是射电观测开始之前，唯二的实际被观测到的遗迹\citep{Minkowski1964}，两次发现相隔
-近200年。
+近200年，这主要是因为SNR在光学波段的辐射受到严重消光的影响，很难观测到。
 射电观测开始之后，我们最开始发现了直至今日仍是研究重点的第谷超新星遗迹(Tycho's
-Supernova Remnant)，这三个遗迹都被认为是I型超新星的残骸。随后观测到的Cas A、Cygnus Loop
-和Vela X则被认为来源于II型超新星。
+Supernova Remnant)，这前三个遗迹都被认为是I型超新星的残骸。
+随后观测到的超新星遗迹Cas A、Cygnus Loop和Vela X则被认为来源于II型超新星。
 
 \subsection{流体演化模型}
 
 SNR的演化过程主要受到前身星和周围星际介质(Interstellar Medium, ISM)这两者的影响。
 而其实在爆发之前，其前身星的星风如果很强，星风与ISM相互作用会产生性质不太一样的星周介质
 (Circumstellar Medium, CSM)，早期SNR的演化多少会受到CSM的影响，中晚期的遗迹尺度已经
-超出CSM的范围，其性质主要与ISM有关。
+超出CSM的范围，其演化主要与ISM有关。
 超新星爆发时，其抛射物速度很高，与周围介质作用时会产生很强的激波，然后在激波面形成很薄
 的壳层。
-一开始激波面温度很高，有高的压强，但是随着速度减少，辐射冷却会导致其温度下降。
+一开始激波面温度很高，也有很高的压强，但是随着速度减少，辐射冷却会导致其温度下降。
 当速度下降到与介质随机运动速度相当，温度也与介质温度相似，我们就无法辨认这个遗迹了。
 
 SNR在均匀介质中的演化理论在很早的时候就已经发展得比较成熟
@@ -47,7 +47,7 @@ SNR在均匀介质中的演化理论在很早的时候就已经发展得比较�
 
     \begin{equation}
       \begin{aligned}
-        R = 1.17(\dfrac{e_0}{\rho_0})^{1/5}t^{2/5},
+        R = 1.17\left(\dfrac{e_0}{\rho_0}\right)^{1/5}t^{2/5},
       \end{aligned}
     \end{equation}
 
@@ -55,7 +55,7 @@ SNR在均匀介质中的演化理论在很早的时候就已经发展得比较�
 
     \begin{equation}
       \begin{aligned}
-        V = \dfrac{dR}{dt} = \dfrac{2}{5}1.17(\dfrac{e_0}{\rho_0})^{1/5}t^{2/5-1} = \dfrac{2}{5}\dfrac{R}{t}.
+        V = \dfrac{dR}{dt} = \dfrac{2}{5}1.17\left(\dfrac{e_0}{\rho_0}\right)^{1/5}t^{2/5-1} = \dfrac{2}{5}\dfrac{R}{t}.
       \end{aligned}
     \end{equation}
 
@@ -148,7 +148,7 @@ SNR的X射线辐射随着空间卫星的观测也有了越来越好的结果，�
 非均匀介质中的演化\citep{Ferreira2008}。
 而更关注局部的模拟让我们了解了遗迹中湍动对磁场放大和非热辐射的影响\citep{Fang2014, Ji2016}，
 同时也能用来研究特殊遗迹中的偏振辐射\citep{Schneiter2015, Velazquez2017}，
-更进一步的，粒子加速和高能辐射的结构也可以在模拟中得到体现\cite{Yang2015, vanMarle2018}。
+更进一步的，粒子加速和高能辐射的结构也可以在模拟中得到体现\citep{Yang2015, vanMarle2018}。
 
 而在硬件发展的同时，很多专业的MHD模拟程序逐渐得到优化，为初学者提供了更方便的接口。
 在一开始，主要是ZEUS一批二维模拟的软件，而后ZEUS-3D、Athena++、PLUTO、FLASH逐渐丰富模拟

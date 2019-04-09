@@ -54,39 +54,50 @@
 \newlabel{MHDintro}{{1.2}{4}{SNR磁流体模拟简介}{section.1.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.3}论文的目标和主要内容}{5}{section.1.3}}
 \newlabel{Aim}{{1.3}{5}{论文的目标和主要内容}{section.1.3}{}}
+\citation{1953AZh....30...15S}
+\citation{2014BASI...42...47G}
+\citation{1970ranp.book.....P}
+\citation{Fermi1949}
+\citation{1953AZh....30...15S}
+\citation{1977ICRC...11..132A,1977SPhD...22..327K,Bell1978,Blandford1978}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第2章\hspace  {.3em}}超新星遗迹和磁流体相关理论}{7}{chapter.2}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
 \newlabel{Theory}{{2}{7}{超新星遗迹和磁流体相关理论}{chapter.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}超新星遗迹激波加速和宇宙线}{7}{section.2.1}}
 \newlabel{TheoryDSACR}{{2.1}{7}{超新星遗迹激波加速和宇宙线}{section.2.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}磁流体模拟基础}{7}{section.2.2}}
-\newlabel{ThoryMHD}{{2.2}{7}{磁流体模拟基础}{section.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}扩散激波加速机制}{7}{subsection.2.1.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces 激波面静止参考系上下游的状态，图片来自Dr. Stefano Gabici。\relax }}{8}{figure.caption.10}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:shock}{{2.1}{8}{激波面静止参考系上下游的状态，图片来自Dr. Stefano Gabici。\relax }{figure.caption.10}{}}
+\newlabel{SNRintro}{{2.1.1}{9}{扩散激波加速机制}{equation.2.1.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}磁流体模拟基础}{9}{section.2.2}}
+\newlabel{ThoryMHD}{{2.2}{9}{磁流体模拟基础}{section.2.2}{}}
 \citation{Mignone2007,Mignone2012}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第3章\hspace  {.3em}}使用PLUTO进行磁流体模拟的程序编写}{9}{chapter.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第3章\hspace  {.3em}}使用PLUTO进行磁流体模拟的程序编写}{11}{chapter.3}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{PLUTO}{{3}{9}{使用PLUTO进行磁流体模拟的程序编写}{chapter.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}PLUTO软件简介}{9}{section.3.1}}
-\newlabel{PLUTOintro}{{3.1}{9}{PLUTO软件简介}{section.3.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}PLUTO基本使用}{10}{section.3.2}}
-\newlabel{PLUTOuse}{{3.2}{10}{PLUTO基本使用}{section.3.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}definition.h的编写}{10}{subsection.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.1}基本选项}{10}{subsubsection.3.2.1.1}}
+\newlabel{PLUTO}{{3}{11}{使用PLUTO进行磁流体模拟的程序编写}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}PLUTO软件简介}{11}{section.3.1}}
+\newlabel{PLUTOintro}{{3.1}{11}{PLUTO软件简介}{section.3.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}PLUTO基本使用}{12}{section.3.2}}
+\newlabel{PLUTOuse}{{3.2}{12}{PLUTO基本使用}{section.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}definition.h的编写}{12}{subsection.3.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.1}基本选项}{12}{subsubsection.3.2.1.1}}
 \citation{2017RMxAA..53..385F}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.2}物理依赖选项}{12}{subsubsection.3.2.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.3}自定义参数和常数}{13}{subsubsection.3.2.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.4}其它经常使用的选项}{14}{subsubsection.3.2.1.4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.5}makefile文件的设置}{15}{subsubsection.3.2.1.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}init.c的编写}{15}{subsection.3.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.1}Init()的编写}{16}{subsubsection.3.2.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.2}UserDefBoundary()的编写}{16}{subsubsection.3.2.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.3}引力部分的编写}{17}{subsubsection.3.2.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}pluto.ini的编写}{17}{subsection.3.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}PLUTO进阶使用}{18}{section.3.3}}
-\newlabel{PLUTOmore}{{3.3}{18}{PLUTO进阶使用}{section.3.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}并行计算与自适应网格}{18}{subsection.3.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}数据可视化}{19}{subsection.3.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.2}物理依赖选项}{14}{subsubsection.3.2.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.3}自定义参数和常数}{15}{subsubsection.3.2.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.4}其它经常使用的选项}{16}{subsubsection.3.2.1.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.5}makefile文件的设置}{17}{subsubsection.3.2.1.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}init.c的编写}{17}{subsection.3.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.1}Init()的编写}{18}{subsubsection.3.2.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.2}UserDefBoundary()的编写}{18}{subsubsection.3.2.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.3}引力部分的编写}{19}{subsubsection.3.2.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}pluto.ini的编写}{19}{subsection.3.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}PLUTO进阶使用}{20}{section.3.3}}
+\newlabel{PLUTOmore}{{3.3}{20}{PLUTO进阶使用}{section.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}并行计算与自适应网格}{20}{subsection.3.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}数据可视化}{21}{subsection.3.3.2}}
 \citation{Copetti1991,Subrahmanyan1995}
 \citation{Abdo2009,Aleksic2012}
 \citation{Hewitt2008,Brogan2013}
@@ -97,14 +108,14 @@
 \citation{Zhang2017}
 \citation{1999A&A...350..447D}
 \citation{1987A&AS...69..451J}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第4章\hspace  {.3em}}对超新星遗迹W51C的磁流体模拟及观测分析}{21}{chapter.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第4章\hspace  {.3em}}对超新星遗迹W51C的磁流体模拟及观测分析}{23}{chapter.4}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{W51C}{{4}{21}{对超新星遗迹W51C的磁流体模拟及观测分析}{chapter.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}研究历史及意义}{21}{section.4.1}}
-\newlabel{W51Cintro}{{4.1}{21}{研究历史及意义}{section.4.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}数据处理}{21}{section.4.2}}
-\newlabel{W51Cdata}{{4.2}{21}{数据处理}{section.4.2}{}}
+\newlabel{W51C}{{4}{23}{对超新星遗迹W51C的磁流体模拟及观测分析}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}研究历史及意义}{23}{section.4.1}}
+\newlabel{W51Cintro}{{4.1}{23}{研究历史及意义}{section.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}数据处理}{23}{section.4.2}}
+\newlabel{W51Cdata}{{4.2}{23}{数据处理}{section.4.2}{}}
 \citation{Beuther2016}
 \citation{Stil2006}
 \citation{Sasaki2014}
@@ -118,18 +129,17 @@
 \citation{Tian2013}
 \citation{Koo1995}
 \citation{Koo1995}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 左图中彩色背景是来自VPGS的1.4 GHz连续谱图像。黑色的箭头代表没有扣仪器偏振的 在2695 MHz的磁场方向，箭头长度代表偏振强度(mK)，其中最大的强度是1581 mK。 下图中，彩色背景是扣除仪器偏振后的2695 MHz的偏振度，白色箭头代表磁场方向，箭头长度代表 偏振度，其中最大的偏振度是$2\%$。 \relax }}{22}{figure.caption.10}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:mag}{{4.1}{22}{左图中彩色背景是来自VPGS的1.4 GHz连续谱图像。黑色的箭头代表没有扣仪器偏振的 在2695 MHz的磁场方向，箭头长度代表偏振强度(mK)，其中最大的强度是1581 mK。 下图中，彩色背景是扣除仪器偏振后的2695 MHz的偏振度，白色箭头代表磁场方向，箭头长度代表 偏振度，其中最大的偏振度是$2\%$。 \relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 左图中彩色背景是来自VPGS的1.4 GHz连续谱图像。黑色的箭头代表没有扣仪器偏振的 在2695 MHz的磁场方向，箭头长度代表偏振强度(mK)，其中最大的强度是1581 mK。 下图中，彩色背景是扣除仪器偏振后的2695 MHz的偏振度，白色箭头代表磁场方向，箭头长度代表 偏振度，其中最大的偏振度是$2\%$。 \relax }}{24}{figure.caption.11}}
+\newlabel{fig:mag}{{4.1}{24}{左图中彩色背景是来自VPGS的1.4 GHz连续谱图像。黑色的箭头代表没有扣仪器偏振的 在2695 MHz的磁场方向，箭头长度代表偏振强度(mK)，其中最大的强度是1581 mK。 下图中，彩色背景是扣除仪器偏振后的2695 MHz的偏振度，白色箭头代表磁场方向，箭头长度代表 偏振度，其中最大的偏振度是$2\%$。 \relax }{figure.caption.11}{}}
 \citation{Leahy2017a}
 \citation{Parsons2012}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}模拟模型}{23}{section.4.3}}
-\newlabel{W51Cmod}{{4.3}{23}{模拟模型}{section.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}模拟模型}{25}{section.4.3}}
+\newlabel{W51Cmod}{{4.3}{25}{模拟模型}{section.4.3}{}}
 \citation{Orlando2007}
 \citation{Haverkorn2015}
 \citation{Leahy2017a}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 模拟的密度-磁场图像。所有的图都是沿着一个三维立体图像沿着中心切片后得到的 从不同方向看的结果。背景彩色图像是密度分布，白色箭头显示了磁场的方向和强度。上面三幅 显示的是初始条件，下面三幅显示了经过18000年演化后的结果。上面三幅图中，中心磁场的强度 是9$\mu G$。\relax }}{24}{figure.caption.11}}
-\newlabel{fig:simulation}{{4.2}{24}{模拟的密度-磁场图像。所有的图都是沿着一个三维立体图像沿着中心切片后得到的 从不同方向看的结果。背景彩色图像是密度分布，白色箭头显示了磁场的方向和强度。上面三幅 显示的是初始条件，下面三幅显示了经过18000年演化后的结果。上面三幅图中，中心磁场的强度 是9$\mu G$。\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 模拟的密度-磁场图像。所有的图都是沿着一个三维立体图像沿着中心切片后得到的 从不同方向看的结果。背景彩色图像是密度分布，白色箭头显示了磁场的方向和强度。上面三幅 显示的是初始条件，下面三幅显示了经过18000年演化后的结果。上面三幅图中，中心磁场的强度 是9$\mu G$。\relax }}{26}{figure.caption.12}}
+\newlabel{fig:simulation}{{4.2}{26}{模拟的密度-磁场图像。所有的图都是沿着一个三维立体图像沿着中心切片后得到的 从不同方向看的结果。背景彩色图像是密度分布，白色箭头显示了磁场的方向和强度。上面三幅 显示的是初始条件，下面三幅显示了经过18000年演化后的结果。上面三幅图中，中心磁场的强度 是9$\mu G$。\relax }{figure.caption.12}{}}
 \citation{Orlando2007}
 \citation{1970AuJPA..14..133S}
 \citation{Sasaki2014}
@@ -140,21 +150,21 @@
 \citation{Parsons2012}
 \citation{1970AuJPA..14..133S}
 \citation{Tian2013}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces 用于W51C模拟的参数\relax }}{26}{table.caption.12}}
-\newlabel{table:parameters}{{4.1}{26}{用于W51C模拟的参数\relax }{table.caption.12}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}观测分析及模拟结果}{26}{section.4.4}}
-\newlabel{W51Cres}{{4.4}{26}{观测分析及模拟结果}{section.4.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces 用于W51C模拟的参数\relax }}{28}{table.caption.13}}
+\newlabel{table:parameters}{{4.1}{28}{用于W51C模拟的参数\relax }{table.caption.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}观测分析及模拟结果}{28}{section.4.4}}
+\newlabel{W51Cres}{{4.4}{28}{观测分析及模拟结果}{section.4.4}{}}
 \citation{2005ASPC..340..334B}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces SNR W51C演化18000年后的相对射电流量密度。右侧图像是$\sigma $=2的高斯平滑结果。 这里设定距离为4.3 kpc，所以1 pc对应着0.8$^{\prime }\nobreakspace {}$。\relax }}{27}{figure.caption.13}}
-\newlabel{fig:flux}{{4.3}{27}{SNR W51C演化18000年后的相对射电流量密度。右侧图像是$\sigma $=2的高斯平滑结果。 这里设定距离为4.3 kpc，所以1 pc对应着0.8\am 。\relax }{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 这是图\nobreakspace {}\ref  {fig:flux}的右图中左上到右下的流量切线图。 \relax }}{27}{figure.caption.14}}
-\newlabel{fig:change}{{4.4}{27}{这是图~\ref {fig:flux}的右图中左上到右下的流量切线图。 \relax }{figure.caption.14}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 这是$\sigma $=2时不同参数下的相对射电流量密度图。 顶部两幅图为将初始爆发动能改为 2.0和3.0 $\times $ 10$^{51}$ ergs的结果, 下面两幅图为将平均介质密度改为 0.13 cm$^{-3}$和0.3 cm$^{-3}$的结果。\relax }}{28}{figure.caption.15}}
-\newlabel{fig:moreflux}{{4.5}{28}{这是$\sigma $=2时不同参数下的相对射电流量密度图。 顶部两幅图为将初始爆发动能改为 2.0和3.0 $\times $ 10$^{51}$ ergs的结果, 下面两幅图为将平均介质密度改为 0.13 cm$^{-3}$和0.3 cm$^{-3}$的结果。\relax }{figure.caption.15}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 三幅图分别展示了G49.2-0.35区域三个频率(1720/1665/1612 MHz)的OH谱线图。 彩色背景是THOR数据的1440 MHz连续谱图像。谱线是每一个黑色方格区域中中-58.5135 。第一幅图中，区域$49.16^{\circ }<l<49.19^{\circ }$, $-0.34^{\circ }<b<-0.31^{\circ }$中的标度与其它区域不同，因为这个区域里的1720 MHz OH 脉泽非常强，如果使用相同标度其谱线就超出整个图形了，所以这个区域的谱线强度是除了20的。\relax }}{30}{figure.caption.16}}
-\newlabel{fig:OH}{{4.6}{30}{三幅图分别展示了G49.2-0.35区域三个频率(1720/1665/1612 MHz)的OH谱线图。 彩色背景是THOR数据的1440 MHz连续谱图像。谱线是每一个黑色方格区域中中-58.5\kms到 135 \kms的平均谱线 。第一幅图中，区域$49.16^{\circ }<l<49.19^{\circ }$, $-0.34^{\circ }<b<-0.31^{\circ }$中的标度与其它区域不同，因为这个区域里的1720 MHz OH 脉泽非常强，如果使用相同标度其谱线就超出整个图形了，所以这个区域的谱线强度是除了20的。\relax }{figure.caption.16}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 左侧的图中，彩色背景是G49.2-0.35区域的1720 MHz谱线在70.5 ， 彩色等高线对应的是THOR的1440 MHz连续谱，右边的红色圆圈是我们提取脉泽发射线的区域， 左边的红色圆圈是我们提取吸收谱的区域。右侧图是这两个区域的谱线，最上面一个是1720 MHz OH脉泽发射线的谱，下面的三个是不同频率处的吸收谱。\relax }}{30}{figure.caption.17}}
-\newlabel{fig:spectra}{{4.7}{30}{左侧的图中，彩色背景是G49.2-0.35区域的1720 MHz谱线在70.5 \kms的通道图 ， 彩色等高线对应的是THOR的1440 MHz连续谱，右边的红色圆圈是我们提取脉泽发射线的区域， 左边的红色圆圈是我们提取吸收谱的区域。右侧图是这两个区域的谱线，最上面一个是1720 MHz OH脉泽发射线的谱，下面的三个是不同频率处的吸收谱。\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces SNR W51C演化18000年后的相对射电流量密度。右侧图像是$\sigma $=2的高斯平滑结果。 这里设定距离为4.3 kpc，所以1 pc对应着0.8$^{\prime }\nobreakspace {}$。\relax }}{29}{figure.caption.14}}
+\newlabel{fig:flux}{{4.3}{29}{SNR W51C演化18000年后的相对射电流量密度。右侧图像是$\sigma $=2的高斯平滑结果。 这里设定距离为4.3 kpc，所以1 pc对应着0.8\am 。\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 这是图\nobreakspace {}\ref  {fig:flux}的右图中左上到右下的流量切线图。 \relax }}{29}{figure.caption.15}}
+\newlabel{fig:change}{{4.4}{29}{这是图~\ref {fig:flux}的右图中左上到右下的流量切线图。 \relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 这是$\sigma $=2时不同参数下的相对射电流量密度图。 顶部两幅图为将初始爆发动能改为 2.0和3.0 $\times $ 10$^{51}$ ergs的结果, 下面两幅图为将平均介质密度改为 0.13 cm$^{-3}$和0.3 cm$^{-3}$的结果。\relax }}{30}{figure.caption.16}}
+\newlabel{fig:moreflux}{{4.5}{30}{这是$\sigma $=2时不同参数下的相对射电流量密度图。 顶部两幅图为将初始爆发动能改为 2.0和3.0 $\times $ 10$^{51}$ ergs的结果, 下面两幅图为将平均介质密度改为 0.13 cm$^{-3}$和0.3 cm$^{-3}$的结果。\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 三幅图分别展示了G49.2-0.35区域三个频率(1720/1665/1612 MHz)的OH谱线图。 彩色背景是THOR数据的1440 MHz连续谱图像。谱线是每一个黑色方格区域中中-58.5135 。第一幅图中，区域$49.16^{\circ }<l<49.19^{\circ }$, $-0.34^{\circ }<b<-0.31^{\circ }$中的标度与其它区域不同，因为这个区域里的1720 MHz OH 脉泽非常强，如果使用相同标度其谱线就超出整个图形了，所以这个区域的谱线强度是除了20的。\relax }}{32}{figure.caption.17}}
+\newlabel{fig:OH}{{4.6}{32}{三幅图分别展示了G49.2-0.35区域三个频率(1720/1665/1612 MHz)的OH谱线图。 彩色背景是THOR数据的1440 MHz连续谱图像。谱线是每一个黑色方格区域中中-58.5\kms到 135 \kms的平均谱线 。第一幅图中，区域$49.16^{\circ }<l<49.19^{\circ }$, $-0.34^{\circ }<b<-0.31^{\circ }$中的标度与其它区域不同，因为这个区域里的1720 MHz OH 脉泽非常强，如果使用相同标度其谱线就超出整个图形了，所以这个区域的谱线强度是除了20的。\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 左侧的图中，彩色背景是G49.2-0.35区域的1720 MHz谱线在70.5 ， 彩色等高线对应的是THOR的1440 MHz连续谱，右边的红色圆圈是我们提取脉泽发射线的区域， 左边的红色圆圈是我们提取吸收谱的区域。右侧图是这两个区域的谱线，最上面一个是1720 MHz OH脉泽发射线的谱，下面的三个是不同频率处的吸收谱。\relax }}{32}{figure.caption.18}}
+\newlabel{fig:spectra}{{4.7}{32}{左侧的图中，彩色背景是G49.2-0.35区域的1720 MHz谱线在70.5 \kms的通道图 ， 彩色等高线对应的是THOR的1440 MHz连续谱，右边的红色圆圈是我们提取脉泽发射线的区域， 左边的红色圆圈是我们提取吸收谱的区域。右侧图是这两个区域的谱线，最上面一个是1720 MHz OH脉泽发射线的谱，下面的三个是不同频率处的吸收谱。\relax }{figure.caption.18}{}}
 \citation{Orlando2007}
 \citation{1974A&A....32..375V}
 \citation{1974A&A....32..375V}
@@ -163,34 +173,34 @@
 \citation{Xu2014}
 \citation{1974A&A....32..375V}
 \citation{1994JKAS...27...81M}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}讨论}{31}{section.4.5}}
-\newlabel{W51Cdis}{{4.5}{31}{讨论}{section.4.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}新的东北部的壳层}{31}{subsection.4.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}讨论}{33}{section.4.5}}
+\newlabel{W51Cdis}{{4.5}{33}{讨论}{section.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}新的东北部的壳层}{33}{subsection.4.5.1}}
 \citation{1994JKAS...27...81M}
 \citation{Brogan2013}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 左图显示了W51复合区的1420 MHz连续谱图。右图是图\nobreakspace {}\ref  {fig:flux}右图，只是 改变了颜色风格。取距离为4.3 kpc，两者有相同的大小。\relax }}{32}{figure.caption.18}}
-\newlabel{fig:compare}{{4.8}{32}{左图显示了W51复合区的1420 MHz连续谱图。右图是图~\ref {fig:flux}右图，只是 改变了颜色风格。取距离为4.3 kpc，两者有相同的大小。\relax }{figure.caption.18}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}相互作用区域}{32}{subsection.4.5.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 左图显示了W51复合区的1420 MHz连续谱图。右图是图\nobreakspace {}\ref  {fig:flux}右图，只是 改变了颜色风格。取距离为4.3 kpc，两者有相同的大小。\relax }}{34}{figure.caption.19}}
+\newlabel{fig:compare}{{4.8}{34}{左图显示了W51复合区的1420 MHz连续谱图。右图是图~\ref {fig:flux}右图，只是 改变了颜色风格。取距离为4.3 kpc，两者有相同的大小。\relax }{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}相互作用区域}{34}{subsection.4.5.2}}
 \citation{Hewitt2008}
 \citation{Brogan2013}
 \citation{Ginsburg2015}
 \citation{Brogan2013}
 \citation{2012IAUS..287..441W}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}总结}{34}{section.4.6}}
-\newlabel{W51Csum}{{4.6}{34}{总结}{section.4.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}总结}{36}{section.4.6}}
+\newlabel{W51Csum}{{4.6}{36}{总结}{section.4.6}{}}
 \citation{Jun1996,Kang2006,Fang2012}
 \citation{Orlando2007,Meyer2015,Zhang2017}
 \citation{Orlando2007}
 \citation{West2016}
-\citation{Chen1995,Zhang1996,Foster2004,Lee2010}
+\citation{Chevalier1989,Chen1995,Zhang1996,Foster2004,Lee2010}
 \citation{Meyer2015}
 \citation{Zhang2018}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第5章\hspace  {.3em}}关于超新星遗迹的前身星星风如何影响其射电形态}{37}{chapter.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第5章\hspace  {.3em}}关于超新星遗迹的前身星星风如何影响其射电形态}{39}{chapter.5}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{SW}{{5}{37}{关于超新星遗迹的前身星星风如何影响其射电形态}{chapter.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}研究历史及意义}{37}{section.5.1}}
-\newlabel{SWintro}{{5.1}{37}{研究历史及意义}{section.5.1}{}}
+\newlabel{SW}{{5}{39}{关于超新星遗迹的前身星星风如何影响其射电形态}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}研究历史及意义}{39}{section.5.1}}
+\newlabel{SWintro}{{5.1}{39}{研究历史及意义}{section.5.1}{}}
 \citation{Meyer2014}
 \citation{Meyer2014}
 \citation{Meyer2015}
@@ -204,11 +214,11 @@
 \citation{vanMarle2014}
 \citation{vanMarle2014a}
 \citation{Meyer2017}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}模拟模型}{38}{section.5.2}}
-\newlabel{SWmod}{{5.2}{38}{模拟模型}{section.5.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}星风模型}{38}{subsection.5.2.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces 用于星风模拟的参数\relax }}{39}{table.caption.19}}
-\newlabel{table:parameters}{{5.1}{39}{用于星风模拟的参数\relax }{table.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}模拟模型}{40}{section.5.2}}
+\newlabel{SWmod}{{5.2}{40}{模拟模型}{section.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}星风模型}{40}{subsection.5.2.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces 用于星风模拟的参数\relax }}{41}{table.caption.20}}
+\newlabel{table:parameters}{{5.1}{41}{用于星风模拟的参数\relax }{table.caption.20}{}}
 \citation{Meyer2014}
 \citation{Meyer2014,vanMarle2012,vanMarle2015}
 \citation{Meyer2014a,Gvaramadze2014}
@@ -220,7 +230,7 @@
 \citation{Mueller2016a}
 \citation{Leahy2017a,Truelove1999}
 \citation{Orlando2007}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}超新星遗迹模型}{41}{subsection.5.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}超新星遗迹模型}{43}{subsection.5.2.2}}
 \citation{West2016}
 \citation{West2016}
 \citation{West2016}
@@ -232,22 +242,22 @@
 \citation{Sun2011}
 \citation{Pannuti2010}
 \citation{Craig1997,Yar-Uyaniker2004,West2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces 典型的多层、环形、不规则遗迹: G21.6-0.8，G120.1+1.4和G43.3-0.2。 \relax }}{42}{figure.caption.20}}
-\newlabel{fig:stat}{{5.1}{42}{典型的多层、环形、不规则遗迹: G21.6-0.8，G120.1+1.4和G43.3-0.2。 \relax }{figure.caption.20}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}结果和讨论}{42}{section.5.3}}
-\newlabel{SWres}{{5.3}{42}{结果和讨论}{section.5.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}垂直事例}{42}{subsection.5.3.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces 七类遗迹的统计\relax }}{43}{table.caption.21}}
-\newlabel{table:stat}{{5.2}{43}{七类遗迹的统计\relax }{table.caption.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces 垂直事例的模拟图像以及对应的真实射电图像。 顶部三幅图是从不同方向看去的星风 模拟结果。第二行是以顶部的星风模拟结果为初始条件的超新星遗迹模拟结果。第三行是从第二行 的模拟结果转化而来的相对射电密度图像。最后一行是与模拟的射电形态相似的实际观测到的遗迹 G332.0+0.2，G116.9+0.2和G12.2+0.3\citep  {West2016}。这三个遗迹分别分类为双边对称、 单边大弧度和单边小弧度遗迹。上面两行的彩色背景是单位为log(cm$^{-3}$)的密度分布，箭头 的长度和方向分别代表磁场强度和方向。\relax }}{44}{figure.caption.22}}
-\newlabel{fig:per}{{5.2}{44}{垂直事例的模拟图像以及对应的真实射电图像。 顶部三幅图是从不同方向看去的星风 模拟结果。第二行是以顶部的星风模拟结果为初始条件的超新星遗迹模拟结果。第三行是从第二行 的模拟结果转化而来的相对射电密度图像。最后一行是与模拟的射电形态相似的实际观测到的遗迹 G332.0+0.2，G116.9+0.2和G12.2+0.3\citep {West2016}。这三个遗迹分别分类为双边对称、 单边大弧度和单边小弧度遗迹。上面两行的彩色背景是单位为log(cm$^{-3}$)的密度分布，箭头 的长度和方向分别代表磁场强度和方向。\relax }{figure.caption.22}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces 沿着z轴旋转$45$后的模拟射电图像和G116.9+0.2的真实观测到的射电图像 \citep  {West2016,Tian2006}。\relax }}{45}{figure.caption.23}}
-\newlabel{fig:45deg}{{5.3}{45}{沿着z轴旋转$45\degr $后的模拟射电图像和G116.9+0.2的真实观测到的射电图像 \citep {West2016,Tian2006}。\relax }{figure.caption.23}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces 从x-z平面沿着z轴旋转$50$后模拟的三维图。如果转$45$, 中间两条 垂直的线就重合了，透视效果很差，所以我们转了$50$。彩色的背景是相对射电流量密度， 箭头代表磁场，越黄的颜色数值越大。(这个图在发表文章的线上版本中是动态图。)\relax }}{45}{figure.caption.24}}
-\newlabel{fig:3D}{{5.4}{45}{从x-z平面沿着z轴旋转$50\degr $后模拟的三维图。如果转$45\degr $, 中间两条 垂直的线就重合了，透视效果很差，所以我们转了$50\degr $。彩色的背景是相对射电流量密度， 箭头代表磁场，越黄的颜色数值越大。(这个图在发表文章的线上版本中是动态图。)\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces 典型的多层、环形、不规则遗迹: G21.6-0.8，G120.1+1.4和G43.3-0.2。 \relax }}{44}{figure.caption.21}}
+\newlabel{fig:stat}{{5.1}{44}{典型的多层、环形、不规则遗迹: G21.6-0.8，G120.1+1.4和G43.3-0.2。 \relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}结果和讨论}{44}{section.5.3}}
+\newlabel{SWres}{{5.3}{44}{结果和讨论}{section.5.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}垂直事例}{44}{subsection.5.3.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces 七类遗迹的统计\relax }}{45}{table.caption.22}}
+\newlabel{table:stat}{{5.2}{45}{七类遗迹的统计\relax }{table.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces 垂直事例的模拟图像以及对应的真实射电图像。 顶部三幅图是从不同方向看去的星风 模拟结果。第二行是以顶部的星风模拟结果为初始条件的超新星遗迹模拟结果。第三行是从第二行 的模拟结果转化而来的相对射电密度图像。最后一行是与模拟的射电形态相似的实际观测到的遗迹 G332.0+0.2，G116.9+0.2和G12.2+0.3\citep  {West2016}。这三个遗迹分别分类为双边对称、 单边大弧度和单边小弧度遗迹。上面两行的彩色背景是单位为log(cm$^{-3}$)的密度分布，箭头 的长度和方向分别代表磁场强度和方向。\relax }}{46}{figure.caption.23}}
+\newlabel{fig:per}{{5.2}{46}{垂直事例的模拟图像以及对应的真实射电图像。 顶部三幅图是从不同方向看去的星风 模拟结果。第二行是以顶部的星风模拟结果为初始条件的超新星遗迹模拟结果。第三行是从第二行 的模拟结果转化而来的相对射电密度图像。最后一行是与模拟的射电形态相似的实际观测到的遗迹 G332.0+0.2，G116.9+0.2和G12.2+0.3\citep {West2016}。这三个遗迹分别分类为双边对称、 单边大弧度和单边小弧度遗迹。上面两行的彩色背景是单位为log(cm$^{-3}$)的密度分布，箭头 的长度和方向分别代表磁场强度和方向。\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces 沿着z轴旋转$45$后的模拟射电图像和G116.9+0.2的真实观测到的射电图像 \citep  {West2016,Tian2006}。\relax }}{47}{figure.caption.24}}
+\newlabel{fig:45deg}{{5.3}{47}{沿着z轴旋转$45\degr $后的模拟射电图像和G116.9+0.2的真实观测到的射电图像 \citep {West2016,Tian2006}。\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces 从x-z平面沿着z轴旋转$50$后模拟的三维图。如果转$45$, 中间两条 垂直的线就重合了，透视效果很差，所以我们转了$50$。彩色的背景是相对射电流量密度， 箭头代表磁场，越黄的颜色数值越大。(这个图在发表文章的线上版本中是动态图。)\relax }}{47}{figure.caption.25}}
+\newlabel{fig:3D}{{5.4}{47}{从x-z平面沿着z轴旋转$50\degr $后模拟的三维图。如果转$45\degr $, 中间两条 垂直的线就重合了，透视效果很差，所以我们转了$50\degr $。彩色的背景是相对射电流量密度， 箭头代表磁场，越黄的颜色数值越大。(这个图在发表文章的线上版本中是动态图。)\relax }{figure.caption.25}{}}
 \citation{West2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit  {左图:}x-z平面的相对温度分布。\textit  {右图:} ASCA (Advanced Satellite for Cosmology and Astrophysics)望远镜观测到的G116.9+0.2的X图像G116.9+0.2，外加CGPS (Canadian Galactic Plane Survey)巡天的射电图像等高线\citep  {Pannuti2010}。\relax }}{46}{figure.caption.25}}
-\newlabel{fig:X}{{5.5}{46}{\textit {左图:}x-z平面的相对温度分布。\textit {右图:} ASCA (Advanced Satellite for Cosmology and Astrophysics)望远镜观测到的G116.9+0.2的X图像G116.9+0.2，外加CGPS (Canadian Galactic Plane Survey)巡天的射电图像等高线\citep {Pannuti2010}。\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit  {左图:}x-z平面的相对温度分布。\textit  {右图:} ASCA (Advanced Satellite for Cosmology and Astrophysics)望远镜观测到的G116.9+0.2的X图像G116.9+0.2，外加CGPS (Canadian Galactic Plane Survey)巡天的射电图像等高线\citep  {Pannuti2010}。\relax }}{48}{figure.caption.26}}
+\newlabel{fig:X}{{5.5}{48}{\textit {左图:}x-z平面的相对温度分布。\textit {右图:} ASCA (Advanced Satellite for Cosmology and Astrophysics)望远镜观测到的G116.9+0.2的X图像G116.9+0.2，外加CGPS (Canadian Galactic Plane Survey)巡天的射电图像等高线\citep {Pannuti2010}。\relax }{figure.caption.26}{}}
 \citation{Orlando2007}
 \citation{vanMarle2010}
 \citation{Vigh2011}
@@ -257,156 +267,168 @@
 \citation{2014BASI...42...47G}
 \citation{Frail1994a,Tammann1994}
 \citation{Meyer2015}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces 考虑热传导的模拟结果。这些结果对应了图\nobreakspace {}\ref  {fig:per}的上面三列，唯一的不同 就是考虑了热传导。\relax }}{48}{figure.caption.26}}
-\newlabel{fig:conduction}{{5.6}{48}{考虑热传导的模拟结果。这些结果对应了图~\ref {fig:per}的上面三列，唯一的不同 就是考虑了热传导。\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces 考虑热传导的模拟结果。这些结果对应了图\nobreakspace {}\ref  {fig:per}的上面三列，唯一的不同 就是考虑了热传导。\relax }}{50}{figure.caption.27}}
+\newlabel{fig:conduction}{{5.6}{50}{考虑热传导的模拟结果。这些结果对应了图~\ref {fig:per}的上面三列，唯一的不同 就是考虑了热传导。\relax }{figure.caption.27}{}}
 \citation{West2016}
 \citation{West2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces 平行事例的模拟结果。 左图是y-z平面的星风模拟结果加上遗迹爆发区域，也就是 遗迹模拟的初始条件。中图是y-z平面的遗迹模拟结果。右图是从中图转化来的射电流量密度图。\relax }}{49}{figure.caption.27}}
-\newlabel{fig:par}{{5.7}{49}{平行事例的模拟结果。 左图是y-z平面的星风模拟结果加上遗迹爆发区域，也就是 遗迹模拟的初始条件。中图是y-z平面的遗迹模拟结果。右图是从中图转化来的射电流量密度图。\relax }{figure.caption.27}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces 上面三幅图是不同年龄的相对射电流量密度图。下面三幅图是实际观测到的与上图 类似的实际观测到的八字形遗迹：G53.6-2.2、G29.7-0.3、G28.6-0.1\citep  {West2016}。\relax }}{49}{figure.caption.28}}
-\newlabel{fig:parc}{{5.8}{49}{上面三幅图是不同年龄的相对射电流量密度图。下面三幅图是实际观测到的与上图 类似的实际观测到的八字形遗迹：G53.6-2.2、G29.7-0.3、G28.6-0.1\citep {West2016}。\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces 平行事例的模拟结果。 左图是y-z平面的星风模拟结果加上遗迹爆发区域，也就是 遗迹模拟的初始条件。中图是y-z平面的遗迹模拟结果。右图是从中图转化来的射电流量密度图。\relax }}{51}{figure.caption.28}}
+\newlabel{fig:par}{{5.7}{51}{平行事例的模拟结果。 左图是y-z平面的星风模拟结果加上遗迹爆发区域，也就是 遗迹模拟的初始条件。中图是y-z平面的遗迹模拟结果。右图是从中图转化来的射电流量密度图。\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces 上面三幅图是不同年龄的相对射电流量密度图。下面三幅图是实际观测到的与上图 类似的实际观测到的八字形遗迹：G53.6-2.2、G29.7-0.3、G28.6-0.1\citep  {West2016}。\relax }}{51}{figure.caption.29}}
+\newlabel{fig:parc}{{5.8}{51}{上面三幅图是不同年龄的相对射电流量密度图。下面三幅图是实际观测到的与上图 类似的实际观测到的八字形遗迹：G53.6-2.2、G29.7-0.3、G28.6-0.1\citep {West2016}。\relax }{figure.caption.29}{}}
 \citation{Orlando2007,Orlando2017}
 \citation{Leahy2008}
 \citation{Bamba2001}
 \citation{Long1991}
 \citation{Broersen2015,Su2009,Bamba2001}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}平行事例}{50}{subsection.5.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}总结}{51}{section.5.4}}
-\newlabel{SWsum}{{5.4}{51}{总结}{section.5.4}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {附录 A\hspace  {.3em}}基本代码}{53}{appendix.A}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}平行事例}{52}{subsection.5.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}总结}{53}{section.5.4}}
+\newlabel{SWsum}{{5.4}{53}{总结}{section.5.4}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第6章\hspace  {.3em}}总结}{55}{chapter.6}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{Basic}{{A}{53}{基本代码}{appendix.A}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}definition.h}{53}{section.A.1}}
-\newlabel{def}{{A.1}{53}{definition.h}{section.A.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.2}init.c}{54}{section.A.2}}
-\newlabel{init}{{A.2}{54}{init.c}{section.A.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.3}pluto.ini}{60}{section.A.3}}
-\newlabel{plu}{{A.3}{60}{pluto.ini}{section.A.3}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {附录 B\hspace  {.3em}}工具型代码}{63}{appendix.B}}
+\newlabel{Sum}{{6}{55}{总结}{chapter.6}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {附录 A\hspace  {.3em}}基本代码}{57}{appendix.A}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{Code}{{B}{63}{工具型代码}{appendix.B}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.1}单位制计算}{63}{section.B.1}}
-\newlabel{Codeu}{{B.1}{63}{单位制计算}{section.B.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.2}构造初始背景}{64}{section.B.2}}
-\newlabel{Codeb}{{B.2}{64}{构造初始背景}{section.B.2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {附录 C\hspace  {.3em}}进阶代码}{69}{appendix.C}}
+\newlabel{Basic}{{A}{57}{基本代码}{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}definition.h}{57}{section.A.1}}
+\newlabel{def}{{A.1}{57}{definition.h}{section.A.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}init.c}{58}{section.A.2}}
+\newlabel{init}{{A.2}{58}{init.c}{section.A.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.3}pluto.ini}{64}{section.A.3}}
+\newlabel{plu}{{A.3}{64}{pluto.ini}{section.A.3}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {附录 B\hspace  {.3em}}工具型代码}{67}{appendix.B}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\newlabel{Further}{{C}{69}{进阶代码}{appendix.C}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {C.1}Mayavi使用}{69}{section.C.1}}
-\newlabel{Mayavi}{{C.1}{69}{Mayavi使用}{section.C.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {C.2}并行画图}{71}{section.C.2}}
-\newlabel{mpi4py}{{C.2}{71}{并行画图}{section.C.2}{}}
+\newlabel{Code}{{B}{67}{工具型代码}{appendix.B}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.1}单位制计算}{67}{section.B.1}}
+\newlabel{Codeu}{{B.1}{67}{单位制计算}{section.B.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.2}构造初始背景}{68}{section.B.2}}
+\newlabel{Codeb}{{B.2}{68}{构造初始背景}{section.B.2}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {附录 C\hspace  {.3em}}进阶代码}{73}{appendix.C}}
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\newlabel{Further}{{C}{73}{进阶代码}{appendix.C}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C.1}Mayavi使用}{73}{section.C.1}}
+\newlabel{Mayavi}{{C.1}{73}{Mayavi使用}{section.C.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C.2}并行画图}{75}{section.C.2}}
+\newlabel{mpi4py}{{C.2}{75}{并行画图}{section.C.2}{}}
 \bibdata{Biblio/ref}
 \bibcite{Abdo2009}{{1}{2009}{{{Abdo} {等}}}{{{Abdo}, {Ackermann}, {Ajello}, {Baldini}, {Ballet}, {Barbiellini}, {Baring}, {Bastieri}, {Baughman}, {Bechtol}, {Bellazzini}, {Berenji}, {Blandford}, {Bloom}, {Bonamente}, {Borgland}, {Bouvier}, {Bregeon}, {Brez}, {Brigida}, {Bruel}, {Burnett}, {Buson}, {Caliandro}, {Cameron}, {Caraveo}, {Casandjian}, {Cecchi}, {{\c C}elik}, {Chekhtman}, {Cheung}, {Chiang}, {Ciprini}, {Claus}, {Cohen-Tanugi}, {Cominsky}, {Conrad}, {Cutini}, {Dermer}, {de Angelis}, {de Palma}, {Digel}, {Dormody}, {Silva}, {Drell}, {Dubois}, {Dumora}, {Farnier}, {Favuzzi}, {Fegan}, {Focke}, {Fortin}, {Frailis}, {Fukazawa}, {Funk}, {Fusco}, {Gargano}, {Gasparrini}, {Gehrels}, {Germani}, {Giavitto}, {Giebels}, {Giglietto}, {Giordano}, {Glanzman}, {Godfrey}, {Grenier}, {Grondin}, {Grove}, {Guillemot}, {Guiriec}, {Hanabata}, {Harding}, {Hayashida}, {Hays}, {Hughes}, {Jackson}, {J{\'o}hannesson}, {Johnson}, {Johnson}, {Johnson}, {Kamae}, {Katagiri}, {Kataoka}, {Katsuta}, {Kawai}, {Kerr}, {Kn{\"o}dlseder}, {Kocian}, {Kuss}, {Lande}, {Latronico}, {Lemoine-Goumard}, {Longo}, {Loparco}, {Lott}, {Lovellette}, {Lubrano}, {Makeev}, {Mazziotta}, {McEnery}, {Meurer}, {Michelson}, {Mitthumsiri}, {Mizuno}, {Moiseev}, {Monte}, {Monzani}, {Morselli}, {Moskalenko}, {Murgia}, {Nakamori}, {Nolan}, {Norris}, {Nuss}, {Ohsugi}, {Okumura}, {Omodei}, {Orlando}, {Ormes}, {Paneque}, {Parent}, {Pelassa}, {Pepe}, {Pesce-Rollins}, {Piron}, {Porter}, {Rain{\`o}}, {Rando}, {Razzano}, {Reimer}, {Reimer}, {Reposeur}, {Ritz}, {Rodriguez}, {Romani}, {Roth}, {Ryde}, {Sadrozinski}, {Sanchez}, {Sander}, {Saz Parkinson}, {Scargle}, {Schalk}, {Sgr{\`o}}, {Siskind}, {Smith}, {Smith}, {Spandre}, {Spinelli}, {Strickman}, {Suson}, {Tajima}, {Takahashi}, {Takahashi}, {Tanaka}, {Thayer}, {Thayer}, {Thompson}, {Tibaldo}, {Tibolla}, {Torres}, {Tosti}, {Tramacere}, {Uchiyama}, {Usher}, {Vasileiou}, {Venter}, {Vilchez}, {Vitale}, {Waite}, {Wang}, {Winer}, {Wood}, {Yamazaki}, {Ylinen}, and {Ziegler}}}}
 \bibcite{Abeysekara2018}{{2}{2018}{{{Abeysekara} {等}}}{{{Abeysekara}, {Albert}, {Alfaro}, {Alvarez}, {{\'A}lvarez}, {Arceo}, {Arteaga-Vel{\'a}zquez}, {Avila Rojas}, {Ayala Solares}, {Belmont-Moreno}, {BenZvi}, {Brisbois}, {Caballero-Mora}, {Capistr{\'a}n}, {Carrami{\~n}ana}, {Casanova}, {Castillo}, {Cotti}, {Cotzomi}, {Couti{\~n}o de Le{\'o}n}, {De Le{\'o}n}, {De la Fuente}, {D{\'{\i }}az-V{\'e}lez}, {Dichiara}, {Dingus}, {DuVernois}, {Ellsworth}, {Engel}, {Espinoza}, {Fang}, {Fleischhack}, {Fraija}, {Galv{\'a}n-G{\'a}mez}, {Garc{\'{\i }}a-Gonz{\'a}lez}, {Garfias}, {Gonz{\'a}lez-Mu{\~n}oz}, {Gonz{\'a}lez}, {Goodman}, {Hampel-Arias}, {Harding}, {Hernandez}, {Hinton}, {Hona}, {Hueyotl-Zahuantitla}, {Hui}, {H{\"u}ntemeyer}, {Iriarte}, {Jardin-Blicq}, {Joshi}, {Kaufmann}, {Kar}, {Kunde}, {Lauer}, {Lee}, {Le{\'o}n Vargas}, {Li}, {Linnemann}, {Longinotti}, {Luis-Raya}, {L{\'o}pez-Coto}, {Malone}, {Marinelli}, {Martinez}, {Martinez-Castellanos}, {Mart{\'{\i }}nez-Castro}, {Matthews}, {Miranda-Romagnoli}, {Moreno}, {Mostaf{\'a}}, {Nayerhoda}, {Nellen}, {Newbold}, {Nisa}, {Noriega-Papaqui}, {Pretz}, {P{\'e}rez-P{\'e}rez}, {Ren}, {Rho}, {Rivi{\`e}re}, {Rosa-Gonz{\'a}lez}, {Rosenberg}, {Ruiz-Velasco}, {Salesa Greus}, {Sandoval}, {Schneider}, {Schoorlemmer}, {Seglar Arroyo}, {Sinnis}, {Smith}, {Springer}, {Surajbali}, {Taboada}, {Tibolla}, {Tollefson}, {Torres}, {Vianello}, {Villase{\~n}or}, {Weisgarber}, {Werner}, {Westerhoff}, {Wood}, {Yapici}, {Yodh}, {Zepeda}, {Zhang}, and {Zhou}}}}
 \bibcite{Aleksic2012}{{3}{2012}{{{Aleksi{\'c}} {等}}}{{{Aleksi{\'c}}, {Alvarez}, {Antonelli}, {Antoranz}, {Asensio}, {Backes}, {Barres de Almeida}, {Barrio}, {Bastieri}, {Becerra Gonz{\'a}lez}, {Bednarek}, {Berger}, {Bernardini}, {Biland}, {Blanch}, {Bock}, {Boller}, {Bonnoli}, {Borla Tridon}, {Bretz}, {Ca{\~n}ellas}, {Carmona}, {Carosi}, {Colin}, {Colombo}, {Contreras}, {Cortina}, {Cossio}, {Covino}, {Da Vela}, {Dazzi}, {De Angelis}, {De Caneva}, {De Cea del Pozo}, {De Lotto}, {Delgado Mendez}, {Diago Ortega}, {Doert}, {Dom{\'{\i }}nguez}, {Dominis Prester}, {Dorner}, {Doro}, {Eisenacher}, {Elsaesser}, {Ferenc}, {Fonseca}, {Font}, {Fruck}, {Garc{\'{\i }}a L{\'o}pez}, {Garczarczyk}, {Garrido}, {Giavitto}, {Godinovi{\'c}}, {Gonz{\'a}lez Mu{\~n}oz}, {Gozzini}, {Hadasch}, {H{\"a}fner}, {Herrero}, {Hildebrand}, {Hose}, {Hrupec}, {Huber}, {Jankowski}, {Jogler}, {Kadenius}, {Kellermann}, {Klepser}, {Kr{\"a}henb{\"u}hl}, {Krause}, {La Barbera}, {Lelas}, {Leonardo}, {Lewandowska}, {Lindfors}, {Lombardi}, {L{\'o}pez}, {L{\'o}pez-Coto}, {L{\'o}pez-Oramas}, {Lorenz}, {Makariev}, {Maneva}, {Mankuzhiyil}, {Mannheim}, {Maraschi}, {Mariotti}, {Mart{\'{\i }}nez}, {Mazin}, {Meucci}, {Miranda}, {Mirzoyan}, {Mold{\'o}n}, {Moralejo}, {Munar-Adrover}, {Niedzwiecki}, {Nieto}, {Nilsson}, {Nowak}, {Orito}, {Paiano}, {Paneque}, {Paoletti}, {Pardo}, {Paredes}, {Partini}, {Perez-Torres}, {Persic}, {Pilia}, {Pochon}, {Prada}, {Prada Moroni}, {Prandini}, {Puerto Gimenez}, {Puljak}, {Reichardt}, {Reinthal}, {Rhode}, {Rib{\'o}}, {Rico}, {R{\"u}gamer}, {Saggion}, {Saito}, {Saito}, {Salvati}, {Satalecka}, {Scalzotto}, {Scapin}, {Schultz}, {Schweizer}, {Shore}, {Sillanp{\"a}{\"a}}, {Sitarek}, {Snidaric}, {Sobczynska}, {Spanier}, {Spiro}, {Stamatescu}, {Stamerra}, {Steinke}, {Storz}, {Strah}, {Sun}, {Suri{\'c}}, {Takalo}, {Takami}, {Tavecchio}, {Temnikov}, {Terzi{\'c}}, {Tescaro}, {Teshima}, {Tibolla}, {Torres}, {Treves}, {Uellenbeck}, {Vogler}, {Wagner}, {Weitzel}, {Zabalza}, {Zandanel}, and {Zanin}}}}
-\bibcite{Baade1943}{{4}{1943}{{Baade}}{{}}}
-\bibcite{Bamba2001}{{5}{2001}{{{Bamba} {等}}}{{{Bamba}, {Ueno}, {Koyama}, and {Yamauchi}}}}
-\bibcite{barrow2011cosmic}{{6}{2011}{{Barrow}}{{}}}
-\bibcite{Beuther2016}{{7}{2016}{{{Beuther} {等}}}{{{Beuther}, {Bihr}, {Rugel}, {Johnston}, {Wang}, {Walter}, {Brunthaler}, {Walsh}, {Ott}, {Stil}, {Henning}, {Schierhuber}, {Kainulainen}, {Heyer}, {Goldsmith}, {Anderson}, {Longmore}, {Klessen}, {Glover}, {Urquhart}, {Plume}, {Ragan}, {Schneider}, {McClure-Griffiths}, {Menten}, {Smith}, {Roy}, {Shanahan}, {Nguyen-Luong}, and {Bigiel}}}}
-\bibcite{Broersen2015}{{8}{2015}{{{Broersen} {和} {Vink}}}{{{Broersen} and {Vink}}}}
-\bibcite{2005ASPC..340..334B}{{9}{2005}{{Brogan}}{{}}}
-\bibcite{Brogan2013}{{10}{2013}{{{Brogan} {等}}}{{{Brogan}, {Goss}, {Hunter}, {Richards}, {Chandler}, {Lazendic}, {Koo}, {Hoffman}, and {Claussen}}}}
-\bibcite{Chen1995}{{11}{1995}{{{Chen} {等}}}{{{Chen}, {Liu}, and {Wang}}}}
-\bibcite{Copetti1991}{{12}{1991}{{{Copetti} {和} {Schmidt}}}{{{Copetti} and {Schmidt}}}}
-\bibcite{Craig1997}{{13}{1997}{{{Craig} {等}}}{{{Craig}, {Hailey}, and {Pisarski}}}}
-\bibcite{1999A&A...350..447D}{{14}{1999}{{{Duncan} {等}}}{{{Duncan}, {Reich}, {Reich}, and {F{\"u}rst}}}}
-\bibcite{Fang2012}{{15}{2012}{{{Fang} {和} {Zhang}}}{{{Fang} and {Zhang}}}}
-\bibcite{Fang2014}{{16}{2014}{{{Fang} {等}}}{{{Fang}, {Yu}, and {Zhang}}}}
-\@writefile{toc}{\contentsline {chapter}{参考文献}{73}{section*.29}}
-\bibcite{2017RMxAA..53..385F}{{17}{2017}{{{Ferland} {等}}}{{{Ferland}, {Chatzikos}, {Guzm{\'a}n}, {Lykins}, {van Hoof}, {Williams}, {Abel}, {Badnell}, {Keenan}, {Porter}, and {Stancil}}}}
-\bibcite{Ferreira2008}{{18}{2008}{{{Ferreira} {和} {de Jager}}}{{{Ferreira} and {de Jager}}}}
-\bibcite{Foster2004}{{19}{2004}{{{Foster} {等}}}{{{Foster}, {Routledge}, and {Kothes}}}}
-\bibcite{Frail1994a}{{20}{1994}{{{Frail} {等}}}{{{Frail}, {Goss}, and {Whiteoak}}}}
-\bibcite{Fryxell2000}{{21}{2000}{{{Fryxell} {等}}}{{{Fryxell}, {Olson}, {Ricker}, {Timmes}, {Zingale}, {Lamb}, {MacNeice}, {Rosner}, {Truran}, and {Tufo}}}}
-\bibcite{Gaensler1999}{{22}{1999}{{{Gaensler} {等}}}{{{Gaensler}, {Brazier}, {Manchester}, {Johnston}, and {Green}}}}
-\bibcite{Genzel1981}{{23}{1981}{{{Genzel} {等}}}{{{Genzel}, {Downes}, {Schneps}, {Reid}, {Moran}, {Kogan}, {Kostenko}, {Matveenko}, and {Ronnang}}}}
-\bibcite{Ginsburg2015}{{24}{2015}{{{Ginsburg} {等}}}{{{Ginsburg}, {Bally}, {Battersby}, {Youngblood}, {Darling}, {Rosolowsky}, {Arce}, and {Lebr{\'o}n Santos}}}}
-\bibcite{2014BASI...42...47G}{{25}{2014}{{Green}}{{}}}
-\bibcite{Gvaramadze2014}{{26}{2014}{{{Gvaramadze} {等}}}{{{Gvaramadze}, {Menten}, {Kniazev}, {Langer}, {Mackey}, {Kraus}, {Meyer}, and {Kami{\'n}ski}}}}
-\bibcite{Haverkorn2015}{{27}{2015}{{Haverkorn}}{{}}}
-\bibcite{Hewitt2008}{{28}{2008}{{{Hewitt} {等}}}{{{Hewitt}, {Yusef-Zadeh}, and {Wardle}}}}
-\bibcite{Ji2016}{{29}{2016}{{Ji {等}}}{{Ji, Oh, Ruszkowski, and Markevitch}}}
-\bibcite{Jun1999}{{30}{1999}{{{Jun} {和} {Jones}}}{{{Jun} and {Jones}}}}
-\bibcite{Jun1996}{{31}{1996{a}}{{{Jun} {和} {Norman}}}{{{Jun} and {Norman}}}}
-\bibcite{Jun1996a}{{32}{1996{b}}{{{Jun} {和} {Norman}}}{{{Jun} and {Norman}}}}
-\bibcite{1987A&AS...69..451J}{{33}{1987}{{{Junkes} {等}}}{{{Junkes}, {Fuerst}, and {Reich}}}}
-\bibcite{1967IAUS...31..117K}{{34}{1967}{{{Kahn} {和} {Woltjer}}}{{{Kahn} and {Woltjer}}}}
-\bibcite{Kang2006}{{35}{2006}{{{Kang} {和} {Jones}}}{{{Kang} and {Jones}}}}
-\bibcite{Kang2010}{{36}{2010}{{{Kang} {等}}}{{{Kang}, {Bieging}, {Kulesa}, {Lee}, {Choi}, and {Peters}}}}
-\bibcite{Koo1995}{{37}{1995}{{{Koo} {等}}}{{{Koo}, {Kim}, and {Seward}}}}
-\bibcite{Leahy2008}{{38}{2008}{{{Leahy} {和} {Tian}}}{{{Leahy} and {Tian}}}}
-\bibcite{Leahy2017a}{{39}{2017}{{{Leahy} {和} {Williams}}}{{{Leahy} and {Williams}}}}
-\bibcite{Lee2010}{{40}{2010}{{{Lee} {等}}}{{{Lee}, {Park}, {Hughes}, {Slane}, {Gaensler}, {Ghavamian}, and {Burrows}}}}
-\bibcite{Long1991}{{41}{1991}{{{Long} {等}}}{{{Long}, {Blair}, {Matsui}, and {White}}}}
-\bibcite{Meyer2014a}{{42}{2014{a}}{{{Meyer} {等}}}{{{Meyer}, {Gvaramadze}, {Langer}, {Mackey}, {Boumis}, and {Mohamed}}}}
-\bibcite{Meyer2014}{{43}{2014{b}}{{{Meyer} {等}}}{{{Meyer}, {Mackey}, {Langer}, {Gvaramadze}, {Mignone}, {Izzard}, and {Kaper}}}}
-\bibcite{Meyer2015}{{44}{2015}{{{Meyer} {等}}}{{{Meyer}, {Langer}, {Mackey}, {Vel{\'a}zquez}, and {Gusdorf}}}}
-\bibcite{Meyer2017}{{45}{2017}{{{Meyer} {等}}}{{{Meyer}, {Mignone}, {Kuiper}, {Raga}, and {Kley}}}}
-\bibcite{Mignone2007}{{46}{2007}{{{Mignone} {等}}}{{{Mignone}, {Bodo}, {Massaglia}, {Matsakos}, {Tesileanu}, {Zanni}, and {Ferrari}}}}
-\bibcite{Mignone2012}{{47}{2012}{{{Mignone} {等}}}{{{Mignone}, {Zanni}, {Tzeferacos}, {van Straalen}, {Colella}, and {Bodo}}}}
-\bibcite{Minkowski1964}{{48}{1964}{{Minkowski}}{{}}}
-\bibcite{1994JKAS...27...81M}{{49}{1994}{{{Moon} {和} {Koo}}}{{{Moon} and {Koo}}}}
-\bibcite{Mueller2016a}{{50}{2016}{{{M{\"u}ller} {等}}}{{{M{\"u}ller}, {Heger}, {Liptai}, and {Cameron}}}}
-\bibcite{Nakanishi2006}{{51}{2006}{{{Nakanishi} {和} {Sofue}}}{{{Nakanishi} and {Sofue}}}}
-\bibcite{Nakanishi2016}{{52}{2016}{{{Nakanishi} {和} {Sofue}}}{{{Nakanishi} and {Sofue}}}}
-\bibcite{Orlando2007}{{53}{2007}{{{Orlando} {等}}}{{{Orlando}, {Bocchino}, {Reale}, {Peres}, and {Petruk}}}}
-\bibcite{Orlando2008}{{54}{2008}{{{Orlando} {等}}}{{{Orlando}, {Bocchino}, {Reale}, {Peres}, and {Pagano}}}}
-\bibcite{Orlando2017}{{55}{2017}{{{Orlando} {等}}}{{{Orlando}, {Drake}, and {Miceli}}}}
-\bibcite{Pannuti2010}{{56}{2010}{{{Pannuti} {等}}}{{{Pannuti}, {Rho}, {Borkowski}, and {Cameron}}}}
-\bibcite{Parsons2012}{{57}{2012}{{{Parsons} {等}}}{{{Parsons}, {Thompson}, {Clark}, and {Chrysostomou}}}}
-\bibcite{Petruk2009a}{{58}{2009}{{{Petruk} {等}}}{{{Petruk}, {Beshley}, {Bocchino}, and {Orlando}}}}
-\bibcite{Poznanski2013}{{59}{2013}{{Poznanski}}{{}}}
-\bibcite{Sasaki2014}{{60}{2014}{{{Sasaki} {等}}}{{{Sasaki}, {Heinitz}, {Warth}, and {P{\"u}hlhofer}}}}
-\bibcite{Sato2010}{{61}{2010}{{{Sato} {等}}}{{{Sato}, {Reid}, {Brunthaler}, and {Menten}}}}
-\bibcite{Schneiter2006}{{62}{2006}{{{Schneiter} {等}}}{{{Schneiter}, {de La Fuente}, and {Vel{\'a}zquez}}}}
-\bibcite{Schneiter2015}{{63}{2015}{{{Schneiter} {等}}}{{{Schneiter}, {Vel{\'a}zquez}, {Reynoso}, {Esquivel}, and {De Colle}}}}
-\bibcite{Schneps1981}{{64}{1981}{{{Schneps} {等}}}{{{Schneps}, {Lane}, {Downes}, {Moran}, {Genzel}, and {Reid}}}}
-\bibcite{1959sdmm.book.....S}{{65}{1959}{{Sedov}}{{}}}
-\bibcite{1972PhDT........47S}{{66}{1972}{{Sgro}}{{}}}
-\bibcite{1970AuJPA..14..133S}{{67}{1970}{{{Shaver} {和} {Goss}}}{{{Shaver} and {Goss}}}}
-\bibcite{1978MmSAI..49..513S}{{68}{1978}{{Sofue}}{{}}}
-\bibcite{Stil2006}{{69}{2006}{{{Stil} {等}}}{{{Stil}, {Taylor}, {Dickey}, {Kavars}, {Martin}, {Rothwell}, {Boothroyd}, {Lockman}, and {McClure-Griffiths}}}}
-\bibcite{Stone1992}{{70}{1992{a}}{{{Stone} {和} {Norman}}}{{{Stone} and {Norman}}}}
-\bibcite{Stone1992a}{{71}{1992{b}}{{{Stone} {和} {Norman}}}{{{Stone} and {Norman}}}}
-\bibcite{Stone1992b}{{72}{1992}{{{Stone} {等}}}{{{Stone}, {Mihalas}, and {Norman}}}}
-\bibcite{Su2009}{{73}{2009}{{{Su} {等}}}{{{Su}, {Chen}, {Yang}, {Koo}, {Zhou}, {Jeong}, and {Zhang}}}}
-\bibcite{Subrahmanyan1995}{{74}{1995}{{{Subrahmanyan} {和} {Goss}}}{{{Subrahmanyan} and {Goss}}}}
-\bibcite{Sukhbold2016}{{75}{2016}{{{Sukhbold} {等}}}{{{Sukhbold}, {Ertl}, {Woosley}, {Brown}, and {Janka}}}}
-\bibcite{Sun2011}{{76}{2011}{{{Sun} {等}}}{{{Sun}, {Reich}, {Reich}, {Xiao}, {Gao}, and {Han}}}}
-\bibcite{Tammann1994}{{77}{1994}{{{Tammann} {等}}}{{{Tammann}, {Loeffler}, and {Schroeder}}}}
-\bibcite{Tian2006}{{78}{2006}{{{Tian} {和} {Leahy}}}{{{Tian} and {Leahy}}}}
-\bibcite{Tian2013}{{79}{2013}{{{Tian} {和} {Leahy}}}{{{Tian} and {Leahy}}}}
-\bibcite{Toledo-Roy2014}{{80}{2014{a}}{{{Toledo-Roy} {等}}}{{{Toledo-Roy}, {Esquivel}, {Vel{\'a}zquez}, and {Reynoso}}}}
-\bibcite{Toledo-Roy2014a}{{81}{2014{b}}{{{Toledo-Roy} {等}}}{{{Toledo-Roy}, {Vel{\'a}zquez}, {Esquivel}, and {Giacani}}}}
-\bibcite{Truelove1999}{{82}{1999}{{{Truelove} {和} {McKee}}}{{{Truelove} and {McKee}}}}
-\bibcite{vanMarle2010}{{83}{2010}{{{van Marle} {等}}}{{{van Marle}, {Smith}, {Owocki}, and {van Veelen}}}}
-\bibcite{vanMarle2012}{{84}{2012}{{{van Marle} {等}}}{{{van Marle}, {Meliani}, and {Marcowith}}}}
-\bibcite{vanMarle2014}{{85}{2014{a}}{{{van Marle} {等}}}{{{van Marle}, {Cox}, and {Decin}}}}
-\bibcite{vanMarle2014a}{{86}{2014{b}}{{{van Marle} {等}}}{{{van Marle}, {Decin}, and {Meliani}}}}
-\bibcite{vanMarle2015}{{87}{2015}{{{van Marle} {等}}}{{{van Marle}, {Meliani}, and {Marcowith}}}}
-\bibcite{vanMarle2018}{{88}{2018}{{{van Marle} {等}}}{{{van Marle}, {Casse}, and {Marcowith}}}}
-\bibcite{Velazquez2017}{{89}{2017}{{{Vel{\'a}zquez} {等}}}{{{Vel{\'a}zquez}, {Schneiter}, {Reynoso}, {Esquivel}, {De Colle}, {Toledo-Roy}, {G{\'o}mez}, {Sieyra}, and {Moranchel-Basurto}}}}
-\bibcite{1974A&A....32..375V}{{90}{1974}{{{Velusamy} {和} {Kundu}}}{{{Velusamy} and {Kundu}}}}
-\bibcite{Vigh2011}{{91}{2011}{{{Vigh} {等}}}{{{Vigh}, {Vel{\'a}zquez}, {G{\'o}mez}, {Reynoso}, {Esquivel}, and {Matias Schneiter}}}}
-\bibcite{2012IAUS..287..441W}{{92}{2012}{{{Wardle} {和} {McDonnell}}}{{{Wardle} and {McDonnell}}}}
-\bibcite{West2016}{{93}{2016}{{{West} {等}}}{{{West}, {Safi-Harb}, {Jaffe}, {Kothes}, {Landecker}, and {Foster}}}}
-\bibcite{White2016}{{94}{2016}{{{White} {等}}}{{{White}, {Stone}, and {Gammie}}}}
-\bibcite{1970IAUS...39..229W}{{95}{1970}{{Woltjer}}{{}}}
-\bibcite{Woltjer1972}{{96}{1972}{{Woltjer}}{{}}}
-\bibcite{Xu2014}{{97}{2014}{{{Xu} {和} {Han}}}{{{Xu} and {Han}}}}
-\bibcite{Xu2009}{{98}{2009}{{{Xu} {等}}}{{{Xu}, {Reid}, {Menten}, {Brunthaler}, {Zheng}, and {Moscadelli}}}}
-\bibcite{Yang2015}{{99}{2015}{{{Yang} {等}}}{{{Yang}, {Liu}, {Fang}, and {Li}}}}
-\bibcite{Yar-Uyaniker2004}{{100}{2004}{{{Yar-Uyaniker} {等}}}{{{Yar-Uyaniker}, {Uyaniker}, and {Kothes}}}}
-\bibcite{Zhang2017}{{101}{2017}{{{Zhang} {等}}}{{{Zhang}, {Tian}, {Leahy}, {Zhu}, {Cui}, and {Shan}}}}
-\bibcite{Zhang2018}{{102}{2018}{{{Zhang} {等}}}{{{Zhang}, {Tian}, and {Wu}}}}
-\bibcite{Zhang1996}{{103}{1996}{{{Zhang} {等}}}{{{Zhang}, {Wang}, and {Chen}}}}
-\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{81}{appendix*.31}}
+\bibcite{1977ICRC...11..132A}{{4}{1977}{{{Axford} {等}}}{{{Axford}, {Leer}, and {Skadron}}}}
+\bibcite{Baade1943}{{5}{1943}{{Baade}}{{}}}
+\bibcite{Bamba2001}{{6}{2001}{{{Bamba} {等}}}{{{Bamba}, {Ueno}, {Koyama}, and {Yamauchi}}}}
+\bibcite{barrow2011cosmic}{{7}{2011}{{Barrow}}{{}}}
+\bibcite{Bell1978}{{8}{1978}{{Bell}}{{}}}
+\bibcite{Beuther2016}{{9}{2016}{{{Beuther} {等}}}{{{Beuther}, {Bihr}, {Rugel}, {Johnston}, {Wang}, {Walter}, {Brunthaler}, {Walsh}, {Ott}, {Stil}, {Henning}, {Schierhuber}, {Kainulainen}, {Heyer}, {Goldsmith}, {Anderson}, {Longmore}, {Klessen}, {Glover}, {Urquhart}, {Plume}, {Ragan}, {Schneider}, {McClure-Griffiths}, {Menten}, {Smith}, {Roy}, {Shanahan}, {Nguyen-Luong}, and {Bigiel}}}}
+\bibcite{Blandford1978}{{10}{1978}{{{Blandford} {和} {Ostriker}}}{{{Blandford} and {Ostriker}}}}
+\bibcite{Broersen2015}{{11}{2015}{{{Broersen} {和} {Vink}}}{{{Broersen} and {Vink}}}}
+\bibcite{2005ASPC..340..334B}{{12}{2005}{{Brogan}}{{}}}
+\bibcite{Brogan2013}{{13}{2013}{{{Brogan} {等}}}{{{Brogan}, {Goss}, {Hunter}, {Richards}, {Chandler}, {Lazendic}, {Koo}, {Hoffman}, and {Claussen}}}}
+\bibcite{Chen1995}{{14}{1995}{{{Chen} {等}}}{{{Chen}, {Liu}, and {Wang}}}}
+\bibcite{Chevalier1989}{{15}{1989}{{{Chevalier} {和} {Liang}}}{{{Chevalier} and {Liang}}}}
+\bibcite{Copetti1991}{{16}{1991}{{{Copetti} {和} {Schmidt}}}{{{Copetti} and {Schmidt}}}}
+\@writefile{toc}{\contentsline {chapter}{参考文献}{77}{section*.30}}
+\bibcite{Craig1997}{{17}{1997}{{{Craig} {等}}}{{{Craig}, {Hailey}, and {Pisarski}}}}
+\bibcite{1999A&A...350..447D}{{18}{1999}{{{Duncan} {等}}}{{{Duncan}, {Reich}, {Reich}, and {F{\"u}rst}}}}
+\bibcite{Fang2012}{{19}{2012}{{{Fang} {和} {Zhang}}}{{{Fang} and {Zhang}}}}
+\bibcite{Fang2014}{{20}{2014}{{{Fang} {等}}}{{{Fang}, {Yu}, and {Zhang}}}}
+\bibcite{2017RMxAA..53..385F}{{21}{2017}{{{Ferland} {等}}}{{{Ferland}, {Chatzikos}, {Guzm{\'a}n}, {Lykins}, {van Hoof}, {Williams}, {Abel}, {Badnell}, {Keenan}, {Porter}, and {Stancil}}}}
+\bibcite{Fermi1949}{{22}{1949}{{Fermi}}{{}}}
+\bibcite{Ferreira2008}{{23}{2008}{{{Ferreira} {和} {de Jager}}}{{{Ferreira} and {de Jager}}}}
+\bibcite{Foster2004}{{24}{2004}{{{Foster} {等}}}{{{Foster}, {Routledge}, and {Kothes}}}}
+\bibcite{Frail1994a}{{25}{1994}{{{Frail} {等}}}{{{Frail}, {Goss}, and {Whiteoak}}}}
+\bibcite{Fryxell2000}{{26}{2000}{{{Fryxell} {等}}}{{{Fryxell}, {Olson}, {Ricker}, {Timmes}, {Zingale}, {Lamb}, {MacNeice}, {Rosner}, {Truran}, and {Tufo}}}}
+\bibcite{Gaensler1999}{{27}{1999}{{{Gaensler} {等}}}{{{Gaensler}, {Brazier}, {Manchester}, {Johnston}, and {Green}}}}
+\bibcite{Genzel1981}{{28}{1981}{{{Genzel} {等}}}{{{Genzel}, {Downes}, {Schneps}, {Reid}, {Moran}, {Kogan}, {Kostenko}, {Matveenko}, and {Ronnang}}}}
+\bibcite{Ginsburg2015}{{29}{2015}{{{Ginsburg} {等}}}{{{Ginsburg}, {Bally}, {Battersby}, {Youngblood}, {Darling}, {Rosolowsky}, {Arce}, and {Lebr{\'o}n Santos}}}}
+\bibcite{2014BASI...42...47G}{{30}{2014}{{Green}}{{}}}
+\bibcite{Gvaramadze2014}{{31}{2014}{{{Gvaramadze} {等}}}{{{Gvaramadze}, {Menten}, {Kniazev}, {Langer}, {Mackey}, {Kraus}, {Meyer}, and {Kami{\'n}ski}}}}
+\bibcite{Haverkorn2015}{{32}{2015}{{Haverkorn}}{{}}}
+\bibcite{Hewitt2008}{{33}{2008}{{{Hewitt} {等}}}{{{Hewitt}, {Yusef-Zadeh}, and {Wardle}}}}
+\bibcite{Ji2016}{{34}{2016}{{Ji {等}}}{{Ji, Oh, Ruszkowski, and Markevitch}}}
+\bibcite{Jun1999}{{35}{1999}{{{Jun} {和} {Jones}}}{{{Jun} and {Jones}}}}
+\bibcite{Jun1996}{{36}{1996{a}}{{{Jun} {和} {Norman}}}{{{Jun} and {Norman}}}}
+\bibcite{Jun1996a}{{37}{1996{b}}{{{Jun} {和} {Norman}}}{{{Jun} and {Norman}}}}
+\bibcite{1987A&AS...69..451J}{{38}{1987}{{{Junkes} {等}}}{{{Junkes}, {Fuerst}, and {Reich}}}}
+\bibcite{1967IAUS...31..117K}{{39}{1967}{{{Kahn} {和} {Woltjer}}}{{{Kahn} and {Woltjer}}}}
+\bibcite{Kang2006}{{40}{2006}{{{Kang} {和} {Jones}}}{{{Kang} and {Jones}}}}
+\bibcite{Kang2010}{{41}{2010}{{{Kang} {等}}}{{{Kang}, {Bieging}, {Kulesa}, {Lee}, {Choi}, and {Peters}}}}
+\bibcite{Koo1995}{{42}{1995}{{{Koo} {等}}}{{{Koo}, {Kim}, and {Seward}}}}
+\bibcite{1977SPhD...22..327K}{{43}{1977}{{Krymskii}}{{}}}
+\bibcite{Leahy2008}{{44}{2008}{{{Leahy} {和} {Tian}}}{{{Leahy} and {Tian}}}}
+\bibcite{Leahy2017a}{{45}{2017}{{{Leahy} {和} {Williams}}}{{{Leahy} and {Williams}}}}
+\bibcite{Lee2010}{{46}{2010}{{{Lee} {等}}}{{{Lee}, {Park}, {Hughes}, {Slane}, {Gaensler}, {Ghavamian}, and {Burrows}}}}
+\bibcite{Long1991}{{47}{1991}{{{Long} {等}}}{{{Long}, {Blair}, {Matsui}, and {White}}}}
+\bibcite{Meyer2014a}{{48}{2014{a}}{{{Meyer} {等}}}{{{Meyer}, {Gvaramadze}, {Langer}, {Mackey}, {Boumis}, and {Mohamed}}}}
+\bibcite{Meyer2014}{{49}{2014{b}}{{{Meyer} {等}}}{{{Meyer}, {Mackey}, {Langer}, {Gvaramadze}, {Mignone}, {Izzard}, and {Kaper}}}}
+\bibcite{Meyer2015}{{50}{2015}{{{Meyer} {等}}}{{{Meyer}, {Langer}, {Mackey}, {Vel{\'a}zquez}, and {Gusdorf}}}}
+\bibcite{Meyer2017}{{51}{2017}{{{Meyer} {等}}}{{{Meyer}, {Mignone}, {Kuiper}, {Raga}, and {Kley}}}}
+\bibcite{Mignone2007}{{52}{2007}{{{Mignone} {等}}}{{{Mignone}, {Bodo}, {Massaglia}, {Matsakos}, {Tesileanu}, {Zanni}, and {Ferrari}}}}
+\bibcite{Mignone2012}{{53}{2012}{{{Mignone} {等}}}{{{Mignone}, {Zanni}, {Tzeferacos}, {van Straalen}, {Colella}, and {Bodo}}}}
+\bibcite{Minkowski1964}{{54}{1964}{{Minkowski}}{{}}}
+\bibcite{1994JKAS...27...81M}{{55}{1994}{{{Moon} {和} {Koo}}}{{{Moon} and {Koo}}}}
+\bibcite{Mueller2016a}{{56}{2016}{{{M{\"u}ller} {等}}}{{{M{\"u}ller}, {Heger}, {Liptai}, and {Cameron}}}}
+\bibcite{Nakanishi2006}{{57}{2006}{{{Nakanishi} {和} {Sofue}}}{{{Nakanishi} and {Sofue}}}}
+\bibcite{Nakanishi2016}{{58}{2016}{{{Nakanishi} {和} {Sofue}}}{{{Nakanishi} and {Sofue}}}}
+\bibcite{Orlando2007}{{59}{2007}{{{Orlando} {等}}}{{{Orlando}, {Bocchino}, {Reale}, {Peres}, and {Petruk}}}}
+\bibcite{Orlando2008}{{60}{2008}{{{Orlando} {等}}}{{{Orlando}, {Bocchino}, {Reale}, {Peres}, and {Pagano}}}}
+\bibcite{Orlando2017}{{61}{2017}{{{Orlando} {等}}}{{{Orlando}, {Drake}, and {Miceli}}}}
+\bibcite{1970ranp.book.....P}{{62}{1970}{{Pacholczyk}}{{}}}
+\bibcite{Pannuti2010}{{63}{2010}{{{Pannuti} {等}}}{{{Pannuti}, {Rho}, {Borkowski}, and {Cameron}}}}
+\bibcite{Parsons2012}{{64}{2012}{{{Parsons} {等}}}{{{Parsons}, {Thompson}, {Clark}, and {Chrysostomou}}}}
+\bibcite{Petruk2009a}{{65}{2009}{{{Petruk} {等}}}{{{Petruk}, {Beshley}, {Bocchino}, and {Orlando}}}}
+\bibcite{Poznanski2013}{{66}{2013}{{Poznanski}}{{}}}
+\bibcite{Sasaki2014}{{67}{2014}{{{Sasaki} {等}}}{{{Sasaki}, {Heinitz}, {Warth}, and {P{\"u}hlhofer}}}}
+\bibcite{Sato2010}{{68}{2010}{{{Sato} {等}}}{{{Sato}, {Reid}, {Brunthaler}, and {Menten}}}}
+\bibcite{Schneiter2006}{{69}{2006}{{{Schneiter} {等}}}{{{Schneiter}, {de La Fuente}, and {Vel{\'a}zquez}}}}
+\bibcite{Schneiter2015}{{70}{2015}{{{Schneiter} {等}}}{{{Schneiter}, {Vel{\'a}zquez}, {Reynoso}, {Esquivel}, and {De Colle}}}}
+\bibcite{Schneps1981}{{71}{1981}{{{Schneps} {等}}}{{{Schneps}, {Lane}, {Downes}, {Moran}, {Genzel}, and {Reid}}}}
+\bibcite{1959sdmm.book.....S}{{72}{1959}{{Sedov}}{{}}}
+\bibcite{1972PhDT........47S}{{73}{1972}{{Sgro}}{{}}}
+\bibcite{1970AuJPA..14..133S}{{74}{1970}{{{Shaver} {和} {Goss}}}{{{Shaver} and {Goss}}}}
+\bibcite{1953AZh....30...15S}{{75}{1953}{{Shklovskii}}{{}}}
+\bibcite{1978MmSAI..49..513S}{{76}{1978}{{Sofue}}{{}}}
+\bibcite{Stil2006}{{77}{2006}{{{Stil} {等}}}{{{Stil}, {Taylor}, {Dickey}, {Kavars}, {Martin}, {Rothwell}, {Boothroyd}, {Lockman}, and {McClure-Griffiths}}}}
+\bibcite{Stone1992}{{78}{1992{a}}{{{Stone} {和} {Norman}}}{{{Stone} and {Norman}}}}
+\bibcite{Stone1992a}{{79}{1992{b}}{{{Stone} {和} {Norman}}}{{{Stone} and {Norman}}}}
+\bibcite{Stone1992b}{{80}{1992}{{{Stone} {等}}}{{{Stone}, {Mihalas}, and {Norman}}}}
+\bibcite{Su2009}{{81}{2009}{{{Su} {等}}}{{{Su}, {Chen}, {Yang}, {Koo}, {Zhou}, {Jeong}, and {Zhang}}}}
+\bibcite{Subrahmanyan1995}{{82}{1995}{{{Subrahmanyan} {和} {Goss}}}{{{Subrahmanyan} and {Goss}}}}
+\bibcite{Sukhbold2016}{{83}{2016}{{{Sukhbold} {等}}}{{{Sukhbold}, {Ertl}, {Woosley}, {Brown}, and {Janka}}}}
+\bibcite{Sun2011}{{84}{2011}{{{Sun} {等}}}{{{Sun}, {Reich}, {Reich}, {Xiao}, {Gao}, and {Han}}}}
+\bibcite{Tammann1994}{{85}{1994}{{{Tammann} {等}}}{{{Tammann}, {Loeffler}, and {Schroeder}}}}
+\bibcite{Tian2006}{{86}{2006}{{{Tian} {和} {Leahy}}}{{{Tian} and {Leahy}}}}
+\bibcite{Tian2013}{{87}{2013}{{{Tian} {和} {Leahy}}}{{{Tian} and {Leahy}}}}
+\bibcite{Toledo-Roy2014}{{88}{2014{a}}{{{Toledo-Roy} {等}}}{{{Toledo-Roy}, {Esquivel}, {Vel{\'a}zquez}, and {Reynoso}}}}
+\bibcite{Toledo-Roy2014a}{{89}{2014{b}}{{{Toledo-Roy} {等}}}{{{Toledo-Roy}, {Vel{\'a}zquez}, {Esquivel}, and {Giacani}}}}
+\bibcite{Truelove1999}{{90}{1999}{{{Truelove} {和} {McKee}}}{{{Truelove} and {McKee}}}}
+\bibcite{vanMarle2010}{{91}{2010}{{{van Marle} {等}}}{{{van Marle}, {Smith}, {Owocki}, and {van Veelen}}}}
+\bibcite{vanMarle2012}{{92}{2012}{{{van Marle} {等}}}{{{van Marle}, {Meliani}, and {Marcowith}}}}
+\bibcite{vanMarle2014}{{93}{2014{a}}{{{van Marle} {等}}}{{{van Marle}, {Cox}, and {Decin}}}}
+\bibcite{vanMarle2014a}{{94}{2014{b}}{{{van Marle} {等}}}{{{van Marle}, {Decin}, and {Meliani}}}}
+\bibcite{vanMarle2015}{{95}{2015}{{{van Marle} {等}}}{{{van Marle}, {Meliani}, and {Marcowith}}}}
+\bibcite{vanMarle2018}{{96}{2018}{{{van Marle} {等}}}{{{van Marle}, {Casse}, and {Marcowith}}}}
+\bibcite{Velazquez2017}{{97}{2017}{{{Vel{\'a}zquez} {等}}}{{{Vel{\'a}zquez}, {Schneiter}, {Reynoso}, {Esquivel}, {De Colle}, {Toledo-Roy}, {G{\'o}mez}, {Sieyra}, and {Moranchel-Basurto}}}}
+\bibcite{1974A&A....32..375V}{{98}{1974}{{{Velusamy} {和} {Kundu}}}{{{Velusamy} and {Kundu}}}}
+\bibcite{Vigh2011}{{99}{2011}{{{Vigh} {等}}}{{{Vigh}, {Vel{\'a}zquez}, {G{\'o}mez}, {Reynoso}, {Esquivel}, and {Matias Schneiter}}}}
+\bibcite{2012IAUS..287..441W}{{100}{2012}{{{Wardle} {和} {McDonnell}}}{{{Wardle} and {McDonnell}}}}
+\bibcite{West2016}{{101}{2016}{{{West} {等}}}{{{West}, {Safi-Harb}, {Jaffe}, {Kothes}, {Landecker}, and {Foster}}}}
+\bibcite{White2016}{{102}{2016}{{{White} {等}}}{{{White}, {Stone}, and {Gammie}}}}
+\bibcite{1970IAUS...39..229W}{{103}{1970}{{Woltjer}}{{}}}
+\bibcite{Woltjer1972}{{104}{1972}{{Woltjer}}{{}}}
+\bibcite{Xu2014}{{105}{2014}{{{Xu} {和} {Han}}}{{{Xu} and {Han}}}}
+\bibcite{Xu2009}{{106}{2009}{{{Xu} {等}}}{{{Xu}, {Reid}, {Menten}, {Brunthaler}, {Zheng}, and {Moscadelli}}}}
+\bibcite{Yang2015}{{107}{2015}{{{Yang} {等}}}{{{Yang}, {Liu}, {Fang}, and {Li}}}}
+\bibcite{Yar-Uyaniker2004}{{108}{2004}{{{Yar-Uyaniker} {等}}}{{{Yar-Uyaniker}, {Uyaniker}, and {Kothes}}}}
+\bibcite{Zhang2017}{{109}{2017}{{{Zhang} {等}}}{{{Zhang}, {Tian}, {Leahy}, {Zhu}, {Cui}, and {Shan}}}}
+\bibcite{Zhang2018}{{110}{2018}{{{Zhang} {等}}}{{{Zhang}, {Tian}, and {Wu}}}}
+\bibcite{Zhang1996}{{111}{1996}{{{Zhang} {等}}}{{{Zhang}, {Wang}, and {Chen}}}}
+\@writefile{toc}{\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{85}{appendix*.32}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}
-\@writefile{toc}{\contentsline {chapter}{致谢}{83}{appendix*.38}}
+\@writefile{toc}{\contentsline {chapter}{致谢}{87}{appendix*.39}}
 \@writefile{lof}{\addvspace {10.0pt}}
 \@writefile{lot}{\addvspace {10.0pt}}

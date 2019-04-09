@@ -1,4 +1,4 @@
-\begin{thebibliography}{103}
+\begin{thebibliography}{111}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -101,6 +101,12 @@
 \newblock \aap, 2012, 541:\penalty0 A13.
 \newblock DOI: \doi{10.1051/0004-6361/201218846}.
 
+\bibitem[{{Axford} {\bibetal}(1977){Axford}, {Leer}, and
+  {Skadron}}]{1977ICRC...11..132A}
+{Axford}~W~I, {Leer}~E, {Skadron}~G.
+\newblock {The acceleration of cosmic rays by shock waves}\allowbreak[J].
+\newblock International Cosmic Ray Conference, 1977, 11:\penalty0 132-137.
+
 \bibitem[{{Baade}(1943)}]{Baade1943}
 {Baade}~W.
 \newblock {Nova Ophiuchi of 1604 as a Supernova.}\allowbreak[J/OL].
@@ -121,6 +127,13 @@ BARROW~J~D.
 \newblock Cosmic imagery: key images in the history of science\allowbreak[M].
 \newblock Random House, 2011.
 
+\bibitem[{{Bell}(1978)}]{Bell1978}
+{Bell}~A~R.
+\newblock {The acceleration of cosmic rays in shock fronts.
+  II}\allowbreak[J/OL].
+\newblock \mnras, 1978, 182:\penalty0 443-455.
+\newblock DOI: \doi{10.1093/mnras/182.3.443}.
+
 \bibitem[{{Beuther} {\bibetal}(2016){Beuther}, {Bihr}, {Rugel}, {Johnston},
   {Wang}, {Walter}, {Brunthaler}, {Walsh}, {Ott}, {Stil}, {Henning},
   {Schierhuber}, {Kainulainen}, {Heyer}, {Goldsmith}, {Anderson}, {Longmore},
@@ -132,6 +145,13 @@ BARROW~J~D.
   Survey overview and data release 1}\allowbreak[J/OL].
 \newblock \aap, 2016, 595:\penalty0 A32.
 \newblock DOI: \doi{10.1051/0004-6361/201629143}.
+
+\bibitem[{{Blandford} {\biband} {Ostriker}(1978){Blandford} and
+  {Ostriker}}]{Blandford1978}
+{Blandford}~R~D, {Ostriker}~J~P.
+\newblock {Particle acceleration by astrophysical shocks}\allowbreak[J/OL].
+\newblock \apjl, 1978, 221:\penalty0 L29-L32.
+\newblock DOI: \doi{10.1086/182658}.
 
 \bibitem[{{Broersen} {\biband} {Vink}(2015){Broersen} and
   {Vink}}]{Broersen2015}
@@ -165,6 +185,14 @@ BARROW~J~D.
   Inhomogeneous Stellar Wind}\allowbreak[J/OL].
 \newblock \apj, 1995, 446:\penalty0 755.
 \newblock DOI: \doi{10.1086/175832}.
+
+\bibitem[{{Chevalier} {\biband} {Liang}(1989){Chevalier} and
+  {Liang}}]{Chevalier1989}
+{Chevalier}~R~A, {Liang}~E~P.
+\newblock {The interaction of supernovae with circumstellar
+  bubbles}\allowbreak[J/OL].
+\newblock \apj, 1989, 344:\penalty0 332-340.
+\newblock DOI: \doi{10.1086/167802}.
 
 \bibitem[{{Copetti} {\biband} {Schmidt}(1991){Copetti} and
   {Schmidt}}]{Copetti1991}
@@ -208,6 +236,12 @@ BARROW~J~D.
 {Ferland}~G~J, {Chatzikos}~M, {Guzm{\'a}n}~F, et~al.
 \newblock {The 2017 Release Cloudy}\allowbreak[J].
 \newblock \rmxaa, 2017, 53:\penalty0 385-438.
+
+\bibitem[{{Fermi}(1949)}]{Fermi1949}
+{Fermi}~E.
+\newblock {On the Origin of the Cosmic Radiation}\allowbreak[J/OL].
+\newblock Physical Review, 1949, 75:\penalty0 1169-1174.
+\newblock DOI: \doi{10.1103/PhysRev.75.1169}.
 
 \bibitem[{{Ferreira} {\biband} {de Jager}(2008){Ferreira} and {de
   Jager}}]{Ferreira2008}
@@ -364,6 +398,12 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
 \newblock \apj, 1995, 447:\penalty0 211.
 \newblock DOI: \doi{10.1086/175867}.
 
+\bibitem[{{Krymskii}(1977)}]{1977SPhD...22..327K}
+{Krymskii}~G~F.
+\newblock {A regular mechanism for the acceleration of charged particles on the
+  front of a shock wave}\allowbreak[J].
+\newblock Soviet Physics Doklady, 1977, 22:\penalty0 327.
+
 \bibitem[{{Leahy} {\biband} {Tian}(2008){Leahy} and {Tian}}]{Leahy2008}
 {Leahy}~D~A, {Tian}~W~W.
 \newblock {The distance of the SNR Kes 75 and PWN PSR J1846-0258
@@ -504,6 +544,12 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
 \newblock \mnras, 2017, 464:\penalty0 5003-5017.
 \newblock DOI: \doi{10.1093/mnras/stw2718}.
 
+\bibitem[{{Pacholczyk}(1970)}]{1970ranp.book.....P}
+{Pacholczyk}~A~G.
+\newblock {Radio astrophysics. Nonthermal processes in galactic and
+  extragalactic sources}\allowbreak[M].
+\newblock 1970.
+
 \bibitem[{{Pannuti} {\bibetal}(2010){Pannuti}, {Rho}, {Borkowski}, and
   {Cameron}}]{Pannuti2010}
 {Pannuti}~T~G, {Rho}~J, {Borkowski}~K~J, et~al.
@@ -591,6 +637,13 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
   Characteristics}\allowbreak[J].
 \newblock Australian Journal of Physics Astrophysical Supplement, 1970,
   14:\penalty0 133.
+
+\bibitem[{{Shklovskii}(1953)}]{1953AZh....30...15S}
+{Shklovskii}~I~S.
+\newblock {The Problem of Cosmic Radioemission. $\lt$TITLE
+  lang=``ru$\gt$Problema Kosmi{\v c}eskogo Radioizlu{\v
+  c}eni{\^a}}\allowbreak[J].
+\newblock \azh, 1953, 30:\penalty0 15-36.
 
 \bibitem[{{Sofue}(1978)}]{1978MmSAI..49..513S}
 {Sofue}~Y.
