@@ -1,4 +1,4 @@
-\begin{thebibliography}{111}
+\begin{thebibliography}{128}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -67,6 +67,39 @@
 \newblock \nat, 2018, 562:\penalty0 82-85.
 \newblock DOI: \doi{10.1038/s41586-018-0565-5}.
 
+\bibitem[{{Ackermann} {\bibetal}(2013){Ackermann}, {Ajello}, {Allafort},
+  {Baldini}, {Ballet}, {Barbiellini}, {Baring}, {Bastieri}, {Bechtol},
+  {Bellazzini}, {Blandford}, {Bloom}, {Bonamente}, {Borgland}, {Bottacini},
+  {Brandt}, {Bregeon}, {Brigida}, {Bruel}, {Buehler}, {Busetto}, {Buson},
+  {Caliandro}, {Cameron}, {Caraveo}, {Casandjian}, {Cecchi}, {{\c C}elik},
+  {Charles}, {Chaty}, {Chaves}, {Chekhtman}, {Cheung}, {Chiang}, {Chiaro},
+  {Cillis}, {Ciprini}, {Claus}, {Cohen-Tanugi}, {Cominsky}, {Conrad}, {Corbel},
+  {Cutini}, {D'Ammando}, {de Angelis}, {de Palma}, {Dermer}, {do Couto e
+  Silva}, {Drell}, {Drlica-Wagner}, {Falletti}, {Favuzzi}, {Ferrara},
+  {Franckowiak}, {Fukazawa}, {Funk}, {Fusco}, {Gargano}, {Germani},
+  {Giglietto}, {Giommi}, {Giordano}, {Giroletti}, {Glanzman}, {Godfrey},
+  {Grenier}, {Grondin}, {Grove}, {Guiriec}, {Hadasch}, {Hanabata}, {Harding},
+  {Hayashida}, {Hayashi}, {Hays}, {Hewitt}, {Hill}, {Hughes}, {Jackson},
+  {Jogler}, {J{\'o}hannesson}, {Johnson}, {Kamae}, {Kataoka}, {Katsuta},
+  {Kn{\"o}dlseder}, {Kuss}, {Lande}, {Larsson}, {Latronico}, {Lemoine-Goumard},
+  {Longo}, {Loparco}, {Lovellette}, {Lubrano}, {Madejski}, {Massaro}, {Mayer},
+  {Mazziotta}, {McEnery}, {Mehault}, {Michelson}, {Mignani}, {Mitthumsiri},
+  {Mizuno}, {Moiseev}, {Monzani}, {Morselli}, {Moskalenko}, {Murgia},
+  {Nakamori}, {Nemmen}, {Nuss}, {Ohno}, {Ohsugi}, {Omodei}, {Orienti},
+  {Orlando}, {Ormes}, {Paneque}, {Perkins}, {Pesce-Rollins}, {Piron}, {Pivato},
+  {Rain{\`o}}, {Rando}, {Razzano}, {Razzaque}, {Reimer}, {Reimer}, {Ritz},
+  {Romoli}, {S{\'a}nchez-Conde}, {Schulz}, {Sgr{\`o}}, {Simeon}, {Siskind},
+  {Smith}, {Spandre}, {Spinelli}, {Stecker}, {Strong}, {Suson}, {Tajima},
+  {Takahashi}, {Takahashi}, {Tanaka}, {Thayer}, {Thayer}, {Thompson},
+  {Thorsett}, {Tibaldo}, {Tibolla}, {Tinivella}, {Troja}, {Uchiyama}, {Usher},
+  {Vandenbroucke}, {Vasileiou}, {Vianello}, {Vitale}, {Waite}, {Werner},
+  {Winer}, {Wood}, {Wood}, {Yamazaki}, {Yang}, and {Zimmer}}]{Ackermann2013}
+{Ackermann}~M, {Ajello}~M, {Allafort}~A, et~al.
+\newblock {Detection of the Characteristic Pion-Decay Signature in Supernova
+  Remnants}\allowbreak[J/OL].
+\newblock Science, 2013, 339:\penalty0 807-811.
+\newblock DOI: \doi{10.1126/science.1231160}.
+
 \bibitem[{{Aleksi{\'c}} {\bibetal}(2012){Aleksi{\'c}}, {Alvarez}, {Antonelli},
   {Antoranz}, {Asensio}, {Backes}, {Barres de Almeida}, {Barrio}, {Bastieri},
   {Becerra Gonz{\'a}lez}, {Bednarek}, {Berger}, {Bernardini}, {Biland},
@@ -126,6 +159,13 @@
 BARROW~J~D.
 \newblock Cosmic imagery: key images in the history of science\allowbreak[M].
 \newblock Random House, 2011.
+
+\bibitem[{{Becker} {\bibetal}(1980){Becker}, {Szymkowiak}, {Boldt}, {Holt}, and
+  {Serlemitsos}}]{Becker1980}
+{Becker}~R~H, {Szymkowiak}~A~E, {Boldt}~E~A, et~al.
+\newblock {Is the remnant of SN 1006 Crablike}\allowbreak[J/OL].
+\newblock \apjl, 1980, 240:\penalty0 L33-L35.
+\newblock DOI: \doi{10.1086/183318}.
 
 \bibitem[{{Bell}(1978)}]{Bell1978}
 {Bell}~A~R.
@@ -282,6 +322,12 @@ BARROW~J~D.
 \newblock \mnras, 1999, 305:\penalty0 724-736.
 \newblock DOI: \doi{10.1046/j.1365-8711.1999.02500.x}.
 
+\bibitem[{{Galas} {\bibetal}(1982){Galas}, {Venkatesan}, and
+  {Garmire}}]{1982ApL....22..103G}
+{Galas}~C~M~F, {Venkatesan}~D, {Garmire}~G.
+\newblock {Soft X-ray Observation of Supernova Remnant SN1006}\allowbreak[J].
+\newblock \aplett, 1982, 22:\penalty0 103.
+
 \bibitem[{{Genzel} {\bibetal}(1981){Genzel}, {Downes}, {Schneps}, {Reid},
   {Moran}, {Kogan}, {Kostenko}, {Matveenko}, and {Ronnang}}]{Genzel1981}
 {Genzel}~R, {Downes}~D, {Schneps}~M~H, et~al.
@@ -322,6 +368,12 @@ BARROW~J~D.
 \newblock 2015: 483.
 \newblock DOI: \doi{10.1007/978-3-662-44625-6_17}.
 
+\bibitem[{Hess(1912)}]{hess1912beobachtungen}
+HESS~V~F.
+\newblock {\"U}ber beobachtungen der durchdringenden strahlung bei sieben
+  freiballonfahrten\allowbreak[J].
+\newblock Phys. Z., 1912, 13:\penalty0 1084-1091.
+
 \bibitem[{{Hewitt} {\bibetal}(2008){Hewitt}, {Yusef-Zadeh}, and
   {Wardle}}]{Hewitt2008}
 {Hewitt}~J~W, {Yusef-Zadeh}~F, {Wardle}~M.
@@ -330,11 +382,32 @@ BARROW~J~D.
 \newblock \apj, 2008, 683:\penalty0 189-206.
 \newblock DOI: \doi{10.1086/588652}.
 
+\bibitem[{{H{\"o}randel}(2003)}]{Hoerandel2003}
+{H{\"o}randel}~J~R.
+\newblock {On the knee in the energy spectrum of cosmic rays}\allowbreak[J/OL].
+\newblock Astroparticle Physics, 2003, 19:\penalty0 193-220.
+\newblock DOI: \doi{10.1016/S0927-6505(02)00198-6}.
+
 \bibitem[{Ji {\bibetal}(2016)Ji, Oh, Ruszkowski, and Markevitch}]{Ji2016}
 JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
 \newblock The efficiency of b-field amplification at shocks by
   turbulence\allowbreak[J].
 \newblock 2016.
+
+\bibitem[{{Jogler} {\biband} {Funk}(2016){Jogler} and {Funk}}]{Jogler2016}
+{Jogler}~T, {Funk}~S.
+\newblock {Revealing W51C as a Cosmic Ray Source Using Fermi-LAT
+  Data}\allowbreak[J/OL].
+\newblock \apj, 2016, 816:\penalty0 100.
+\newblock DOI: \doi{10.3847/0004-637X/816/2/100}.
+
+\bibitem[{{Joubert} {\bibetal}(2016){Joubert}, {Castro}, {Slane}, and
+  {Gelfand}}]{Joubert2016}
+{Joubert}~T, {Castro}~D, {Slane}~P, et~al.
+\newblock {Fermi-LAT Observations of Supernova Remnant G5.7-0.1, Believed to be
+  Interacting with Molecular Clouds}\allowbreak[J/OL].
+\newblock \apj, 2016, 816:\penalty0 63.
+\newblock DOI: \doi{10.3847/0004-637X/816/2/63}.
 
 \bibitem[{{Jun} {\biband} {Jones}(1999){Jun} and {Jones}}]{Jun1999}
 {Jun}~B~I, {Jones}~T~W.
@@ -398,11 +471,26 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
 \newblock \apj, 1995, 447:\penalty0 211.
 \newblock DOI: \doi{10.1086/175867}.
 
+\bibitem[{{Koyama} {\bibetal}(1995){Koyama}, {Petre}, {Gotthelf}, {Hwang},
+  {Matsuura}, {Ozaki}, and {Holt}}]{Koyama1995}
+{Koyama}~K, {Petre}~R, {Gotthelf}~E~V, et~al.
+\newblock {Evidence for shock acceleration of high-energy electrons in the
+  supernova remnant SN1006}\allowbreak[J/OL].
+\newblock \nat, 1995, 378:\penalty0 255-258.
+\newblock DOI: \doi{10.1038/378255a0}.
+
 \bibitem[{{Krymskii}(1977)}]{1977SPhD...22..327K}
 {Krymskii}~G~F.
 \newblock {A regular mechanism for the acceleration of charged particles on the
   front of a shock wave}\allowbreak[J].
 \newblock Soviet Physics Doklady, 1977, 22:\penalty0 327.
+
+\bibitem[{{Lagage} {\biband} {Cesarsky}(1983){Lagage} and
+  {Cesarsky}}]{1983A&A...125..249L}
+{Lagage}~P~O, {Cesarsky}~C~J.
+\newblock {The maximum energy of cosmic rays accelerated by supernova
+  shocks}\allowbreak[J].
+\newblock \aap, 1983, 125:\penalty0 249-257.
 
 \bibitem[{{Leahy} {\biband} {Tian}(2008){Leahy} and {Tian}}]{Leahy2008}
 {Leahy}~D~A, {Tian}~W~W.
@@ -427,6 +515,13 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
   Progenitor}\allowbreak[J/OL].
 \newblock \apj, 2010, 711:\penalty0 861-869.
 \newblock DOI: \doi{10.1088/0004-637X/711/2/861}.
+
+\bibitem[{{Li} {\biband} {Chen}(2012){Li} and {Chen}}]{Li2012}
+{Li}~H, {Chen}~Y.
+\newblock {{$\gamma$}-rays from molecular clouds illuminated by accumulated
+  diffusive protons - II. Interacting supernova remnants}\allowbreak[J/OL].
+\newblock \mnras, 2012, 421:\penalty0 935-942.
+\newblock DOI: \doi{10.1111/j.1365-2966.2012.20270.x}.
 
 \bibitem[{{Long} {\bibetal}(1991){Long}, {Blair}, {Matsui}, and
   {White}}]{Long1991}
@@ -579,6 +674,53 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
   explosions}\allowbreak[J/OL].
 \newblock \mnras, 2013, 436:\penalty0 3224-3230.
 \newblock DOI: \doi{10.1093/mnras/stt1800}.
+
+\bibitem[{{Profumo} {\bibetal}(2018){Profumo}, {Reynoso-Cordova}, {Kaaz}, and
+  {Silverman}}]{Profumo2018}
+{Profumo}~S, {Reynoso-Cordova}~J, {Kaaz}~N, et~al.
+\newblock {Lessons from HAWC pulsar wind nebulae observations: The diffusion
+  constant is not a constant; pulsars remain the likeliest sources of the
+  anomalous positron fraction; cosmic rays are trapped for long periods of time
+  in pockets of inefficient diffusion}\allowbreak[J/OL].
+\newblock \prd, 2018, 97\penalty0 (12):\penalty0 123008.
+\newblock DOI: \doi{10.1103/PhysRevD.97.123008}.
+
+\bibitem[{{Ptuskin} {\bibetal}(2010){Ptuskin}, {Zirakashvili}, and
+  {Seo}}]{Ptuskin2010}
+{Ptuskin}~V, {Zirakashvili}~V, {Seo}~E~S.
+\newblock {Spectrum of Galactic Cosmic Rays Accelerated in Supernova
+  Remnants}\allowbreak[J/OL].
+\newblock \apj, 2010, 718:\penalty0 31-36.
+\newblock DOI: \doi{10.1088/0004-637X/718/1/31}.
+
+\bibitem[{{Reynolds}(1998)}]{Reynolds1998}
+{Reynolds}~S~P.
+\newblock {Models of Synchrotron X-Rays from Shell Supernova
+  Remnants}\allowbreak[J/OL].
+\newblock \apj, 1998, 493:\penalty0 375-396.
+\newblock DOI: \doi{10.1086/305103}.
+
+\bibitem[{{Reynolds}(2008)}]{Reynolds2008a}
+{Reynolds}~S~P.
+\newblock {Supernova Remnants at High Energy}\allowbreak[J/OL].
+\newblock \araa, 2008, 46:\penalty0 89-126.
+\newblock DOI: \doi{10.1146/annurev.astro.46.060407.145237}.
+
+\bibitem[{{Reynolds} {\biband} {Chevalier}(1981){Reynolds} and
+  {Chevalier}}]{Reynolds1981}
+{Reynolds}~S~P, {Chevalier}~R~A.
+\newblock {Nonthermal Radiation from Supernova Remnants in the Adiabatic Stage
+  of Evolution}\allowbreak[J/OL].
+\newblock \apj, 1981, 245:\penalty0 912.
+\newblock DOI: \doi{10.1086/158868}.
+
+\bibitem[{{Reynolds} {\biband} {Keohane}(1999){Reynolds} and
+  {Keohane}}]{Reynolds1999}
+{Reynolds}~S~P, {Keohane}~J~W.
+\newblock {Maximum Energies of Shock-accelerated Electrons in Young Shell
+  Supernova Remnants}\allowbreak[J/OL].
+\newblock \apj, 1999, 525:\penalty0 368-374.
+\newblock DOI: \doi{10.1086/307880}.
 
 \bibitem[{{Sasaki} {\bibetal}(2014){Sasaki}, {Heinitz}, {Warth}, and
   {P{\"u}hlhofer}}]{Sasaki2014}
@@ -926,5 +1068,13 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
   Radio Morphologies}\allowbreak[J/OL].
 \newblock \apj, 1996, 466:\penalty0 808.
 \newblock DOI: \doi{10.1086/177555}.
+
+\bibitem[{{Zirakashvili} {\biband} {Ptuskin}(2018){Zirakashvili} and
+  {Ptuskin}}]{Zirakashvili2018}
+{Zirakashvili}~V~N, {Ptuskin}~V~S.
+\newblock {Cosmic ray acceleration in magnetic circumstellar
+  bubbles}\allowbreak[J/OL].
+\newblock Astroparticle Physics, 2018, 98:\penalty0 21-27.
+\newblock DOI: \doi{10.1016/j.astropartphys.2018.01.005}.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  9 APR 2019 15:52
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  10 APR 2019 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1733,9 +1733,6 @@ Package: xeCJK-listings 2017/05/15 v3.4.8 xeCJK patch file for listings
 LaTeX Warning: Label `TheoryDSACR' multiply defined.
 
 
-LaTeX Warning: Label `SNRintro' multiply defined.
-
-
 LaTeX Warning: Label `table:parameters' multiply defined.
 
 )
@@ -2002,11 +1999,15 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[8]) (./Tex/Chap_PLUTO.tex [9] [10
+[8] [9]
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instead on input line 145.
+
+[10] [11] [12] [13] [14]) (./Tex/Chap_PLUTO.tex [15] [16
 
 ]
 第3章
-[11] [12]
+[17] [18]
 Overfull \hbox (54.38135pt too wide) in paragraph at lines 87--90
 []\TU/entextsf/m/n/12.045 GEOMETRY \TU/SimSun(1)/m/n/12.045 选 项，|  设 置 使 用 的 坐 标 系，|  可 选 \TU/entextsf/m/n/12.045 CARTESIAN(\TU/SimSun(1)/m/n/12.045 笛 卡 尔\TU/entextsf/m/n/12.045 )\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 CYLINDRAICAL(\TU/SimSun(1)/m/n/12.045 柱
  []
@@ -2021,31 +2022,31 @@ Overfull \hbox (23.6513pt too wide) in paragraph at lines 117--124
 []\TU/entextsf/m/n/12.045 TIME_STEPPING \TU/SimSun(1)/m/n/12.045 选 项，|  可 选 \TU/entextsf/m/n/12.045 EULER\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 RK2\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 RK3\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 CHARACTERISTIC_TRACING\TU/SimSun(1)/m/n/12.045 、|
  []
 
-[13]
+[19]
 Overfull \hbox (26.32144pt too wide) in paragraph at lines 150--152
 []\TU/entextsf/m/n/12.045 ENTROPY_SWITCH \TU/SimSun(1)/m/n/12.045 选 项，|  可 选 \TU/entextsf/m/n/12.045 NO\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 SELECTIVE\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 ALWAYS\TU/SimSun(1)/m/n/12.045 、| \TU/entextsf/m/n/12.045 CHOMBO_REGRID\TU/SimSun(1)/m/n/12.045 。|
  []
 
-[14] [15] [16]
+[20] [21] [22]
 Overfull \hbox (20.11568pt too wide) in paragraph at lines 267--269
 []\TU/entextsf/m/n/12.045 BackgroundField()\TU/SimSun(1)/m/n/12.045 ：|  用 来 设 置 背 景 静 态 磁 场。|  如 果 开 启 \TU/entextsf/m/n/12.045 BACKGROUND_FIELD
  []
 
-[17] [18]
+[23] [24]
 Overfull \hbox (12.55809pt too wide) in paragraph at lines 328--332
 []\TU/SimSun(1)/m/n/12.045 标 量 场 的 描 述 函 数 为 \TU/entextsf/m/n/12.045 BodyForcePotential()\TU/SimSun(1)/m/n/12.045 ，|  矢 量 场 的 描 述 函 数 为 \TU/entextsf/m/n/12.045 BodyForceVec-
  []
 
-[19]
+[25]
 Overfull \hbox (92.02002pt too wide) in paragraph at lines 365--369
 []\TU/entextsf/m/n/12.045 [Parameters] \TU/SimSun(1)/m/n/12.045 模 块，|  自 定 义 参 数 设 置。| 这 一 模 块 就 是 在 \TU/entextsf/m/n/12.045 definition.h \TU/SimSun(1)/m/n/12.045 的 \TU/entextsf/m/n/12.045 USER_DEF_PARAMETERS
  []
 
-[20]) (./Tex/Chap_W51C.tex [21] [22
+[26]) (./Tex/Chap_W51C.tex [27] [28
 
 ]
 第4章
-[23]
+[29]
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 64 replaced by U+FFFD.
@@ -2066,7 +2067,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[24] [25]
+[30] [31]
 File: Img/rho850_density021_E13xy.eps Graphic file (type eps)
  <Img/rho850_density021_E13xy.eps>
 File: Img/rho850_density021_E13xz.eps Graphic file (type eps)
@@ -2078,7 +2079,7 @@ File: Img/rho18000_density021_E13xy.eps Graphic file (type eps)
 File: Img/rho18000_density021_E13xz.eps Graphic file (type eps)
  <Img/rho18000_density021_E13xz.eps>
 File: Img/rho18000_density021_E13yz.eps Graphic file (type eps)
- <Img/rho18000_density021_E13yz.eps> [26]
+ <Img/rho18000_density021_E13yz.eps> [32]
 ./Tex/Chap_W51C.tex:219: Undefined control sequence.
 <recently read> \tablerefs 
                            
@@ -2090,11 +2091,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[27]
+[33]
 File: Img/t18000_density021_E13_s0.eps Graphic file (type eps)
  <Img/t18000_density021_E13_s0.eps>
 File: Img/t18000_density021_E13_s4.eps Graphic file (type eps)
- <Img/t18000_density021_E13_s4.eps> [28]
+ <Img/t18000_density021_E13_s4.eps> [34]
 File: Img/change.eps Graphic file (type eps)
  <Img/change.eps>
 File: Img/t18000_density021_E2.eps Graphic file (type eps)
@@ -2104,7 +2105,7 @@ File: Img/t18000_density021_E3.eps Graphic file (type eps)
 File: Img/t18000_density013_E13.eps Graphic file (type eps)
  <Img/t18000_density013_E13.eps>
 File: Img/t18000_density03_E13.eps Graphic file (type eps)
- <Img/t18000_density03_E13.eps> [29] [30]
+ <Img/t18000_density03_E13.eps> [35] [36]
 File: Img/s_1720.eps Graphic file (type eps)
  <Img/s_1720.eps>
 File: Img/s_1665.eps Graphic file (type eps)
@@ -2223,15 +2224,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[31] [32]
+[37] [38]
 File: Img/continuum.eps Graphic file (type eps)
  <Img/continuum.eps>
 File: Img/t18000_density021_E13.eps Graphic file (type eps)
- <Img/t18000_density021_E13.eps> [33] [34] [35]) (./Tex/Chap_SW.tex [36] [37] [38
+ <Img/t18000_density021_E13.eps> [39] [40] [41]) (./Tex/Chap_SW.tex [42] [43] [44
 
 ]
 第5章
-[39]
+[45]
 ./Tex/Chap_SW.tex:94: Undefined control sequence.
 <recently read> \tablerefs 
                            
@@ -2243,7 +2244,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[40] [41] [42]
+[46] [47] [48]
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
@@ -2271,7 +2272,7 @@ Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
 File: Img/G43.eps Graphic file (type eps)
- <Img/G43.eps> [43]
+ <Img/G43.eps> [49]
 Overfull \hbox (25.02487pt too wide) in paragraph at lines 211--241
  [][] 
  []
@@ -2498,7 +2499,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[44] [45] [46] [47] [48]
+[50] [51] [52] [53] [54]
 File: Img/rho_t0_density1_E1_xypc.eps Graphic file (type eps)
  <Img/rho_t0_density1_E1_xypc.eps>
 File: Img/rho_t0_density1_E1_xzpc.eps Graphic file (type eps)
@@ -2516,7 +2517,7 @@ File: Img/t6_xypc.eps Graphic file (type eps)
 File: Img/t6_xzpc.eps Graphic file (type eps)
  <Img/t6_xzpc.eps>
 File: Img/t6_yzpc.eps Graphic file (type eps)
- <Img/t6_yzpc.eps> [49] [50]
+ <Img/t6_yzpc.eps> [55] [56]
 File: Img/rho_t0_density1_E1_yz.eps Graphic file (type eps)
  <Img/rho_t0_density1_E1_yz.eps>
 File: Img/rho_t6_density1_E1_yz.eps Graphic file (type eps)
@@ -2553,17 +2554,17 @@ Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
 File: Img/G28.eps Graphic file (type eps)
- <Img/G28.eps> [51] [52]) (./Tex/Chap_Sum.tex [53] [54
+ <Img/G28.eps> [57] [58]) (./Tex/Chap_Sum.tex [59] [60
 
 ]
 第6章
-)) [55] [56
+)) [61] [62
 
 ] (./Tex/Appendix.tex
 附录 A
-[57
+[63
 
-] [58]
+] [64]
 Overfull \hbox (39.21683pt too wide) in paragraph at lines 81--82
 [][] 
  []
@@ -2573,12 +2574,12 @@ Overfull \hbox (51.8642pt too wide) in paragraph at lines 87--88
 [][] 
  []
 
-[59] [60] [61]
+[65] [66] [67]
 Overfull \hbox (39.21683pt too wide) in paragraph at lines 209--210
 [][] 
  []
 
-[62]
+[68]
 Overfull \hbox (51.8642pt too wide) in paragraph at lines 214--215
 [][] 
  []
@@ -2603,25 +2604,25 @@ Overfull \hbox (51.8642pt too wide) in paragraph at lines 232--233
 [][] 
  []
 
-[63] [64] [65] [66]
+[69] [70] [71] [72]
 附录 B
-[67
+[73
 
-] [68] [69] [70]
+] [74] [75] [76]
 Overfull \hbox (58.18788pt too wide) in paragraph at lines 517--519
 [][][][] 
  []
 
-[71] [72]
+[77] [78]
 附录 C
-[73
+[79
 
-] [74]
+] [80]
 Overfull \hbox (96.12999pt too wide) in paragraph at lines 626--627
 [][][][] 
  []
 
-[75]
+[81]
 Overfull \hbox (96.12999pt too wide) in paragraph at lines 649--650
 [][][][] 
  []
@@ -2636,7 +2637,7 @@ Overfull \hbox (96.12999pt too wide) in paragraph at lines 663--664
 [][][][] 
  []
 
-) [76] (./Thesis.bbl
+) [82] (./Thesis.bbl
 ./Thesis.bbl:67: Undefined control sequence.
 l.67 \newblock \nat
                    , 2018, 562:\penalty0 82-85.
@@ -2646,13 +2647,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[77
+[83
 
 
 
 ]
-./Thesis.bbl:238: Undefined control sequence.
-l.238 \newblock \rmxaa
+./Thesis.bbl:278: Undefined control sequence.
+l.278 \newblock \rmxaa
                       , 2017, 53:\penalty0 385-438.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2660,16 +2661,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Thesis.bbl:257: Missing $ inserted.
+./Thesis.bbl:297: Missing $ inserted.
 <inserted text> 
                 $
-l.257 ...ock {The Galactic Plane region near {\ell
+l.297 ...ock {The Galactic Plane region near {\ell
                                                   } = 93{\deg}. II. A stella...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Thesis.bbl:257: Extra }, or forgotten $.
-l.257 ...ck {The Galactic Plane region near {\ell}
+./Thesis.bbl:297: Extra }, or forgotten $.
+l.297 ...ck {The Galactic Plane region near {\ell}
                                                    = 93{\deg}. II. A stellar...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2677,8 +2678,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Thesis.bbl:258: Extra }, or forgotten $.
-l.258   bubble surrounding SNR 3C 434.1}
+./Thesis.bbl:298: Extra }, or forgotten $.
+l.298   bubble surrounding SNR 3C 434.1}
                                         \allowbreak[J/OL].
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2686,18 +2687,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Thesis.bbl:261: Missing $ inserted.
+./Thesis.bbl:301: Missing $ inserted.
 <inserted text> 
                 $
-l.261 
+l.301 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Thesis.bbl:261: Missing } inserted.
+./Thesis.bbl:301: Missing } inserted.
 <inserted text> 
                 }
-l.261 
+l.301 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2706,27 +2707,37 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--261
+Underfull \hbox (badness 10000) in paragraph at lines 296--301
 []\TU/entextsf/m/n/10.53937 Foster T, Routledge D, Kothes R.  The Galactic Plane region near $\OML/ntxmi/m/it/10.53937 ` \OT1/cmr/m/n/10.53937 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--261
+Underfull \hbox (badness 10000) in paragraph at lines 296--301
 [][][]\OML/ntxmi/m/it/10.53937 :II:AstellarwindbubblesurroundingSNR[]C[][][]:[]\OT1/cmr/m/n/10.53937 [\OML/ntxmi/m/it/10.53937 J\OT1/cmr/m/n/10.53937 /\OML/ntxmi/m/it/10.53937 OL\OT1/cmr/m/n/10.53937 ]\OML/ntxmi/m/it/10.53937 : A[]A; [][][][]; [][][] \OT1/cmr/m/n/10.53937 :
  []
 
-./Thesis.bbl:323: Missing $ inserted.
+./Thesis.bbl:329: Undefined control sequence.
+l.329 \newblock \aplett
+                       , 1982, 22:\penalty0 103.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[84]
+./Thesis.bbl:369: Missing $ inserted.
 <inserted text> 
                 $
-l.323 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
+l.369 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
                                                   .
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Thesis.bbl:323: Missing $ inserted.
+./Thesis.bbl:369: Missing $ inserted.
 <inserted text> 
                 $
-l.323 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
+l.369 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
                                                   .
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2734,9 +2745,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[78] [79]
-./Thesis.bbl:490: Undefined control sequence.
-l.490 \newblock \araa
+./Thesis.bbl:479: Undefined control sequence.
+l.479 \newblock \nat
+                    , 1995, 378:\penalty0 255-258.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[85]
+./Thesis.bbl:585: Undefined control sequence.
+l.585 \newblock \araa
                      , 1964, 2:\penalty0 247.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2744,11 +2764,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[80]
-./Thesis.bbl:643: Undefined control sequence.
+[86]
+./Thesis.bbl:685: Undefined control sequence.
+l.685 \newblock \prd
+                    , 2018, 97\penalty0 (12):\penalty0 123008.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Thesis.bbl:706: Undefined control sequence.
+l.706 \newblock \araa
+                     , 2008, 46:\penalty0 89-126.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[87]
+./Thesis.bbl:785: Undefined control sequence.
 <recently read> \lt 
                     
-l.643 ...The Problem of Cosmic Radioemission. $\lt
+l.785 ...The Problem of Cosmic Radioemission. $\lt
                                                   $TITLE
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2756,10 +2795,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Thesis.bbl:644: Undefined control sequence.
+./Thesis.bbl:786: Undefined control sequence.
 <recently read> \gt 
                     
-l.644   lang=``ru$\gt
+l.786   lang=``ru$\gt
                      $Problema Kosmi{\v c}eskogo Radioizlu{\v
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2767,8 +2806,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Thesis.bbl:646: Undefined control sequence.
-l.646 \newblock \azh
+./Thesis.bbl:788: Undefined control sequence.
+l.788 \newblock \azh
                     , 1953, 30:\penalty0 15-36.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2776,8 +2815,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Thesis.bbl:652: Undefined control sequence.
-l.652 \newblock \memsai
+./Thesis.bbl:794: Undefined control sequence.
+l.794 \newblock \memsai
                        , 1978, 49:\penalty0 513.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2785,9 +2824,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[81]
-./Thesis.bbl:732: Undefined control sequence.
-l.732 \newblock \cjaa
+[88]
+./Thesis.bbl:874: Undefined control sequence.
+l.874 \newblock \cjaa
                      , 2006, 6:\penalty0 543-550.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2795,10 +2834,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[82]
-./Thesis.bbl:873: Undefined control sequence.
-l.873 \newblock \araa
-                     , 1972, 10:\penalty0 129.
+[89]
+./Thesis.bbl:1015: Undefined control sequence.
+l.1015 \newblock \araa
+                      , 1972, 10:\penalty0 129.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2806,26 +2845,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 871--875
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1017
 []\TU/entextsf/m/n/10.53937 Woltjer L.  Supernova Remnants[J/OL].  , 1972, 10:129.  DOI: [][]10.1146/an-
  []
 
-./Thesis.bbl:930: Missing } inserted.
+./Thesis.bbl:1080: Missing } inserted.
 <inserted text> 
                 }
-l.930 \end{thebibliography}
-                           
+l.1080 \end{thebibliography}
+                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-) (./Tex/Backmatter.tex [83] [84
+) (./Tex/Backmatter.tex [90] [91
 
-] [85] [86
+] [92
 
-] [87] [88
+] [93] [94
 
 ])
 
@@ -2854,12 +2893,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34067 strings out of 493005
- 632095 string characters out of 6134176
+ 34147 strings out of 493005
+ 634797 string characters out of 6134176
  812566 words of memory out of 5000000
- 37512 multiletter control sequences out of 15000+600000
- 33769 words of font info for 145 fonts, out of 8000000 for 9000
+ 37588 multiletter control sequences out of 15000+600000
+ 33801 words of font info for 149 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,12n,94p,10532b,1960s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,17n,94p,10532b,1960s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis.pdf (108 pages).
+Output written on Thesis.pdf (114 pages).
