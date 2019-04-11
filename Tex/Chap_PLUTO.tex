@@ -33,7 +33,7 @@ Chombo library，HDF5 library。
 
     \item Tools/：有用的小工具。我们主要使用其中的pyPLUTO进行可视化。
 
-    \item Test\_Problems/：包含各种各样使用PLUTO的例子。这些事例对于初学者非常友好，根据
+    \item Test$\_$Problems/：包含各种各样使用PLUTO的例子。这些事例对于初学者非常友好，根据
     文档可直接运行，对于了解整个软件的使用很有帮助。
 
 \end{enumerate}
@@ -56,7 +56,7 @@ PLUTO本身可进行的模拟种类非常多，而本章节只以超新星遗迹
 而大概使用步骤如下：
 \begin{enumerate}
 
-    \item definition.h编写完成后，使用python \$PLUTO\_DIR/setup.py，确认使用的参数，然后选择自己
+    \item definition.h编写完成后，使用python \$PLUTO$\_$DIR/setup.py，确认使用的参数，然后选择自己
     在Config/中设置好的配置文件，如果使用Ubuntu等Linux系列平台进行非并行运算，选择默认的
     Linux.gcc.defs即可。
 
@@ -88,21 +88,21 @@ GEOMETRY选项，设置使用的坐标系，可选CARTESIAN(笛卡尔)、CYLINDR
 POLAR(极坐标)、SPHERICAL(球坐标)。
 不同的坐标对不同的积分方式兼容性不同，一半情况下，选用笛卡尔坐标系即可。
 
-BODY\_FORCE选项，可选POTENTIAL(标量势)、VECTOR(矢量引力)、POTENTIAL+VECTOR
+BODY$\_$FORCE选项，可选POTENTIAL(标量势)、VECTOR(矢量引力)、POTENTIAL+VECTOR
 (标量+矢量描述)。
 标量势计算方便，但是在不够准确，尤其是引力场较复杂的时候。矢量引力计算时间长很多，但更准
 确。我个人没有遇到过必须两者都考虑的情况，不过测试时间与只考虑矢量引力差不太多。
 
-COOLING选项，可选POWER\_LAW、TABULATED、SNEq、H2\_COOL、MINEq。
+COOLING选项，可选POWER$\_$LAW、TABULATED、SNEq、H2$\_$COOL、MINEq。
 光学薄的情况下，韧致辐射等过程导致的辐射能量损失也会影响MHD模拟结果，这个过程与当地密度、
 温度、各种成分的丰度有关，尤其是丰度部分很难估算，因而模型很多。
-POWER\_LAW模型是假设辐射损失与$\rho^2T^{\alpha}$成正比，其中$\rho$为密度，T为温度，
+POWER$\_$LAW模型是假设辐射损失与$\rho^2T^{\alpha}$成正比，其中$\rho$为密度，T为温度，
 $\alpha$为幂律指数。
 TABULATED模型是假设辐射损失与$n^2\Lambda(T)$成正比，其中$n$为数密度，$\Lambda$为冷却
 方程，而冷却方程又有很多种\citep{2017RMxAA..53..385F}。
 SNEq模型主要考虑了中性氢原子的辐射，同时也将16种最常见的谱线辐射考虑在内，比如Ly$\alpha$、
 H$\alpha$、HeI、CI、OII、FeII等。
-H2\_COOL模型在SNEq模型的基础上考虑了分子氢和离子氢，此外，可根据需要加入一氧化碳(CO)、
+H2$\_$COOL模型在SNEq模型的基础上考虑了分子氢和离子氢，此外，可根据需要加入一氧化碳(CO)、
 羟基(OH)和水分子(H$_2$O)等辐射贡献。
 MINEq模型在SNEq模型的基础上考虑了更过谱线辐射，总共达到28种，不过对分子类辐射贡献的计算
 支持不好。
@@ -114,15 +114,15 @@ RECONSTRUCTION选项，可选FLAT、LINEAR、WENO3、LimO3、PARABOLIC，是五�
 更好的重构方法可保证模拟结果更加准确，通常使用默认的LINEAR方法即可，如果速度太慢可尝试
 FLAT方法，如果设定初始物理参数很极端而结果明显存在问题，可尝试其它三种方法。
 
-TIME\_STEPPING选项，可选EULER、RK2、RK3、CHARACTERISTIC\_TRACING、HANCOCK，是五种
+TIME$\_$STEPPING选项，可选EULER、RK2、RK3、CHARACTERISTIC$\_$TRACING、HANCOCK，是五种
 时间推演方法。
 要知道，布置邻近格点会影响一个格点下一步的数值，可能更远的格点也会影响，如果步长过长，
 会有过多格点影响到一个格点的数值，计算结果容易有偏差，当然，步长过短会导致运行过慢。
 所以我们要选择合适的推演方法，通常在超新星遗迹模拟中选择RK2即可。
 此外，我们可以通过设定Courant-Friedrichs-Lewy(CFL)数来控制具体方法，具体设定不只与
-TIME\_STEPPING有关，还要考虑所选维度及是否使用DIMENSIONAL\_SPLITTING。
+TIME$\_$STEPPING有关，还要考虑所选维度及是否使用DIMENSIONAL$\_$SPLITTING。
 
-DIMENSIONAL\_SPLITTING选项，可选YES或者NO。
+DIMENSIONAL$\_$SPLITTING选项，可选YES或者NO。
 有时候，虽然我们模拟的是多维的图像，但是不同维度的影响并不会耦合，结果就是我们可以当作
 在不同方向上都做一维的模拟，这时候可选YES。
 而超新星遗迹的模拟每个方向上的演化都是互相影响的，所以必须选NO，不然结果很容易出错。
@@ -131,39 +131,39 @@ NTRACER选项，这其实是一个扩展选项，最大数目为4。
 通常对于特定的PHYSICS守恒量都是一定的，如果要增加新的守恒量就要添加在这里，比如加入
 氢原子数目守恒。
 
-USER\_DEF\_PARAMETERS选项，输入需要的自定义参数数目，最大31。
+USER$\_$DEF$\_$PARAMETERS选项，输入需要的自定义参数数目，最大31。
 设置初始条件时需要很多参数，比如超新星爆发能量、前身星质量、介质平均密度等，将来调参调的
 就是这些，而这里只是提前设置好参数数目。
 
 \subsubsection{物理依赖选项}
-BACKGROUND\_FIELD选项，如果设置为YES，意味着设置磁场包含背景的静态场和随时变化的磁场。
+BACKGROUND$\_$FIELD选项，如果设置为YES，意味着设置磁场包含背景的静态场和随时变化的磁场。
 超新星遗迹当中的磁场并不需要分成分，都是随时变化的，因而设为NO即可。
 可是，如果需要考虑脉冲星风云中几乎保持不变的中子星磁场，就要设置为YES。
 
-DIVB\_CONTROL选项，可选NO、EIGHT\_WAVES、DIV\_CLEANING、CONSTRAINED\_TRANSPORT。
+DIVB$\_$CONTROL选项，可选NO、EIGHT$\_$WAVES、DIV$\_$CLEANING、CONSTRAINED$\_$TRANSPORT。
 数值方法无法保证磁场无源，我们需要强制控制其散度为零。
-超新星遗迹模拟中使用EIGHT\_WAVES即可。
+超新星遗迹模拟中使用EIGHT$\_$WAVES即可。
 
-EOS选项，选择需要的物态方程，可选IDEAL、ISOTHERMAL、PVTE\_LAW、TAUB。
+EOS选项，选择需要的物态方程，可选IDEAL、ISOTHERMAL、PVTE$\_$LAW、TAUB。
 超新星遗迹的模拟中，使用IDEAL即可。
 
-ENTROPY\_SWITCH选项，可选NO、SELECTIVE、ALWAYS、CHOMBO\_REGRID。
+ENTROPY$\_$SWITCH选项，可选NO、SELECTIVE、ALWAYS、CHOMBO$\_$REGRID。
 保证熵增原则，只对EOS为IDEAL和TAUB适用，不过在超新星遗迹模拟中影响不大，设为NO。
 
-RESISTIVITY、VISCOSITY、THERMAL\_CONDUCTION选项，可选NO、EXPLICIT、SUPER\_TIME\_STEPPING，
+RESISTIVITY、VISCOSITY、THERMAL$\_$CONDUCTION选项，可选NO、EXPLICIT、SUPER$\_$TIME$\_$STEPPING，
 控制电磁阻力、粘滞相应、热传导影响，都是有关耗散效应，在年轻超新星遗迹模拟中影响不大，
 一般设为NO即可，而对老年超新星遗迹需要具体分析。
 我们在章节~\ref{SW}有讨论热传导的影响，最终结论只是对星风演化影响很大。
 
-ROTATING\_FRAME选项，使用CYLINDRAICAL(柱坐标)、POLAR(极坐标)、SPHERICAL(球坐标)
+ROTATING$\_$FRAME选项，使用CYLINDRAICAL(柱坐标)、POLAR(极坐标)、SPHERICAL(球坐标)
 时建议选YES。
 
 \subsubsection{自定义参数和常数}
-自定义参数即是根据USER\_DEF\_PARAMETERS选项中设置的数目在这里列出相应数量的参数，而其
+自定义参数即是根据USER$\_$DEF$\_$PARAMETERS选项中设置的数目在这里列出相应数量的参数，而其
 具体数值主要在pluto.ini中给出，然后由init.c中写的初始条件融入到整个程序里。
 
 而自定义常数主要是一些只在特定模拟中有意义的数值，同时，编写init.c时需要控制的条件也可以
-写在这里，比如设置自定义参数ADD\_TURBULENCE为YES或者NO，而init.c中有相应的条件语句从而
+写在这里，比如设置自定义参数ADD$\_$TURBULENCE为YES或者NO，而init.c中有相应的条件语句从而
 实现不同的功能。
 其实大部分物理上的常数已经包含在不过这一部分有一个重要的功能就是设定单位制。
 我们知道常用的国际单位制、CGS单位制要表达一些比较大的数值时需要科学记数法，可是在进行
@@ -199,32 +199,32 @@ $t_0 = L_0/v_0 = 1 pc/10000$ \kms $= 3.09\times10^9 s = 98$年。
 上面三部分的选项，在第一步运行setup.py时还有一次更改的几乎，而这部分的选项只能在definitions.h
 里修改。
 
-INITIAL\_SMOOTHING选项，设置为YES可以用来数值平滑起伏很大的区域，主要用来消除与网格化
+INITIAL$\_$SMOOTHING选项，设置为YES可以用来数值平滑起伏很大的区域，主要用来消除与网格化
 不匹配的边界效应，比如笛卡尔坐标系中的球形。
 然而，开启这个选项会大大降低程序运行速度，有时候反而会平滑掉真实的小尺度结构，不建议使用。
 如果最终结果需要平滑，最好直接自己手动编写程序优化图像。
 
-WARNING\_MESSAGES选项，设置为YES可以使得程序遇到问题后打出提示。
+WARNING$\_$MESSAGES选项，设置为YES可以使得程序遇到问题后打出提示。
 实际测试中发现，其实大部分问题都不影响程序运行，这个选项打出的问题只是警告(warning)，
 并不是错误(error)。
-问题是，有时警告太多，将真正有用的运行信息遮挡，如果选择了PRINT\_TO\_FILE选项，输出的文件
+问题是，有时警告太多，将真正有用的运行信息遮挡，如果选择了PRINT$\_$TO$\_$FILE选项，输出的文件
 会非常大，个人不建议使用。
 
-PRINT\_TO\_FILE选项，顾名思义，设置为YES时，程序运行时本来打印在命令行里的信息会打印
+PRINT$\_$TO$\_$FILE选项，顾名思义，设置为YES时，程序运行时本来打印在命令行里的信息会打印
 到pluto.log文件中。
 
-INTERNAL\_BOUNDARY选项，设置为YES时，可以在init.c中的UserDefBoundary()函数中定义内
+INTERNAL$\_$BOUNDARY选项，设置为YES时，可以在init.c中的UserDefBoundary()函数中定义内
 边界，可以使得边界内的参数在模拟过程中保持不变。
 这个选项在模拟星风、喷流等持续存在的现象时非常有用。
 
-SHOCK\_FLATTENING选项，可选NO、ONED、MULTID。
+SHOCK$\_$FLATTENING选项，可选NO、ONED、MULTID。
 因为激波区域参数起伏较大，有时会导致程序出错、卡死，为了减少这种起伏保证程序足够稳定，
 可以使用这一选项，平滑激波区域各种参数。
-ONED是一维平滑，MULTID是多维平滑，效果比一维要好，不过类似于INITIAL\_SMOOTHING，这个
+ONED是一维平滑，MULTID是多维平滑，效果比一维要好，不过类似于INITIAL$\_$SMOOTHING，这个
 选项会大大减慢运行速度，尤其是多维平滑，几乎不可用。
 建议在遇到比较复杂的激波结构或者模拟出现莫名其妙的错误时使用，单个超新星遗迹的模拟不太需要。
 
-CHAR\_LIMITING选项，选择YES以使得重构时直接计算守恒量等特征变量，而不是计算速度、密度、
+CHAR$\_$LIMITING选项，选择YES以使得重构时直接计算守恒量等特征变量，而不是计算速度、密度、
 磁场等初始变量。
 这个方式也是很耗时，相当于每一步计算都增加了一些计算量，但是相对来说在参数变化较大甚至
 明显不连续以至于平滑都无法做到的地方很有效，此外对熵增原则也可以更好地保证。
@@ -234,12 +234,11 @@ LIMITER选项，可选项很多，主要是RECONSTRUCTION中选择LINEAR时才�
 方式的各种调试，如果模拟结果莫名其妙，而且其它任何地方都找不到错误时，可以尝试调试一下。
 个人只遇到过一次必须改变这一选项的情况，请酌情使用。
 
-ASSIGN\_VECTOR\_POTENTIAL选项，设置为YES后，磁场成分初始化方式改变，可以保证磁场没有
-散度。
-只在使用特殊算法时有用，一般情况下使用DIVB\_CONTROL足够。
+ASSIGN$\_$VECTOR$\_$POTENTIAL选项，设置为YES后，磁场成分初始化方式改变，可以保证磁场无源。
+只在使用特殊算法时有用，一般情况下使用DIVB$\_$CONTROL足够。
 
 \subsubsection{makefile文件的设置}
-通常，使用python \$PLUTO\_DIR/setup.py获得的makefile文件就是最合适的配置了。
+通常，使用python \$PLUTO$\_$DIR/setup.py获得的makefile文件就是最合适的配置了。
 如果还有其它需求，最好在/Config目录中的.defs文件中修改，这样以后使用相同配置时也有现成
 的模板，比较方便。
 而在这里可能需要修改的主要有是否使用并行MPI、是否支持HDF5存储格式，以及是否要在编译时
@@ -258,13 +257,13 @@ ASSIGN\_VECTOR\_POTENTIAL选项，设置为YES后，磁场成分初始化方式�
     \item Init()：设置每一个格点的参数值，主要有磁场、密度、压强、速度等。
 
     \item UserDefBoundary()：用来定义边界条件，比如设为流体运动到边界是自然流出还是会
-    反射。如果在definition.h中开启了INTERNAL\_BOUNDARY选项，具体内边界的性质就要在
+    反射。如果在definition.h中开启了INTERNAL$\_$BOUNDARY选项，具体内边界的性质就要在
     这里定义。
 
     \item BodyForceVector()、BodyForcePotential()：定义引力场的矢量分布或者引力势分
-    布。根据开启的BODY\_FORCE选项修改这一部分内容。
+    布。根据开启的BODY$\_$FORCE选项修改这一部分内容。
 
-    \item BackgroundField()：用来设置背景静态磁场。如果开启BACKGROUND\_FIELD选项，
+    \item BackgroundField()：用来设置背景静态磁场。如果开启BACKGROUND$\_$FIELD选项，
     需要在这里定义具体的磁场。
 
     \item Analysis()：程序运行时进行实时的分析，个人很少用到。如果程序运行时间很长，
@@ -298,7 +297,8 @@ Init()函数的初始化形式为void Init (double *us, double x1, double x2, do
 而$\mu$可以通过调用MeanMolecularWeight()获得，这个函数可以根据选择的冷却方程具体计算
 $\mu$的值，因为选定了冷却方程也就是选定了要使用的各种原子、分子的比例。
 此外，程序里运行得出的压强us[BX1]等都指的是热压，如果要考虑磁场对压强的贡献，可以通过
-计算$\beta=2p/B^2$，估计热压与磁压的比例。
+计算$\beta_b=2p/B^2$，估计热压与磁压的比例。
+这里因为单位制不一样，所以这个比例的计算公式与章节~\ref{TheoryMHD}中的相差一个常数。
 
 这部分中另外一个重要的编写方式就是直接通过读取外部文件设置初始条件。
 比如我们对一个超新星遗迹进行了CO的观测，然后希望以CO图像为准构建初始介质分布，那就直接
@@ -316,9 +316,9 @@ void UserDefBoundary (const Data *d, RBox *box, int side, Grid *grid)，
 设置网格结构。
 使用这个函数需要在pluto.ini中定义大概的边界条件，然后由这个函数来具体实现。
 
-如果在definition.h中开启了INTERNAL\_BOUNDARY选项，相应的内边界区域在UserDefBoundary()
+如果在definition.h中开启了INTERNAL$\_$BOUNDARY选项，相应的内边界区域在UserDefBoundary()
 中定义为side=0区域。
-而如果想要设定随时间变化其中变量却不变的内边界，需要额外设定FLAG\_INTERNAL\_BOUNDARY。
+而如果想要设定随时间变化其中变量却不变的内边界，需要额外设定FLAG$\_$INTERNAL$\_$BOUNDARY。
 
 \subsubsection{引力部分的编写}
 引力部分主要有两种选择，用标量场引力势来表示和用矢量场引力加速度来表示。
@@ -363,8 +363,8 @@ void UserDefBoundary (const Data *d, RBox *box, int side, Grid *grid)，
 类似于静态网格输出模块，不过输出格式与输出变量都是固定的，无法更改。
 
 [Parameters]模块，自定义参数设置。
-这一模块就是在definition.h的USER\_DEF\_PARAMETERS选项中提到的参数，具体在这里赋值，
-然后在init.c中通过g\_inputParam[]函数赋值给相应的变量用于初始条件的构建。
+这一模块就是在definition.h的USER$\_$DEF$\_$PARAMETERS选项中提到的参数，具体在这里赋值，
+然后在init.c中通过g$\_$inputParam[]函数赋值给相应的变量用于初始条件的构建。
 只有这一模块是真正与具体要解决的物理问题相关，所谓的调参大部分时间都是在调这一部分。
 
 \section{PLUTO进阶使用}
@@ -387,7 +387,7 @@ void UserDefBoundary (const Data *d, RBox *box, int side, Grid *grid)，
 仍然不能满足一些需求，所以本章我们也会介绍一些可视化方式。
 
 \subsection{并行计算与自适应网格}
-并行计算首先需要在使用python \$PLUTO\_DIR/setup.py时，最后选择合适的并行配置文件。
+并行计算首先需要在使用python \$PLUTO$\_$DIR/setup.py时，最后选择合适的并行配置文件。
 然后系统必须安装并行编译软件，并确保相应依赖完整。
 通常，我们需要在计算集群上运行并行计算，这时候要根据集群管理员提供的信息进行配置。
 这里遇到的问题通常是提交任务时对队列的限制不清楚，导致队列提交失败。
@@ -409,7 +409,7 @@ HDF5支持分为非并行和并行，如果都要用的话，就都要安装。
 \subsection{数据可视化}
 PLUTO自带多种语言的可视化接口，本章只介绍Python接口pyPLUTO。
 pyPLUTO安装成功后，有两种使用方法，一种是在Python脚本中直接编写可视化代码，另一种是在
-数据所在目录下直接键入GUI\_pyPLUTO.py使用交互界面。
+数据所在目录下直接键入GUI$\_$pyPLUTO.py使用交互界面。
 通常交互界面只能用于程序调试，更可靠的可用于在文章中发表的图片必须要通过脚本编写获得。
 不过，这个接口只支持画普通的一维、二维数据，而实际模拟结果经常是三维，所以必须要经过
 切片处理。

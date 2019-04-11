@@ -1,4 +1,4 @@
-\begin{thebibliography}{128}
+\begin{thebibliography}{130}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -388,11 +388,13 @@ HESS~V~F.
 \newblock Astroparticle Physics, 2003, 19:\penalty0 193-220.
 \newblock DOI: \doi{10.1016/S0927-6505(02)00198-6}.
 
-\bibitem[{Ji {\bibetal}(2016)Ji, Oh, Ruszkowski, and Markevitch}]{Ji2016}
-JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
-\newblock The efficiency of b-field amplification at shocks by
-  turbulence\allowbreak[J].
-\newblock 2016.
+\bibitem[{{Ji} {\bibetal}(2016){Ji}, {Oh}, {Ruszkowski}, and
+  {Markevitch}}]{Ji2016b}
+{Ji}~S, {Oh}~S~P, {Ruszkowski}~M, et~al.
+\newblock {The efficiency of magnetic field amplification at shocks by
+  turbulence}\allowbreak[J/OL].
+\newblock \mnras, 2016, 463:\penalty0 3989-4003.
+\newblock DOI: \doi{10.1093/mnras/stw2320}.
 
 \bibitem[{{Jogler} {\biband} {Funk}(2016){Jogler} and {Funk}}]{Jogler2016}
 {Jogler}~T, {Funk}~S.
@@ -491,6 +493,13 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
 \newblock {The maximum energy of cosmic rays accelerated by supernova
   shocks}\allowbreak[J].
 \newblock \aap, 1983, 125:\penalty0 249-257.
+
+\bibitem[{{Leahy} {\biband} {Tian}(2005){Leahy} and {Tian}}]{Leahy2005}
+{Leahy}~D, {Tian}~W.
+\newblock {Radio spectral index study of the SNRs OA184 and
+  VRO42.05.01}\allowbreak[J/OL].
+\newblock \aap, 2005, 440:\penalty0 929-936.
+\newblock DOI: \doi{10.1051/0004-6361:20053392}.
 
 \bibitem[{{Leahy} {\biband} {Tian}(2008){Leahy} and {Tian}}]{Leahy2008}
 {Leahy}~D~A, {Tian}~W~W.
@@ -866,6 +875,12 @@ JI~S, OH~S~P, RUSZKOWSKI~M, et~al.
 \newblock {The Galactic supernova rate}\allowbreak[J/OL].
 \newblock \apjs, 1994, 92:\penalty0 487-493.
 \newblock DOI: \doi{10.1086/192002}.
+
+\bibitem[{{Tian} {\biband} {Leahy}(2005){Tian} and {Leahy}}]{Tian2005}
+{Tian}~W~W, {Leahy}~D.
+\newblock {Radio spectral index variations of the SNR HB3}\allowbreak[J/OL].
+\newblock \aap, 2005, 436:\penalty0 187-193.
+\newblock DOI: \doi{10.1051/0004-6361:20042431}.
 
 \bibitem[{{Tian} {\biband} {Leahy}(2006){Tian} and {Leahy}}]{Tian2006}
 {Tian}~W~W, {Leahy}~D.
