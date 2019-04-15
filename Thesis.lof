@@ -21,6 +21,10 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces 平行事例的模拟结果。 左图是y-z平面的星风模拟结果加上遗迹爆发区域，也就是 遗迹模拟的初始条件。中图是y-z平面的遗迹模拟结果。右图是从中图转化来的射电流量密度图。\relax }}{61}{figure.caption.27}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces 上面三幅图是不同年龄的相对射电流量密度图。下面三幅图是实际观测到的与上图 类似的实际观测到的八字形遗迹：G53.6-2.2、G29.7-0.3、G28.6-0.1\citep {West2016}。\relax }}{61}{figure.caption.28}
 \addvspace {10.0pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 强磁场下的高分辨率模拟的密度分布。上面两幅图是介质密度为0.5 cm$^{-3}$时 1500年和4500年后的模拟结果。 下面两幅图是介质密度为10 cm$^{-3}$时1500年和4500年后的模拟结果。 上下图的真实年龄分别要再加上初始的693年和1881年。\relax }}{68}{figure.caption.30}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 强磁场下的低分辨率模拟的介质密度为0.5 cm$^{-3}$的模拟结果。 上面两幅图是1500年和4500年后的密度、磁场分布， 下面两幅图是1500年和4500年后的密度、速度分布。\relax }}{70}{figure.caption.31}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 介质密度为0.5 cm$^{-3}$的$\beta _b$分布。 左图是1500年后的$\beta _b$分布，右图是4500年后的$log(\beta _b)$分布。\relax }}{70}{figure.caption.32}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 介质密度为10 cm$^{-3}$的10000年演化结果。 左图是低分辨率包含磁场方向的图像，右图是高分辨率真正出现多壳层的图像。\relax }}{71}{figure.caption.33}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

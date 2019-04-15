@@ -318,8 +318,7 @@ SNR中产生同步辐射的相对论电子的来源。
 而在推导粒子加速时，我们又引入一些新的假设：弹性碰撞假设、激波非相对论假设、粒子相对论化
 假设、粒子各向同性假设、高能粒子动压可忽略、激波面无厚度、忽略其它逃逸方式。
 每一个假设出问题，都会导致谱指数的改变。
-
-比如经常出现激波并不是强基波，那么$r\neq4$，结果只能用
+比如经常出现激波并不是强激波，那么$r\neq4$，结果只能用
 $P=1-4\mu_2/c$，$\beta=(1+4\mu/3c)\neq1+\mu_1/c$。
 类似方程~\ref{eqn:index}，可得
 
@@ -330,6 +329,13 @@ $P=1-4\mu_2/c$，$\beta=(1+4\mu/3c)\neq1+\mu_1/c$。
 \end{equation}
 
 可见激波越弱，谱指数越大，谱越陡。
+此外，我们在这里都是忽略了辐射损耗的，然而，高效的激波加速会导致更严重的辐射损耗。
+同时，大量的高能相对论粒子会缩小绝热系数$\gamma$。
+这两个效应都可能增大压缩系数$r$\citep{Ellison2005}，而且相关观测也发现SNR中有的位置
+压缩系数可能被增大\citep{Voelk2007}。
+
+
+
 
 \subsection{宇宙线起源}
 自从\citet{hess1912beobachtungen}发现宇宙线以来，这一领域一直受到人们的广泛关注，而
@@ -418,7 +424,7 @@ CMB)，然后产生能量能达到TeV的光子，这就是逆康普顿散射。
 
 \subsection{磁场的重要性}
 之前在DSA的推导中我们都忽略了磁场，不然动量守恒方程应该是
-$\rho_1\mu_1^2+p_1+B_1^2/8\pi=\rho_2\mu_2^2+p2+B_2^2/8\pi$。
+$\rho_1\mu_1^2+p_1+B_1^2/8\pi=\rho_2\mu_2^2+p_2+B_2^2/8\pi$。
 现在我们来讨论一下，磁场是不是真的不重要。
 取$\rho_1=1 m_p cm^{-3}, \mu_1 = 100 km/s$，则动压
 $\rho_1\mu_1^2=1.6 \times 10^{-10} dyn/cm^{2}$。
@@ -458,8 +464,8 @@ $\rho_2\mu_2^2$，可得
 
 \begin{equation}
     \begin{aligned}
-      \dfrac{1}{2}\rho_1\mu_1^3+\dfrac{\gamma}{\gamma-1}p_1\mu_1+\mu_1B_1^2/8\pi=
-      \dfrac{1}{2}\rho_2\mu_2^3+\dfrac{\gamma}{\gamma-1}p_2\mu_2+\mu_2B_2^2/8\pi\ ,
+      \dfrac{1}{2}\rho_1\mu_1^3+\dfrac{\gamma}{\gamma-1}p_1\mu_1+\dfrac{\mu_1B_1^2}{8\pi}=
+      \dfrac{1}{2}\rho_2\mu_2^3+\dfrac{\gamma}{\gamma-1}p_2\mu_2+\dfrac{\mu_2B_2^2}{8\pi}\ ,
     \end{aligned}
 \end{equation}
 
@@ -475,6 +481,7 @@ $\rho_2\mu_2^2$，可得
 联立动量守恒方程，解得
 
 \begin{equation}
+      \label{eqn:ratio}
     \begin{aligned}
         \begin{cases}
           M^2 = \dfrac{1}{5}+\dfrac{2}{5\beta_{b,2}}+\dfrac{1131}{256\beta_{b,2}^2} \ , \\

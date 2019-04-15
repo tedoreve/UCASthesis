@@ -84,7 +84,7 @@ COMPONENTS选项，设置矢量的分量个数，通常三维空间的矢量有�
 可以约简其中一个分量，比如模拟恒星盘的形成时，大部分物质都在二维平面上运动，但其运动也会
 影响第三维上的动量等参数。通常我们取DIMENSIONS=COMPONENTS即可。
 
-GEOMETRY选项，设置使用的坐标系，可选CARTESIAN(笛卡尔)、CYLINDRAICAL(柱坐标)、
+GEOMETRY选项，设置使用的坐标系，可选CARTESIAN(笛卡尔)、CYLINDR- AICAL(柱坐标)、
 POLAR(极坐标)、SPHERICAL(球坐标)。
 不同的坐标对不同的积分方式兼容性不同，一半情况下，选用笛卡尔坐标系即可。
 
@@ -363,7 +363,7 @@ void UserDefBoundary (const Data *d, RBox *box, int side, Grid *grid)，
 类似于静态网格输出模块，不过输出格式与输出变量都是固定的，无法更改。
 
 [Parameters]模块，自定义参数设置。
-这一模块就是在definition.h的USER$\_$DEF$\_$PARAMETERS选项中提到的参数，具体在这里赋值，
+这一模块就是在definition.h的USER$\_$DE- F$\_$PARAMETERS选项中提到的参数，具体在这里赋值，
 然后在init.c中通过g$\_$inputParam[]函数赋值给相应的变量用于初始条件的构建。
 只有这一模块是真正与具体要解决的物理问题相关，所谓的调参大部分时间都是在调这一部分。
 

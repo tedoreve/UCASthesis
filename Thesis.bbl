@@ -1,4 +1,4 @@
-\begin{thebibliography}{130}
+\begin{thebibliography}{141}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
@@ -146,6 +146,15 @@
 \newblock \apj, 1943, 97:\penalty0 119.
 \newblock DOI: \doi{10.1086/144505}.
 
+\bibitem[{{Balsara} {\biband} {Spicer}(1999){Balsara} and
+  {Spicer}}]{Balsara1999}
+{Balsara}~D~S, {Spicer}~D~S.
+\newblock {A Staggered Mesh Algorithm Using High Order Godunov Fluxes to Ensure
+  Solenoidal Magnetic Fields in Magnetohydrodynamic
+  Simulations}\allowbreak[J/OL].
+\newblock Journal of Computational Physics, 1999, 149:\penalty0 270-292.
+\newblock DOI: \doi{10.1006/jcph.1998.6153}.
+
 \bibitem[{{Bamba} {\bibetal}(2001){Bamba}, {Ueno}, {Koyama}, and
   {Yamauchi}}]{Bamba2001}
 {Bamba}~A, {Ueno}~M, {Koyama}~K, et~al.
@@ -154,6 +163,13 @@
   Remnant}\allowbreak[J/OL].
 \newblock \pasj, 2001, 53:\penalty0 L21-L24.
 \newblock DOI: \doi{10.1093/pasj/53.4.L21}.
+
+\bibitem[{{Barnes} {\bibetal}(2018){Barnes}, {On}, {Wu}, and
+  {Kawata}}]{Barnes2018}
+{Barnes}~D~J, {On}~A~Y~L, {Wu}~K, et~al.
+\newblock {SPMHD simulations of structure formation}\allowbreak[J/OL].
+\newblock \mnras, 2018, 476:\penalty0 2890-2904.
+\newblock DOI: \doi{10.1093/mnras/sty400}.
 
 \bibitem[{Barrow(2011)}]{barrow2011cosmic}
 BARROW~J~D.
@@ -192,6 +208,14 @@ BARROW~J~D.
 \newblock {Particle acceleration by astrophysical shocks}\allowbreak[J/OL].
 \newblock \apjl, 1978, 221:\penalty0 L29-L32.
 \newblock DOI: \doi{10.1086/182658}.
+
+\bibitem[{{Borkowski} {\bibetal}(2017){Borkowski}, {Gwynne}, {Reynolds},
+  {Green}, {Hwang}, {Petre}, and {Willett}}]{Borkowski2017}
+{Borkowski}~K~J, {Gwynne}~P, {Reynolds}~S~P, et~al.
+\newblock {Asymmetric Expansion of the Youngest Galactic Supernova Remnant
+  G1.9+0.3}\allowbreak[J/OL].
+\newblock \apjl, 2017, 837:\penalty0 L7.
+\newblock DOI: \doi{10.3847/2041-8213/aa618c}.
 
 \bibitem[{{Broersen} {\biband} {Vink}(2015){Broersen} and
   {Vink}}]{Broersen2015}
@@ -249,12 +273,26 @@ BARROW~J~D.
 \newblock \apj, 1997, 488:\penalty0 307-316.
 \newblock DOI: \doi{10.1086/304666}.
 
+\bibitem[{{Crutcher}(2012)}]{Crutcher2012}
+{Crutcher}~R~M.
+\newblock {Magnetic Fields in Molecular Clouds}\allowbreak[J/OL].
+\newblock \araa, 2012, 50:\penalty0 29-63.
+\newblock DOI: \doi{10.1146/annurev-astro-081811-125514}.
+
 \bibitem[{{Duncan} {\bibetal}(1999){Duncan}, {Reich}, {Reich}, and
   {F{\"u}rst}}]{1999A&A...350..447D}
 {Duncan}~A~R, {Reich}~P, {Reich}~W, et~al.
 \newblock {Polarimetric structure in the first Galactic quadrant from the 2.695
   GHz Effelsberg survey}\allowbreak[J].
 \newblock \aap, 1999, 350:\penalty0 447-456.
+
+\bibitem[{{Ellison} {\biband} {Cassam-Chena{\"i}}(2005){Ellison} and
+  {Cassam-Chena{\"i}}}]{Ellison2005}
+{Ellison}~D~C, {Cassam-Chena{\"i}}~G.
+\newblock {Radio and X-Ray Profiles in Supernova Remnants Undergoing Efficient
+  Cosmic-Ray Production}\allowbreak[J/OL].
+\newblock \apj, 2005, 632:\penalty0 920-931.
+\newblock DOI: \doi{10.1086/444449}.
 
 \bibitem[{{Fang} {\biband} {Zhang}(2012){Fang} and {Zhang}}]{Fang2012}
 {Fang}~J, {Zhang}~L.
@@ -291,6 +329,13 @@ BARROW~J~D.
 \newblock \aap, 2008, 478:\penalty0 17-29.
 \newblock DOI: \doi{10.1051/0004-6361:20077824}.
 
+\bibitem[{{Ferri{\`e}re}(2009)}]{Ferriere2009}
+{Ferri{\`e}re}~K.
+\newblock {Interstellar magnetic fields in the Galactic center
+  region}\allowbreak[J/OL].
+\newblock \aap, 2009, 505:\penalty0 1183-1198.
+\newblock DOI: \doi{10.1051/0004-6361/200912617}.
+
 \bibitem[{{Foster} {\bibetal}(2004){Foster}, {Routledge}, and
   {Kothes}}]{Foster2004}
 {Foster}~T, {Routledge}~D, {Kothes}~R.
@@ -313,6 +358,14 @@ BARROW~J~D.
   Astrophysical Thermonuclear Flashes}\allowbreak[J/OL].
 \newblock \apjs, 2000, 131:\penalty0 273-334.
 \newblock DOI: \doi{10.1086/317361}.
+
+\bibitem[{{Fujita} {\bibetal}(2013){Fujita}, {Ohira}, and
+  {Yamazaki}}]{Fujita2013}
+{Fujita}~Y, {Ohira}~Y, {Yamazaki}~R.
+\newblock {The Fermi Bubbles as a Scaled-up Version of Supernova
+  Remnants}\allowbreak[J/OL].
+\newblock \apjl, 2013, 775:\penalty0 L20.
+\newblock DOI: \doi{10.1088/2041-8205/775/1/L20}.
 
 \bibitem[{{Gaensler} {\bibetal}(1999){Gaensler}, {Brazier}, {Manchester},
   {Johnston}, and {Green}}]{Gaensler1999}
@@ -731,6 +784,13 @@ HESS~V~F.
 \newblock \apj, 1999, 525:\penalty0 368-374.
 \newblock DOI: \doi{10.1086/307880}.
 
+\bibitem[{{Reynolds} {\bibetal}(2008){Reynolds}, {Borkowski}, {Green}, {Hwang},
+  {Harrus}, and {Petre}}]{Reynolds2008}
+{Reynolds}~S~P, {Borkowski}~K~J, {Green}~D~A, et~al.
+\newblock {The Youngest Galactic Supernova Remnant: G1.9+0.3}\allowbreak[J/OL].
+\newblock \apjl, 2008, 680:\penalty0 L41.
+\newblock DOI: \doi{10.1086/589570}.
+
 \bibitem[{{Sasaki} {\bibetal}(2014){Sasaki}, {Heinitz}, {Warth}, and
   {P{\"u}hlhofer}}]{Sasaki2014}
 {Sasaki}~M, {Heinitz}~C, {Warth}~G, et~al.
@@ -809,6 +869,13 @@ HESS~V~F.
 \newblock {The VLA Galactic Plane Survey}\allowbreak[J/OL].
 \newblock \aj, 2006, 132:\penalty0 1158-1176.
 \newblock DOI: \doi{10.1086/505940}.
+
+\bibitem[{{Stone} {\biband} {Gardiner}(2009){Stone} and {Gardiner}}]{Stone2009}
+{Stone}~J~M, {Gardiner}~T.
+\newblock {A simple unsplit Godunov method for multidimensional
+  MHD}\allowbreak[J/OL].
+\newblock \na, 2009, 14:\penalty0 139-148.
+\newblock DOI: \doi{10.1016/j.newast.2008.06.003}.
 
 \bibitem[{{Stone} {\biband} {Norman}(1992{\natexlab{a}}){Stone} and
   {Norman}}]{Stone1992}
@@ -992,6 +1059,14 @@ HESS~V~F.
 \newblock \apj, 2011, 727:\penalty0 32.
 \newblock DOI: \doi{10.1088/0004-637X/727/1/32}.
 
+\bibitem[{{V{\"o}lk} {\bibetal}(2007){V{\"o}lk}, {Berezhko}, and
+  {Ksenofontov}}]{Voelk2007}
+{V{\"o}lk}~H~J, {Berezhko}~E~G, {Ksenofontov}~L~T.
+\newblock {New evidence for strong nonthermal effects in Tycho's supernova
+  remnant}\allowbreak[J/OL].
+\newblock \apss, 2007, 309:\penalty0 389-394.
+\newblock DOI: \doi{10.1007/s10509-007-9476-x}.
+
 \bibitem[{{Wardle} {\biband} {McDonnell}(2012){Wardle} and
   {McDonnell}}]{2012IAUS..287..441W}
 {Wardle}~M, {McDonnell}~K.
@@ -1051,6 +1126,14 @@ HESS~V~F.
   remnants}\allowbreak[J/OL].
 \newblock \aap, 2015, 573:\penalty0 A37.
 \newblock DOI: \doi{10.1051/0004-6361/201424667}.
+
+\bibitem[{{Yang} {\biband} {Ruszkowski}(2017){Yang} and
+  {Ruszkowski}}]{Yang2017}
+{Yang}~H~Y~K, {Ruszkowski}~M.
+\newblock {The Spatially Uniform Spectrum of the Fermi Bubbles: The Leptonic
+  Active Galactic Nucleus Jet Scenario}\allowbreak[J/OL].
+\newblock \apj, 2017, 850:\penalty0 2.
+\newblock DOI: \doi{10.3847/1538-4357/aa9434}.
 
 \bibitem[{{Yar-Uyaniker} {\bibetal}(2004){Yar-Uyaniker}, {Uyaniker}, and
   {Kothes}}]{Yar-Uyaniker2004}
