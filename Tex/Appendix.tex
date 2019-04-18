@@ -542,6 +542,20 @@ if __name__=='__main__':
 \label{Mayavi}
 
 \begin{lstlisting}
+
+import numpy as np
+import matplotlib as mpl
+mpl.use('Agg')   # generate postscript output by default
+import matplotlib.pyplot as plt
+#import matplotlib.pylab as plb
+import pyPLUTO as pp
+import scipy.ndimage as nd
+#from matplotlib.ticker import ScalarFormatter
+from mayavi import mlab
+from matplotlib.colors import Normalize
+from tvtk.util.ctf import ColorTransferFunction
+from tvtk.util.ctf import PiecewiseFunction
+
 def temp(wdir):
     D = pp.pload(30,w_dir=wdir)
 

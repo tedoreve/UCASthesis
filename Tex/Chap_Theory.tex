@@ -44,14 +44,15 @@ $k$是玻尔兹曼常数，$T$是温度，$m$是单个粒子质量。
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.9\textwidth]{shock.eps}
-    \caption{激波面静止参考系上下游的状态，图片来自Dr. Stefano Gabici。}
+    \includegraphics[width=0.9\textwidth]{ICRF.pdf}
+    \caption{激波面静止参考系上下游的状态。}
 \label{fig:shock}
 \end{figure*}
 
 而激波的重要特征之一就是，激波面分割开的上游和下游物理量差异很大，或者称为激波面不连续性。
-取激波面为静止参考系，运动朝向激波面的为上游，速度、密度、温度为$\mu_1$、$\rho_1$、$T_1$，
-远离激波面的为下游，速度、密度、温度为$\mu_2$、$\rho_2$、$T_2$，如图~\ref{fig:shock}。
+取激波面为静止参考系，运动朝向激波面的为上游，速度、密度、温度、磁场、马赫数为$\mu_1$、
+$\rho_1$、$T_1$、$B_2$、$M_2$，远离激波面的为下游，速度、密度、温度、磁场、马赫数为
+$\mu_2$、$\rho_2$、$T_2$、$B_2$、$M_2$，如图~\ref{fig:shock}。
 要注意，这里并没有抛射物混入，所以上下游其实都是原本就存在的ISM或者CSM，因而应该满足质量
 守恒$\rho_1\mu_1=\rho_2\mu_2$，这里我们定义压缩比$r=\rho_2/\rho_1=\mu_1/\mu_2$。
 而这里的动量守恒可粗略写为$\rho_1\mu_1^2=\rho_2\mu_2^2$，我们知道压强其实就是运动粒子
@@ -59,7 +60,7 @@ $k$是玻尔兹曼常数，$T$是温度，$m$是单个粒子质量。
 而热压在这里其实也是不可忽略的，所以准确的动量守恒方程应该为
 $\rho_1\mu_1^2+p_1=\rho_2\mu_2^2+p_2$。
 这里我们忽略了磁场，而遗迹当中磁压其实也很重要，考虑进来的话可得
-$\rho_1\mu_1^2+p_1+B_1^2/8\pi=\rho_2\mu_2^2+p2+B_2^2/8\pi$。
+$\rho_1\mu_1^2+p_1+B_1^2/8\pi=\rho_2\mu_2^2+p_2+B_2^2/8\pi$。
 不过在这一节的讨论中，我们不考虑磁压，更多关于磁压的讨论请见章节~\ref{TheoryMHD}。
 
 
@@ -67,21 +68,21 @@ $\rho_1\mu_1^2+p_1+B_1^2/8\pi=\rho_2\mu_2^2+p2+B_2^2/8\pi$。
 
 \begin{equation}
   \begin{aligned}
-    \rho_{1} u_{1}^{2}\left(1+\dfrac{p_{1}}{\rho_{1} u_{1}^{2}}\right)=
-    \rho_{1} u_{1}^{2}\left(1+\dfrac{c_{s, 1}^{2}}{\gamma u_{1}^{2}}\right)=
-    \rho_{1} u_{1}^{2}\left(1+\dfrac{1}{\gamma M_1^{2}}\right).
+    \rho_{1} \mu_{1}^{2}\left(1+\dfrac{p_{1}}{\rho_{1} \mu_{1}^{2}}\right)=
+    \rho_{1} \mu_{1}^{2}\left(1+\dfrac{c_{s, 1}^{2}}{\gamma \mu_{1}^{2}}\right)=
+    \rho_{1} \mu_{1}^{2}\left(1+\dfrac{1}{\gamma M_1^{2}}\right).
   \end{aligned}
 \end{equation}
 
 假设在国际标准参考系中(International Celestial Reference Frame，ICRF)激波上游介质在SNR
-演化时标内可看作是静止的，我们在激波面的静止系中看到的$\mu_1$其实就是激波面本身的速度，
-$M_1$与$M$其实是一个量。
+演化时标内可看作是静止的，如图~\ref{fig:shock}，我们在激波面的静止系中看到的$\mu_1$
+其实就是激波面本身的速度，$M_1$与$M$其实是一个量。
 而$M\gg 1$，所以近似得$\rho_1\mu_1^2+p_1=\rho_1\mu_1^2$，
 也就是$\rho_1\mu_1^2=\rho_2\mu_2^2+p_2$，两侧除以$\rho_2\mu_2^2$可得
 
 \begin{equation}
     \begin{aligned}
-       \dfrac{u_{1}}{u_{2}}=1+\dfrac{p_{2}}{\rho_{2} u_{2}^{2}}
+       \dfrac{\mu_{1}}{\mu_{2}}=1+\dfrac{p_{2}}{\rho_{2} \mu_{2}^{2}}
        =1+\dfrac{1}{\gamma M_{2}^{2}} \ ,
     \end{aligned}
 \end{equation}
