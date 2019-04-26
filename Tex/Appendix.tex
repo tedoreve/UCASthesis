@@ -78,13 +78,13 @@
   #include "time.h"
   #include "stdlib.h"
   #include "stdio.h"
-  /* ********************************************************************* */
+  /* ******************************************************** */
   void Init (double *us, double x1, double x2, double x3)
   /*
    *
    *
-   *
-   *********************************************************************** */
+
+   *********************************************************** */
   {
     static int first_call = 1;
     double r, theta, phi, B0, E_ej, M_ej, R_ej, n_h, w_c, s, n, n_ISM, r_c, T, u, g_gamma;
@@ -93,8 +93,8 @@
     M_ej    = g_inputParam[M_EJ];         //爆发质量
     R_ej    = g_inputParam[R_EJ];         //爆发半径
     n_h     = g_inputParam[N_H];          //氢数密度
-    u       = g_inputParam[U_AM];            //介质总体数密度，U是平均分子权重
-    w_c     = g_inputParam[W_C];          //激波区质量与爆发总质量之比
+    u       = g_inputParam[U_AM];            //平均分子权重
+    w_c     = g_inputParam[W_C];  //激波区质量与爆发总质量之比
     n       = g_inputParam[N_PI];            //激波区密度幂指数
     s       = g_inputParam[S_PI];            //激波区速度幂指数
     n_ISM   = n_h*u;                     //激波前均匀介质区数密度
@@ -146,7 +146,7 @@
       first_call = 0;
     }
     InputDataInterpolate(us, x1, x2, x3);  /* -- interpolate density from
-                                                input data file -- */
+    input data file -- */
     #endif
   /*
     if (r > 2.5 && r <= 3)
@@ -206,30 +206,30 @@
     #endif
 
   }
-  /* ********************************************************************* */
+  /* ********************************************************** */
   void Analysis (const Data *d, Grid *grid)
   /*
    *
    *
-   *********************************************************************** */
+   ************************************************************ */
   {
 
   }
-  /* ********************************************************************* */
+  /* ********************************************************** */
   void UserDefBoundary (const Data *d, RBox *box, int side, Grid *grid)
   /*
    *
-   *********************************************************************** */
+   ************************************************************ */
   {
   }
   #if BACKGROUND_FIELD == YES
-  /* ********************************************************************* */
+  /* ********************************************************** */
   void BackgroundField (double x1, double x2, double x3, double *B0)
   /*!
    * Define the component of a static, curl-free background
    * magnetic field.
    *
-   *********************************************************************** */
+   ************************************************************* */
   {
   /*
     static int first_call = 1;
@@ -514,7 +514,7 @@ def grid(outfilename,ra,width):
 
     return '空间构造完成！！！'
 
-#========================================================================
+#=======================================================
 
 if __name__=='__main__':
 
@@ -601,7 +601,7 @@ def td(ty,t,E,rho,sigma,wdir):
 #    mlab.outline()
 #        mlab.savefig(str(t)+'.obj')
 
-#==================================main========================================
+#=======================main==========================
 if __name__=='__main__':
     #font = {'family' : 'serif',
     #        'weight' : 'normal',
@@ -630,14 +630,12 @@ import numpy as np
 from mpi4py import MPI
 import time
 import pyPLUTO as pp
-
 import naima
 from multiprocessing import Pool
-from naima.models import (ExponentialCutoffPowerLaw, Synchrotron,
-                          InverseCompton)
+from naima.models import (ExponentialCutoffPowerLaw, Synchrotron, InverseCompton)
 from astropy.constants import c
 import astropy.units as u
-#==============================================================================
+#=================================================
 def f(rho, B):
     ECPL = ExponentialCutoffPowerLaw(1e36*rho*u.Unit('1/eV'), 1*u.TeV, 2.0, 13*u.TeV)
     SYN = Synchrotron(ECPL, B=1000*B*u.uG)
@@ -653,30 +651,61 @@ def f(rho, B):
 
     # Create IC instance with CMB and synchrotron seed photon fields:
     IC = InverseCompton(ECPL, seed_photon_fields=['CMB', 'FIR', 'NIR',
-                                                  ['SSC', Esy, phn_sy]])
+      ['SSC', Esy, phn_sy]])
 
     # Compute SEDs
     spectrum_energy = np.logspace(-8,14,10)*u.eV
     sed_IC = IC.sed(spectrum_energy, distance=1.5*u.kpc)
 
     return sed_IC.value
-#==============================================================================
-#n = 1 * u.cm**-3
-#l = 1 * u.pc
-#print((n*l**3).to(''))
-#==============================================================================
+#=============================================
 if __name__ == '__main__':
     t      = 10
     sigma  = 1.0
     vindex = 0.0
     i      = 2
-
     wdir = './'
     nlinf = pp.nlast_info(w_dir=wdir)
 
-#==============================================================================
+#=============================================
     D = pp.pload(t,w_dir=wdir)
     xlabel = 'x (pc)'
     ylabel = 'y (pc)'
+    name   = 't'+str(t)+'_xy.eps'
+    print(D.rho.shape,D.bx1.shape)
+
+    rho_vol, B_vol = D.rho,(D.bx1**2+D.bx2**2)**0.5
+    flux_vol = np.zeros([rho_vol.shape[2],rho_vol.shape[1],rho_vol.shape[0],10])
+
+#============================================
+    comm = MPI.COMM_WORLD
+    rank = comm.Get_rank()
+    size = comm.Get_size()
+
+    per = rho_vol.shape[2]//size
+
+    comm.Barrier()
+    start_time = time.time()
+
+    for i in range(per * rank, per * (rank+1)):
+        for j in range(rho_vol.shape[1]):
+            for k in range(rho_vol.shape[0]):
+                for l in range(10):
+                    flux_vol[i,j,k,l] = f(rho_vol[i,j,k], B_vol[i,j,k])[l]
+
+    if rank == 0:
+        total = np.zeros([rho_vol.shape[2],rho_vol.shape[1],rho_vol.shape[0],10])
+    else:
+        total = None
+
+    comm.Barrier()
+    #collect the partial results and add to the total sum
+    comm.Reduce(flux_vol, total, op=MPI.SUM, root=0)
+
+    stop_time = time.time()
+
+    if rank == 0:
+        print ("-----", (stop_time-start_time)*1000, "-----")
+        total.tofile("a.bin")
 
 \end{lstlisting}

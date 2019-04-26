@@ -8,8 +8,8 @@
 \schoollogo{scale=0.095}{ucas_logo}% 校徽
 \title{复杂星周环境中超新星遗迹的磁流体模拟}% 论文中文题目
 \author{张孟飞}% 论文作者
-\advisor{田文武~研究员}% 指导教师：姓名 专业技术职务 工作单位
-\advisors{}% 指导老师附加信息 或 第二指导老师信息
+\advisor{田文武~研究员~张海燕~研究员}% 指导教师：姓名 专业技术职务 工作单位
+\advisors{中国科学院国家天文台}
 \degree{博士}% 学位：学士、硕士、博士
 \degreetype{理学}% 学位类别：理学、工学、工程、医学等
 \major{天体物理}% 二级学科专业名称
@@ -18,10 +18,10 @@
 %-
 %-> 英文封面信息
 %-
-\TITLE{Magnetohydrodynamics (MHD) Simulation for Supernova\\Remnants (SNRs) in
+\TITLE{Magnetohydrodynamics Simulation for Supernova\\Remnants in
 Complex Circumstellar Environment}% 论文英文题目
 \AUTHOR{Zhang Mengfei}% 论文作者
-\ADVISOR{Supervisor: Professor Tian Wenwu}% 指导教师
+\ADVISOR{Supervisor: Profs. TIAN Wenwu \& ZHANG Haiyan}% 指导教师
 \DEGREE{Doctor}% 学位：Bachelor, Master, Doctor。封面格式将根据英文学位名称自动切换，请确保拼写准确无误
 \DEGREETYPE{Philosophy}% 学位类别：Philosophy, Natural Science, Engineering, Economics, Agriculture 等
 \THESISTYPE{Dissertation}% 论文类型：thesis, dissertation
@@ -45,58 +45,64 @@ Complex Circumstellar Environment}% 论文英文题目
 \pagenumbering{Roman}% 页码符号
 
 超新星遗迹(SNR)是超新星爆发后与周围星际介质相互作用的产物，其产生过程涉及天体物理、粒子物理、
-分子化学等多个领域，是目前天文研究中的前沿课题之一。通过观测分析其中元素丰度、动力学特性，我们
+分子化学等多个领域，是目前天文研究中的前沿课题之一。通过观测SNR并分析其中元素丰度、动力学特性，我们
 可以估算其前身星类型，为超新星爆发模型提供参考；同时基于其多波段能谱(SED)，我们可以剖析其中粒子加速
-机制，为宇宙线的起源找到更加合理的解释；而对其分子谱线的观测研究，也让我们能偶进一步理解星系中
-分子生成与破坏的过程。这些问题都与超新星遗迹的演化密不可分，可是其具体演化过程其实直到现在也并不
-清楚。
+机制，为宇宙线的起源找到更加合理的解释；而对其分子谱线的观测研究，也让我们能进一步理解星际介质和
+星系中分子生成与破坏的过程。这些过程都与超新星遗迹的演化密不可分。 最近几十年以来，对SNR演化过程及对
+周边物质影响的研究有了更深入的了解，但没解决的难点问题依然很多，尤其对SNR在不同环境里的演化细节和
+物理机制知道得还很不充分。对SNR更多新的观测和深入的理论探讨依然是非常必要的。
 
-研究超新星遗迹演化主要的困难在于具体的情况非常复杂，单一的解析模型无法解释很多遗迹的观测结果。
-因此，我们需要一个基于简洁明了的理论，又能梳理清楚复杂情况的方法来研究超新星遗迹的演化，而磁流体
+研究超新星遗迹演化主要的困难在于众多SNR所处物理环境很不一样，单一的解析模型无法解释很多遗迹的观测结果。
+因此，我们需要一个基于简洁明了的理论，能梳理清楚复杂情况的方法来研究超新星遗迹的演化，而磁流体
 模拟正是最佳选择。磁流体模拟的重点在于对初始条件的选取，可因为初始条件实质上就是过去发生的事，
-所以理论上我们永远无法得知一个过去未被观测到的遗迹的准确初始条件。实际上，有一些爆发时就观测到的
+所以理论上我们永远无法得知一个遗迹的准确初始条件。实际上，有一些爆发时就观测到的
 历史超新星遗迹可以得到较为可靠的爆发能量及抛射质量，尤其是SN 1987A，可以说是研究超新星遗迹演化的
-范本。但是这些遗迹数量很少，不具有普适性，对于银河系中已经观测到的300个左右的遗迹，大部分其前身星
-的性质并不清楚。此外，更为棘手的是，超新星遗迹的演化受到星周介质的巨大影响，而通常星周介质初始的
-密度、磁场等性质更难得到。于是，很多对超新星遗迹的模拟都基于均匀星周介质分布，或者假设线性、幂律、
-指数型的分布，这与实际复杂的介质分布相差甚远，所以也解释不了很多观测结果。
+范本。但是这些遗迹数量很少，不具有普适性，对于银河系中已经观测到的300多个遗迹，绝大部分前身星
+的性质并不清楚。此外，超新星遗迹的演化受到星周介质的巨大影响，而通常星周介质初始的
+密度、磁场等性质更难得到。于是，很多对超新星遗迹的模拟都假设均匀、线性或者幂律的星周介质分布，
+这与实际复杂的介质分布相差甚远，所以也很难解释有不同表象的观测结果。
 
 本文尝试寻找更好的方法解决这两方面的困难，主要的工作有：
 \begin{itemize}
-  \item 基于X射线的元素丰度、电子密度估计，结合射电波段对超新星遗迹的HI测距，估算较为可靠前身星
+  \item 基于对SNR的X射线观测得到的元素丰度、电子密度估计，结合射电波段对超新星遗迹的HI测距，估算较为可靠前身星
   爆发能量、抛射物质量，结合磁流体模拟，互相验证参数估计。
   我们选择观测研究较多的SNR W51C为例，以方便检验模拟结果。
   前人已经粗略估算出其前身星质量和爆发能量，可是我们经过初步模拟发现，这样的参数无法模拟这颗遗迹，
   同时也违背了最近通过观测得到的超新星爆发质量-能量的经验模型。
-  通过检验，我们发现其估算爆发能量使用的距离并不合理，最终我们建议使用更合理的距离4.3 kpc和爆发能量
+  通过检验，我们发现前人估算爆发能量使用的距离并不合理，最终我们建议使用更合理的距离4.3 kpc和爆发能量
   1.3 $\times$ 10$^{51}$ ergs s$^{-1}$。
 
   \item 为了得到SNR W51C的单边厚壳层，我们采取了普遍使用的设置磁场梯度的方法，偶然发现了SNR W51C
   应该存在一个新的壳层。
   超新星爆发时如果星周介质存在一个磁场梯度，那么最终演化结果可能会是一个单壳层的超新星遗迹。
-  而SNR W51C一直被认为是一个单壳层的遗迹，而我们的模拟结果显示其存在一个可能暗弱一些单仍应该被观测
+  而SNR W51C一直被认为是一个单壳层的遗迹，而我们的模拟结果显示其存在一个可能暗弱但仍然能够被观测
   到的壳层。
-  通过查看射电图像我们认为，这一新壳层是因为与周围电离氢区在视线方向重合，所以一直没有被注意到，
-  而后来对射电偏振图像的分析也证实了我们的猜测。
+  通过查看射电图像我们判断，这一新壳层很可能已被观测到，但因为与周围电离氢区在视线方向重合，所以一
+  直没有被分离出来，而后来对该SNR射电偏振图像的分析证实了我们的猜测。
 
-  \item SNR W51C同时也是一个伽马射线源，被认为与分子云(MC)相互作用。
+  \item SNR W51C同时也是一个少见的TeV伽马射线源，被认为与分子云(MC)相互作用。
   我们模拟了其沿视线方向与分子云相互作用，结果显示这种相互作用可能导致局部磁场放大，射电流量增强，
   从而可能在遗迹的中心区域观测到射电辐射。
   而对临近SNR W51C中心区域的射电偏振、非热辐射及羟基(OH)谱线图的分析，证实了这种相互作用方式的
   存在。
 
-  \item 我们认为一个大质量恒星晚期的星风对其最终成为超新星时的星周介质有很大影响。
-  通过模拟星风，并以星风模拟结果作为星周介质的初始条件，我们更准确地模拟了超新星遗迹演化，以此为
-  基础我们可以解释很多之前无法解释的遗迹形态，比如八字形和大弧度单边遗迹。
+  \item 我们认为一个大质量恒星晚期的星风对其爆发为超新星时的星周介质有很大影响。
+  通过模拟星风，并以星风模拟结果作为星周介质的初始条件，我们很好地模拟了超新星遗迹演化，以此为
+  基础我们能够解释很多之前无法解释的遗迹形态，比如八字形和大弧度单边遗迹。
 
   \item 以考虑星风的超新星遗迹模拟为基础，我们认为前身星星风可以大大影响遗迹局部的磁场及介质分布。
   前人曾经通过观测超新星遗迹的磁场来估算银河系大尺度的磁场分布，而我们的这一工作表明，这种估算磁场
-  的方式有的时候会出现问题。
+  的方式有严格限制条件，不然会出现问题。
+
+  \item 通过模拟SNR在强磁场环境中的演化，我们发现多壳层遗迹的形成、奇特的SNR射电和X射线轮廓、费米泡
+  的形成或许都与强磁场有关。
 \end{itemize}
 
-本文不仅涉及天体物理的研究，也包括大量具体磁流体模拟的理论及程序编写的内容。其中，磁流体模拟理论
-主要介绍一个模拟中需要考虑的各种因素，以及如何找到最适合解决某个问题的模拟方式。而程序编写部分包
-括对个人用过的磁流体模拟软件的介绍、编写逻辑及编写过程中可能遇到的问题。
+本文在模拟中采用更为合理的复杂星周环境，从而更准确地研究SNR演化。
+根据结果，我们也得到很多之前没有注意到的演化特征，以及由此而来的推论。
+不仅解释了广受关注的SNR W51C中存在多年的问题，也首次通过模拟星风-超新星遗迹系统来解释
+SNR的多种射电形态，同时首次研究了强磁场极端条件下的SNR演化。
+这些工作对我们进一步理解SNR演化过程具有极大参考价值。
 
 \keywords{星际介质：超新星遗迹 - 磁流体模拟 - 星际介质：SNR W51C - 方法：数值模拟}% 中文关键词
 %-
@@ -104,70 +110,74 @@ Complex Circumstellar Environment}% 论文英文题目
 %-
 \chapter*{Abstract}\chaptermark{Abstract}% 摘要标题
 
-Supernova remnant (SNR) is the result of interaction between shock wave of supernova
+Supernova remnant (SNR) results from the interaction between shock wave of supernova
 and circumstellar medium (CSM), a process related to astrophysics, particle physics and molecule
 chemistry, etc.
-This is one of the most forward projects in astronomical researches.
-By observing and analyzing the abundance and the kinetic nature in an SNR, we can derive
-the type of its progenitor, which will provide reference for models of supernova explosion.
+To study SNRs and its interaction with the CGM is a frontier project in astronomical
+researches.
+By observing an SNR and analyzing its abundance and the kinematics, we can derive
+the type of its progenitor, which will provide indication for models of supernova explosion.
 Meanwhile, based on its spectral energy distribution (SED) at multiband, we can disentangle
-the acceleration mechanism inside, and explain the origin of cosmic rays more reasonably.
-In addition, the observations on its molecular spectra, can help us understand the formation
-and destruction of molecule in a galaxy.
-The evolution of SNR is the key to figure out these subjects, but the detailed evolution is
-still ambiguous.
+the intrinsic acceleration mechanism, and understand the origin of cosmic rays better.
+In addition, the spectral observation to an SNR can help us understand the formation
+and destruction of molecule in ISM of a galaxy.
+To study SNRs may help to figure out these issues, the detail how an SNR is involving has
+not been well understood.
 
-The practical situation is complex in evolution of SNR, so it is difficult to study the details
-and an analytical model cannot well explain many observations.
-Therefore, we need a model-based method that can get the situation sorted, and magnetohydrodynamics
-(MHD) simulation is the best choice.
-The key point of MHD simulation is to choose initial conditions.
-However, initial conditions are actually the past things, so we theoretically will never know
-the accurate initial conditions of the evolution of an SNR undetected in the past.
-In fact, we can estimate reliable initial conditions of some historical SNRs, if we observed them
-carefully when they exploded as supernovae.
-In particular, SN 1987A is even known as a gift of universe in this area.
-Nevertheless, there are only few historical SNRs which cannot be used as samples to explain
-most of about 300 SNRs in Milky Way.
-Moreover, the evolution of SNRs is strongly influenced by CSM, but it
-is more difficult to estimate the initial density and magnetic field of CSM.
-As a result, many simulations for SNRs are assumed to have homogeneous, liner, power-law or
-exponential density distribution, which is completely different from the reality, so they
-cannot explain many observational phenomena.
+The real picture of the SNR's evolution is complex in evolution of SNR, so it is difficult to study
+the details by using a traditional analytical model.
+Therefore, we need a model-based method to get the situation sorted.
+The magnetohydrodynamics (MHD) simulation is the best choice for our case.
+The key point of the MHD simulation is to choose initial conditions.
+Initial conditions are actually the past things, so we theoretically will never know
+the accurate initial conditions of the evolution of an SNR without perfect history record.
+The reliable initial conditions of some historical SNRs may be estimated if they have well
+been monitored before its explosion.
+For example, SN 1987A is known as a gift of God.
+Nevertheless, there are only several historical SNRs so that we are not able to use them to explain
+most of about 300 SNRs already detected in Milky Way.
+Moreover, the evolution of SNRs is strongly influenced by CSM, which leads
+ more difficult to estimate the initial density and magnetic field of CSM.
+Many simulations for SNRs are assumed to have homogeneous, liner, power-law or
+exponential density distribution, which is completely different from the reality, so we fail in
+using these simulation to  explain many observational phenomena.
 
-In this paper, we try to find better method to solve the problems in the two aspects. The primary
+In this paper, we describe the better method to solve the issues mentioned above. The primary
 results are shown as follows:
 \begin{itemize}
-   \item Based on the estimation of abundance and electron density from X-ray data, we can combine
-   the HI distance measure to estimate the explosion energy and ejecta mass of progenitor.
-   Then we can check the parameters by comparing observations and simulations.
-   We choose the well-studied SNR W51C as an example, so that we can know whether we perform the
+   \item By using the estimation of abundance and electron density based on X-ray observations
+   of an SNR and the distance of an SNR by the HI observation, we can estimate the explosion
+   energy and ejecta mass of its progenitor.
+   We may further check the parameters by comparing observations and simulations.
+   We choose the well-studied SNR W51C as an example, so that we can test whether we perform the
    simulation correctly.
-   Some researchers have estimated its progenitor mass and explosion energy, but we cannot
-   simulate this SNR by applying such parameters.
-   We find these parameters also disobey the derived mass-energy model based on recent observation.
-   After checking their method, we think the distance used to estimate the explosion energy is not
-   reasonable.
-   Finally, we suggest a distance of 4.3 kpc and an explosion energy of 1.3 $\times$ 10$^{51}$ ergs
-   s$^{-1}$.
+   Previous researchers have estimated its progenitor mass and explosion energy, but we cannot
+   successfully simulate this SNR by applying such parameters.
+   We find these parameters are also inconsistent with that from the derived mass-energy model
+   based on recent observation.
+   We therefore analyze the methods and parameters carefully and finally take a recently-measurement
+   distance of 4.3 kpc and an explosion energy of 1.3 $\times$ 10$^{51}$ ergs s$^{-1}$ as the
+   initial parameter of W51C.
 
    \item To simulate the thick unilateral shell, we set a gradient of magnetic field, a method
    often used to obtain such shell.
    By analyzing the results, we find there should be a new shell of SNR W51C.
    A supernova will evolve to an SNR with unilateral shell, if there exists a magnetic field
    gradient.
-   SNR W51C is believed to only have one edge, but our simulation shows there is possibly
-   another new edge which is much darker but should be detected by previous survey.
-   We investigate its radio images and think this new edge overlaps with a surrounding HII
-   region, which is why we do not notice it before.
-   Further analysis on radio polarization map also confirm our hypothesis.
+   SNR W51C presents a clear semi-shell in previous study, but our simulation shows there is
+   possibly another new edge which is much darker but should be detected by previous observations
+   with enough sensitivity.
+   We investigate its radio images and conclude this new edge overlaps with a radio-strong HII
+   region.
+   Further analysis aiming at radio polarization map also confirms our result.
 
-   \item SNR W51C is also a $\gamma$-ray source, known to interact with molecular clouds (MCs).
-   We simulate it interacts with an MC along the line of sight (LoS), which shows this process
+   \item SNR W51C is also a TeV $\gamma$-ray source, suggested previously to interact with molecular
+   clouds (MCs).
+   We simulate how it interacts with an MC along the line of sight (LoS). We find that this process
    can amplify the magnetic field and enhance local radio flux.
    As a result, we can detect radio radiation next to the center of this SNR.
    Meanwhile, we study the radio polarization, non-thermal radiation and OH spectral map in this
-   region, which confirms such an interaction.
+   region, which supports such an interaction.
 
    \item We think the stellar wind of a massive progenitor will largely change the circumstellar
    magnetic field and density distribution.
@@ -176,20 +186,26 @@ results are shown as follows:
    This simulation shows a clue to explain many unsolved radio morphologies of SNRs, such as
    bilateral asymmetric and unilateral large-radian SNRs.
 
-
    \item Based on the simulation of stellar wind, we notice the stellar wind of progenitor will
    strongly influence local magnetic field.
    However, some researchers try to estimate large-scale magnetic field distribution by
-   observing the magnetic field of SNRs, which will be a little unreasonable if our simulation
+   observing the magnetic field of SNRs, which will need be carefully treated if our simulation
    is correct.
+
+   \item By simulating the evolution of SNRs in strong magnetic field, we notice
+   the formation of multi-layers SNRs, the strange radio and X-ray patterns of SNRs
+   and the formation of Fermi bubbles are all possibly related to strong magnetic field.
 \end{itemize}
 
-   In this paper, we do not only focus astrophysics, but also involve MHD theories and practical
-   coding.
-   We here introduce various factors we need to consider in a simulation and explain how to find
-   suitable simulation method for one particular problem.
-   In addition, we also introduce the features of different codes, the logic of coding and some
-   unexpected problems.
+    In this paper, we apply reliable complex circumstellar environment in the simulations,
+    so that we can study the evolution of SNRs accurately.
+    Based on these simulations, we find many ignored features during the evolution and
+    deduce some interesting conclusions.
+    We solve some problems related to a well-known SNR W51C, and firstly explain radio
+    morphologies of various SNRs by simulating a system simultaneously including stellar wind
+    and supernova remnants.
+    In addition, we study SNRs evolving in strong magnetic field for the first time.
+    These works are very important for understanding the evolution of SNRs.
 
 \KEYWORDS{ISM: supernova remnants – magnetohydrodynamics (MHD) -
 ISM: individual objects (W51 C) - method: simulations}% 英文关键词

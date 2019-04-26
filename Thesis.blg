@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/W32TeX)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 The style file: Biblio/gbt7714-plain.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -7,36 +7,36 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: Biblio/ref.bib
 You've used 141 entries,
             4429 wiz_defined-function locations,
-            1930 strings with 46484 characters,
-and the built_in function-call counts, 1323562 in all, are:
-= -- 19677
-> -- 155390
-< -- 198614
-+ -- 54410
+            1931 strings with 46434 characters,
+and the built_in function-call counts, 1322042 in all, are:
+= -- 19678
+> -- 155192
+< -- 198350
++ -- 54344
 - -- 2768
-* -- 12566
-:= -- 185421
+* -- 12567
+:= -- 185224
 add.period$ -- 548
 call.type$ -- 141
 change.case$ -- 1873
-chr.to.int$ -- 49194
+chr.to.int$ -- 49128
 cite$ -- 282
 duplicate$ -- 3271
-empty$ -- 13794
+empty$ -- 13792
 format.name$ -- 4762
-if$ -- 338411
+if$ -- 338012
 int.to.chr$ -- 6
 int.to.str$ -- 1
 missing$ -- 0
 newline$ -- 844
 num.names$ -- 672
-pop$ -- 66937
+pop$ -- 66844
 preamble$ -- 1
 purify$ -- 1383
 quote$ -- 0
-skip$ -- 142007
+skip$ -- 141835
 stack$ -- 0
-substring$ -- 60965
+substring$ -- 60899
 swap$ -- 272
 text.length$ -- 1930
 text.prefix$ -- 0
@@ -45,4 +45,4 @@ type$ -- 2361
 warning$ -- 0
 while$ -- 2701
 width$ -- 0
-write$ -- 2360
+write$ -- 2361

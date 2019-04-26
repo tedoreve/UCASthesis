@@ -339,8 +339,8 @@ BARROW~J~D.
 \bibitem[{{Foster} {\bibetal}(2004){Foster}, {Routledge}, and
   {Kothes}}]{Foster2004}
 {Foster}~T, {Routledge}~D, {Kothes}~R.
-\newblock {The Galactic Plane region near {\ell} = 93{\deg}. II. A stellar wind
-  bubble surrounding SNR 3C 434.1}\allowbreak[J/OL].
+\newblock {The Galactic Plane region near ${\ell} = 93{\deg}$. II. A stellar
+  wind bubble surrounding SNR 3C 434.1}\allowbreak[J/OL].
 \newblock \aap, 2004, 417:\penalty0 79-91.
 \newblock DOI: \doi{10.1051/0004-6361:20034253}.
 
@@ -705,7 +705,7 @@ HESS~V~F.
 {Pacholczyk}~A~G.
 \newblock {Radio astrophysics. Nonthermal processes in galactic and
   extragalactic sources}\allowbreak[M].
-\newblock 1970.
+\newblock San Francisco: Freeman, 1970.
 
 \bibitem[{{Pannuti} {\bibetal}(2010){Pannuti}, {Rho}, {Borkowski}, and
   {Cameron}}]{Pannuti2010}
@@ -851,9 +851,7 @@ HESS~V~F.
 
 \bibitem[{{Shklovskii}(1953)}]{1953AZh....30...15S}
 {Shklovskii}~I~S.
-\newblock {The Problem of Cosmic Radioemission. $\lt$TITLE
-  lang=``ru$\gt$Problema Kosmi{\v c}eskogo Radioizlu{\v
-  c}eni{\^a}}\allowbreak[J].
+\newblock {The Problem of Cosmic Radio emission. }\allowbreak[J].
 \newblock \azh, 1953, 30:\penalty0 15-36.
 
 \bibitem[{{Sofue}(1978)}]{1978MmSAI..49..513S}

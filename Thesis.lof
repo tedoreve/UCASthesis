@@ -1,33 +1,33 @@
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 激波面静止参考系上下游的状态，图片来自Dr. Stefano Gabici。\relax }}{8}{figure.caption.9}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 激波面静止参考系和国际标准参考系上下游的状态。\relax }}{8}{figure.caption.9}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 左图中彩色背景是来自VPGS的1.4 GHz连续谱图像。黑色的箭头代表没有扣仪器偏振的 在2695 MHz的磁场方向，箭头长度代表偏振强度(mK)，其中最大的强度是1581 mK。 下图中，彩色背景是扣除仪器偏振后的2695 MHz的偏振度，白色箭头代表磁场方向，箭头长度代表 偏振度，其中最大的偏振度是$2\%$。 \relax }}{34}{figure.caption.10}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 模拟的密度-磁场图像。所有的图都是沿着一个三维立体图像沿着中心切片后得到的 从不同方向看的结果。背景彩色图像是密度分布，白色箭头显示了磁场的方向和强度。上面三幅 显示的是初始条件，下面三幅显示了经过18000年演化后的结果。上面三幅图中，中心磁场的强度 是9$\mu G$。\relax }}{36}{figure.caption.11}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces SNR W51C演化18000年后的相对射电流量密度。右侧图像是$\sigma $=2的高斯平滑结果。 这里设定距离为4.3 kpc，所以1 pc对应着0.8$^{\prime }\nobreakspace {}$。\relax }}{39}{figure.caption.13}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces 这是图\nobreakspace {}\ref {fig:flux}的右图中左上到右下的流量切线图。 \relax }}{39}{figure.caption.14}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces 这是$\sigma $=2时不同参数下的相对射电流量密度图。 顶部两幅图为将初始爆发动能改为 2.0和3.0 $\times $ 10$^{51}$ ergs的结果, 下面两幅图为将平均介质密度改为 0.13 cm$^{-3}$和0.3 cm$^{-3}$的结果。\relax }}{40}{figure.caption.15}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 三幅图分别展示了G49.2-0.35区域三个频率(1720/1665/1612 MHz)的OH谱线图。 彩色背景是THOR数据的1440 MHz连续谱图像。谱线是每一个黑色方格区域中中-58.5135 。第一幅图中，区域$49.16^{\circ }<l<49.19^{\circ }$, $-0.34^{\circ }<b<-0.31^{\circ }$中的标度与其它区域不同，因为这个区域里的1720 MHz OH 脉泽非常强，如果使用相同标度其谱线就超出整个图形了，所以这个区域的谱线强度是除了20的。\relax }}{42}{figure.caption.16}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 三幅图分别展示了G49.2-0.35区域三个频率(1720/1665/1612 MHz)的OH谱线图。 彩色背景是THOR数据的1440 MHz连续谱图像。谱线是每一个黑色方格区域中中-58.5135 。第一幅图中，区域$49.16^{\circ }<l<49.19^{\circ }$, $-0.34^{\circ }<b<-0.31^{\circ }$中的标度与其它区域不同，因为这个区域里的1720 MHz OH 脉泽非常强，如果使用相同标度其谱线就超出整个图形了，所以这个区域的谱线强度是除了20的。\relax }}{41}{figure.caption.16}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces 左侧的图中，彩色背景是G49.2-0.35区域的1720 MHz谱线在70.5 ， 彩色等高线对应的是THOR的1440 MHz连续谱，右边的红色圆圈是我们提取脉泽发射线的区域， 左边的红色圆圈是我们提取吸收谱的区域。右侧图是这两个区域的谱线，最上面一个是1720 MHz OH脉泽发射线的谱，下面的三个是不同频率处的吸收谱。\relax }}{42}{figure.caption.17}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces 左图显示了W51复合区的1420 MHz连续谱图。右图是图\nobreakspace {}\ref {fig:flux}右图，只是 改变了颜色风格。取距离为4.3 kpc，两者有相同的大小。\relax }}{44}{figure.caption.18}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 典型的多层、环形、不规则遗迹: G21.6-0.8，G120.1+1.4和G43.3-0.2。 \relax }}{54}{figure.caption.20}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces 垂直事例的模拟图像以及对应的真实射电图像。 顶部三幅图是从不同方向看去的星风 模拟结果。第二行是以顶部的星风模拟结果为初始条件的超新星遗迹模拟结果。第三行是从第二行 的模拟结果转化而来的相对射电密度图像。最后一行是与模拟的射电形态相似的实际观测到的遗迹 G332.0+0.2，G116.9+0.2和G12.2+0.3\citep {West2016}。这三个遗迹分别分类为双边对称、 单边大弧度和单边小弧度遗迹。上面两行的彩色背景是单位为log(cm$^{-3}$)的密度分布，箭头 的长度和方向分别代表磁场强度和方向。\relax }}{56}{figure.caption.22}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 沿着z轴旋转$45$后的模拟射电图像和G116.9+0.2的真实观测到的射电图像 \citep {West2016,Tian2006}。\relax }}{57}{figure.caption.23}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 从x-z平面沿着z轴旋转$50$后模拟的三维图。如果转$45$, 中间两条 垂直的线就重合了，透视效果很差，所以我们转了$50$。彩色的背景是相对射电流量密度， 箭头代表磁场，越黄的颜色数值越大。(这个图在发表文章的线上版本中是动态图。)\relax }}{57}{figure.caption.24}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit {左图:}x-z平面的相对温度分布。\textit {右图:} ASCA (Advanced Satellite for Cosmology and Astrophysics)望远镜观测到的G116.9+0.2的X图像G116.9+0.2，外加CGPS (Canadian Galactic Plane Survey)巡天的射电图像等高线\citep {Pannuti2010}。\relax }}{58}{figure.caption.25}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 考虑热传导的模拟结果。这些结果对应了图\nobreakspace {}\ref {fig:per}的上面三列，唯一的不同 就是考虑了热传导。\relax }}{60}{figure.caption.26}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces 平行事例的模拟结果。 左图是y-z平面的星风模拟结果加上遗迹爆发区域，也就是 遗迹模拟的初始条件。中图是y-z平面的遗迹模拟结果。右图是从中图转化来的射电流量密度图。\relax }}{61}{figure.caption.27}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces 上面三幅图是不同年龄的相对射电流量密度图。下面三幅图是实际观测到的与上图 类似的实际观测到的八字形遗迹：G53.6-2.2、G29.7-0.3、G28.6-0.1\citep {West2016}。\relax }}{61}{figure.caption.28}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 强磁场下的高分辨率模拟的密度分布。上面两幅图是介质密度为0.5 cm$^{-3}$时 1500年和4500年后的模拟结果。 下面两幅图是介质密度为10 cm$^{-3}$时1500年和4500年后的模拟结果。 上下图的真实年龄分别要再加上初始的693年和1881年。\relax }}{68}{figure.caption.30}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces 强磁场下的低分辨率模拟的介质密度为0.5 cm$^{-3}$的模拟结果。 上面两幅图是1500年和4500年后的密度、磁场分布， 下面两幅图是1500年和4500年后的密度、速度分布。\relax }}{70}{figure.caption.31}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces 介质密度为0.5 cm$^{-3}$的$\beta _b$分布。 左图是1500年后的$\beta _b$分布，右图是4500年后的$log(\beta _b)$分布。\relax }}{70}{figure.caption.32}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces 介质密度为10 cm$^{-3}$的10000年演化结果。 左图是低分辨率包含磁场方向的图像，右图是高分辨率真正出现多壳层的图像。\relax }}{71}{figure.caption.33}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 左图显示了W51复合区的1420 MHz连续谱图。右图是图\nobreakspace {}\ref {fig:flux}右图，只是 改变了颜色风格。取距离为4.3 kpc，两者有相同的大小。\relax }}{43}{figure.caption.18}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 典型的多层、环形、不规则遗迹: G21.6-0.8，G120.1+1.4和G43.3-0.2。 \relax }}{52}{figure.caption.20}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 垂直事例的模拟图像以及对应的真实射电图像。 顶部三幅图是从不同方向看去的星风 模拟结果。第二行是以顶部的星风模拟结果为初始条件的超新星遗迹模拟结果。第三行是从第二行 的模拟结果转化而来的相对射电密度图像。最后一行是与模拟的射电形态相似的实际观测到的遗迹 G332.0+0.2，G116.9+0.2和G12.2+0.3\citep {West2016}。这三个遗迹分别分类为双边对称、 单边大弧度和单边小弧度遗迹。上面两行的彩色背景是单位为log(cm$^{-3}$)的密度分布，箭头 的长度和方向分别代表磁场强度和方向。\relax }}{54}{figure.caption.22}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 沿着z轴旋转$45$后的模拟射电图像和G116.9+0.2的真实观测到的射电图像 \citep {West2016,Tian2006}。\relax }}{55}{figure.caption.23}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 从x-z平面沿着z轴旋转$50$后模拟的三维图。如果转$45$, 中间两条 垂直的线就重合了，透视效果很差，所以我们转了$50$。彩色的背景是相对射电流量密度， 箭头代表磁场，越黄的颜色数值越大。(这个图在发表文章的线上版本中是动态图。)\relax }}{55}{figure.caption.24}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit {左图:}x-z平面的相对温度分布。\textit {右图:} ASCA (Advanced Satellite for Cosmology and Astrophysics)望远镜观测到的G116.9+0.2的X图像G116.9+0.2，外加CGPS (Canadian Galactic Plane Survey)巡天的射电图像等高线\citep {Pannuti2010}。\relax }}{56}{figure.caption.25}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 考虑热传导的模拟结果。这些结果对应了图\nobreakspace {}\ref {fig:per}的上面三列，唯一的不同 就是考虑了热传导。\relax }}{57}{figure.caption.26}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 平行事例的模拟结果。 左图是y-z平面的星风模拟结果加上遗迹爆发区域，也就是 遗迹模拟的初始条件。中图是y-z平面的遗迹模拟结果。右图是从中图转化来的射电流量密度图。\relax }}{58}{figure.caption.27}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 上面三幅图是不同年龄的相对射电流量密度图。下面三幅图是实际观测到的与上图 类似的实际观测到的八字形遗迹：G53.6-2.2、G29.7-0.3、G28.6-0.1\citep {West2016}。\relax }}{59}{figure.caption.28}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 强磁场下的高分辨率模拟的密度分布。上面两幅图是介质密度为0.5 cm$^{-3}$时 1500年和4500年后的模拟结果。 下面两幅图是介质密度为10 cm$^{-3}$时1500年和4500年后的模拟结果。 上下图的真实年龄分别要再加上初始的693年和1881年。\relax }}{66}{figure.caption.30}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 介质密度为0.5 cm$^{-3}$的$\beta _b$分布。 左图是1500年后的$\beta _b$分布，右图是4500年后的$log(\beta _b)$分布。\relax }}{66}{figure.caption.31}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces 强磁场下的低分辨率模拟的介质密度为0.5 cm$^{-3}$的模拟结果。 上面两幅图是1500年和4500年后的密度、磁场分布， 下面两幅图是1500年和4500年后的密度、速度分布。\relax }}{67}{figure.caption.32}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces 介质密度为10 cm$^{-3}$的10000年演化结果。 左图是低分辨率包含磁场方向的图像，右图是高分辨率真正出现多壳层的图像。\relax }}{68}{figure.caption.33}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
