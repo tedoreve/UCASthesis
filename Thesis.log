@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  25 APR 2019 21:16
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.12.1)  25 MAY 2019 21:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2647,8 +2647,8 @@ File: Img/10000_10.eps Graphic file (type eps)
 
 
 ]
-./Thesis.bbl:316: Undefined control sequence.
-l.316 \newblock \rmxaa
+./Thesis.bbl:321: Undefined control sequence.
+l.321 \newblock \rmxaa
                       , 2017, 53:\penalty0 385-438.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2657,18 +2657,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [96]
-./Thesis.bbl:422: Missing $ inserted.
+./Thesis.bbl:427: Missing $ inserted.
 <inserted text> 
                 $
-l.422 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
+l.427 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
                                                   .
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Thesis.bbl:422: Missing $ inserted.
+./Thesis.bbl:427: Missing $ inserted.
 <inserted text> 
                 $
-l.422 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
+l.427 ...k DOI: \doi{10.1007/978-3-662-44625-6_17}
                                                   .
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2677,7 +2677,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [97] [98] [99] [100] [101] [102]
-Underfull \hbox (badness 2961) in paragraph at lines 1101--1105
+Underfull \hbox (badness 2961) in paragraph at lines 1106--1110
 []\TU/entextsf/m/n/10.53937 Woltjer L.  Supernova Remnants[J/OL].  ARA&A, 1972, 10:129.  DOI: [][]10.1146/an-
  []
 
@@ -2717,11 +2717,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34301 strings out of 493005
- 637096 string characters out of 6134176
+ 34307 strings out of 493005
+ 637215 string characters out of 6134176
  835566 words of memory out of 5000000
- 37713 multiletter control sequences out of 15000+600000
- 43320 words of font info for 173 fonts, out of 8000000 for 9000
+ 37718 multiletter control sequences out of 15000+600000
+ 43328 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,17n,94p,10532b,1960s stack positions out of 5000i,500n,10000p,200000b,80000s
 

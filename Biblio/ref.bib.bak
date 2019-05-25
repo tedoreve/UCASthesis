@@ -5673,7 +5673,7 @@
 
 @Book{1970ranp.book.....P,
   title     = {{Radio astrophysics. Nonthermal processes in galactic and extragalactic sources}},
-  publisher = {San Francisco: Freeman, 1970},
+  publisher = {San Francisco: Freeman},
   year      = {1970},
   author    = {{Pacholczyk}, A.~G.},
   adsnote   = {Provided by the SAO/NASA Astrophysics Data System},
@@ -9073,6 +9073,13 @@ Retrieved 1 abstracts, starting with number 1.  Total number selected: 1.
   doi           = {10.1093/mnras/stt880},
   eprint        = {1302.7253},
   keywords      = {galaxies: haloes, galaxies: kinematics and dynamics, galaxies: magnetic fields, galaxies: spiral, dark matter},
+}
+
+@Book{barrow2011cosmic,
+  title     = {Cosmic imagery: key images in the history of science},
+  publisher = {Random House},
+  year      = {2011},
+  author    = {Barrow, John D},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
